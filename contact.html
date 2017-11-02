@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="resources/css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+	<script type="text/javascript" src="resources/js/menu.js"></script>	
+
+
+
+	<title>Space Box</title>
+</head>
+<body>
+
+
+<div id="wrapper">
+	<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1>Contact</h1>
+		</div>
+		<div id="menu">
+			<ul class="niv1">
+				<li><a href="index.html">Accueil</a></li>
+
+				<li> <!-- Onglet "Le jeu" -->
+					<a href="le-jeu.html">Le jeu</a>
+						<ul class="niv2">
+							<li><a href="www.google.fr">Télécharger</a></li>
+							<li><a href="">Galerie</a></li>
+						</ul>
+				</li>
+
+				<li> <!-- Onglet "Documentation" -->
+					<a href="documentation.html">Documentation</a>
+					<ul class="niv2">
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+
+				<li><a href="#">Forum</a></li>
+
+				<li class="current-page"><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	</div>
+	<div id="banner">
+		<div class="container">
+			<div class="title">
+				<h3>Contactez-nous</h3>
+			</div>
+			<form action="form.php" method="POST">
+				<label for="object">Objet</label>
+				<input type="label" name="objet" id="objet"><br>
+				<textarea name="msg" placeholder="Message ..." rows="5"></textarea> <br>
+				<input type="submit" class="button" value="Envoyer" />
+			</form>
+		</div>
+	</div>
+</body>
+</html>

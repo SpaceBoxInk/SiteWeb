@@ -1,0 +1,312 @@
+	
+	body{
+		margin: 0px;
+		padding: 0px;
+		background: #333333;
+		font-family: 'Varela', sans-serif;
+		font-size: 11pt;
+		font-weight: 300;
+		color: #656565;
+	}
+	
+	
+	h1, h2, h3{
+		margin: 0;
+		padding: 0;
+		font-weight: 700;
+		color: #333;
+	}
+	
+	p, ol, ul{
+		margin-top: 0;
+	}
+	
+	ol, ul{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p{
+		line-height: 180%;
+	}
+	
+	a{
+		color: #0000FF;
+	}
+
+	a:link{
+		text-decoration: none;
+	}
+	
+	a:hover{
+		text-decoration: none;
+	}
+	
+	.container	{
+		margin: auto;
+		width: 1000px;
+	}
+	
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button{
+		display: inline-block;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background: #3450BE;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1em;
+		color: white;r: #272925;
+	}*/
+
+	a.button{
+		text-decoration: none;
+	}
+	
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title{
+		margin-bottom: 50px;
+	}
+	
+	.title h2{
+		text-transform: uppercase;
+		font-size: 45px;
+	}
+
+	.title h3{
+		text-transform: uppercase;
+		font-size: 35px;
+	}
+	
+	.title .subtitle{
+		font-size: 25px;
+		color: #6F6F6F;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		background: #333;
+	}
+
+	#header
+	{
+		position: relative;
+		padding: 3em 0em;
+	}
+
+	#header h1{
+		margin-top: 10px;
+	}
+
+/*********************************************************************************/
+/* Titre page                                                                    */
+/*********************************************************************************/
+
+	#logo
+	{
+		position: absolute;
+		top: 1em;
+		left: 0;
+	}
+	
+	#logo h1
+	{
+		color: white;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		text-transform: uppercase;
+		color: white;
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+		position: absolute;
+		top: 2em;
+		right: 0;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		color: white;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		color: white;
+		background-color: #3F6FBE;
+	}
+	
+	#menu .current-page a
+	{
+		background: #3450BE;
+		color: white;
+	}
+	
+	#menu .icon
+	{
+	}
+
+	/* Menu déroulant */
+
+	#menu ul.niv2 a{
+		display: block;
+		padding: 1em 1.5em;
+		width: 144px;
+		background-color: #333;
+	}
+
+	#menu ul.niv2 a:hover{
+		background-color: #3F6FBE;
+	}
+
+	#menu ul.niv2{
+		position: absolute;
+		width: 144px;
+		left: -999em;
+		margin: -22px 0 0 144px;
+	}
+
+	#menu li:hover ul ul, #menu li.sfhover ul ul /* Sous-sous-listes lorsque la souris passe sur un élément de liste */
+	{
+        left: -999em; /* On expédie les sous-sous-listes hors du champ de vision */
+	}
+
+	#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul  /* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */
+	{
+			top: 50px;
+	        left: -100px; /* Repositionnement normal */
+	        min-height: 0; /* Corrige un bug sous IE */
+	}
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding-top: 120px;
+		padding-bottom: 120px;
+		background: white;
+		background-size: cover;
+		text-align: center;
+	}
+
+	#banner .title h2{
+		color: #333;
+	}
+
+	#banner .title .subtitle{
+		color: #333;
+	}
+	
+	#banner .button{
+		margin-top: 3em;
+		background: #3450BE;
+	}
+
+
+/*********************************************************************************/
+/* Formulaire                                                                    */
+/*********************************************************************************/
+
+input.button{
+	margin: 0px;
+	border: 0px;
+}
+
+form label{
+	display: inline-block;
+	width: 45px;
+}
+
+form input#objet{
+	width: 445px;
+	margin: none;
+	font-family: 'Varela', sans-serif;
+	color: #656565;
+}
+
+form textarea{
+	width: 500px;
+	font-family: 'Varela', sans-serif;
+	margin-top: 10px;
+	color: #656565;
+}
