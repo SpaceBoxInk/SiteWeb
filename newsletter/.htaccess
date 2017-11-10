@@ -1,5 +1,5 @@
 <Files newsletter.php>
-AuthUserFile /home/u532180704/public_html/dossierProtect/.htpasswd
+AuthUserFile /var/www/html/ASpaceStory/newsletter/.htpasswd
 AuthName "Accès interdit"
 AuthType Basic
 Require valid-user
