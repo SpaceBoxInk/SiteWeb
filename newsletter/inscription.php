@@ -57,22 +57,24 @@ elseif($_GET['tru']==2) // Sinon, si la variable $_GET['tru'] est égale à 2.
  
         if($email_entre==$email_mail) // Si les deux adresses e-mail sont identiques.
         {
-        	$cmd = "INSERT INTO emails VALUES('" . $email_entre . "')";
+        	$cmd = "INSERT INTO mails VALUES('" . $email_entre . "')";
+        	$r = db->exec ( $cmd );
 	        // mysql_query("INSERT INTO newsletter VALUES('" . $email_entre . "')"); // On l'inscrit dans la base de données MySQL.
+
+	        if ($r == 0){
+	        	die("Erreur lors de l'inscription");
+	        } else {
 	 
-	        echo "Vous avez bien été inscrit à la newsletter de MonSite.fr ! Vous allez être redirigé dans 1 seconde.";
+	        	echo "Vous avez bien été inscrit à la newsletter de MonSite.fr ! Vous allez être redirigé dans 1 seconde.";
+	        }
  
-        }
-        else
-        {
+        } else {
  
         echo "Vous n'avez pas entré la bonne adresse e-mail !";
  
         }
-    }
-    else
-    {
-echo "Il y a eu une erreur.";
+    } else {
+		echo "Il y a eu une erreur.";
     }
 ?>
 </body>
