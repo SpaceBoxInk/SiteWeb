@@ -6,8 +6,8 @@
 <body>
  
     La newsletter :
-    <form method="post" action="gestionMail.php">
-        Adresse e-mail : <input type="email" name="email" size="25" /><br>
+    <form method="post" action="newsletter.php">
+        Adresse e-mail : <input type="email" name="email" size="25" required /><br>
         <input type="radio" name="new" value="1" id="inscr" />
         <label for="inscr">S'inscrire</label>
 
