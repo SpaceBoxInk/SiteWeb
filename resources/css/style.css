@@ -294,14 +294,15 @@ input.button{
 
 form label{
 	display: inline-block;
-	width: 45px;
+	width: 50px;
 }
 
-form input#objet{
+form input{
 	width: 445px;
 	margin: none;
 	font-family: 'Varela', sans-serif;
 	color: #656565;
+	margin-bottom: 5px;
 }
 
 form textarea{

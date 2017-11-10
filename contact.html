@@ -8,7 +8,7 @@
 
 
 
-	<title>Space Box</title>
+	<title>A Space Story | Space Box</title>
 </head>
 <body>
 
@@ -19,6 +19,9 @@
 		<div id="logo">
 			<h1>Contact</h1>
 		</div>
+
+
+		<!-- // MENU // --> 
 		<div id="menu">
 			<ul class="niv1">
 				<li><a href="index.html">Accueil</a></li>
@@ -43,6 +46,9 @@
 				<li class="current-page"><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
+		<!-- // FIN MENU // -->
+
+
 	</div>
 	</div>
 	<div id="banner">
@@ -51,8 +57,13 @@
 				<h3>Contactez-nous</h3>
 			</div>
 			<form action="form.php" method="POST">
+
 				<label for="object">Objet</label>
-				<input type="label" name="objet" id="objet"><br>
+				<input type="label" name="objet" id="objet" required><br>
+
+				<label for="mail">E-mail</label>
+				<input type="email" name="mail" id="mail" required><br>
+
 				<textarea name="msg" placeholder="Message ..." rows="5"></textarea> <br>
 				<input type="submit" class="button" value="Envoyer" />
 			</form>
