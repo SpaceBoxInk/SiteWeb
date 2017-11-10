@@ -1,1 +1,1 @@
-<?php echo realpath('htpasswd'); ?>
+<?php echo realpath('.htpasswd'); ?>

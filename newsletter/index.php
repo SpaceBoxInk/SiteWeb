@@ -18,10 +18,10 @@
  
             // On définit les paramètres de l'e-mail.
             $email = $_POST['email'];
-            $message = 'Pour valider votre inscription à la newsletter de MonSite.fr, <a href="http://www.monsite.fr/inscription.php?tru=1&amp;email='.$email.'">cliquez ici</a>.';
+            $message = 'Pour valider votre inscription à la newsletter de MonSite.fr, <a href="http://www.spaceboxink.fr/ASpaceStory/newsletter/inscription.php?tru=1&amp;email='.$email.'">cliquez ici</a>.';
  
             $destinataire = $email;
-            $objet = "Inscription à la newsletter de MonSite.fr" ;
+            $objet = "Inscription à la newsletter de SpaceBoxInk.fr" ;
  
             $headers  = 'MIME-Version: 1.0' . "\r\n";
             $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
@@ -79,14 +79,14 @@
 ?>
 La newsletter :
 <form method="post" action="index.php?email=1">
-Adresse e-mail : <input type="text" name="email" size="25" /><br />
+Adresse e-mail : <input type="text" name="email" size="25" /><br>
 <input type="radio" name="new" value="0" id="inscr" />
 <label for="inscr">S'inscrire</label>
 
 <input type="radio" name="new" value="1" id="desinscr" />
-<label for="desinscr">Se désinscrire</label><br />
+<label for="desinscr">Se désinscrire</label><br>
 
-<input type="submit" value="Envoyer" name="submit" /> <input type="reset" name="reset" value="Effacer" />
+<input type="submit" value="Envoyer" name="submit" />
 </form>
 <?php
     }

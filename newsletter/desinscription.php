@@ -40,7 +40,7 @@
 ?>
 <font color="red">Attention, vous avez 25 secondes pour remplir le formulaire. Passé ce délai, celui-ci ne sera plus valide.</font>
 <form method="post" action="desinscription.php?tru=2">
-Entrez votre adresse e-mail : <input type="text" name="email" size="25" /><br />
+Entrez votre adresse e-mail : <input type="text" name="email" size="25" /><br>
 <input type="submit" value="Envoyer" name="submit" /> <input type="reset" name="reset" value="Effacer" />
 </form>
 <?php
