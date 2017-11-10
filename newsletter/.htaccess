@@ -1,0 +1,6 @@
+<Files newsletter.php>
+AuthUserFile /home/u532180704/public_html/dossierProtect/.htpasswd
+AuthName "Accès interdit"
+AuthType Basic
+Require valid-user
+</Files>
