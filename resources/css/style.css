@@ -267,6 +267,7 @@
 		background: white;
 		background-size: cover;
 		text-align: center;
+		background-image: url('../img/background.png');
 	}
 
 	#banner .title h2{
@@ -281,6 +282,8 @@
 		margin-top: 3em;
 		background: #3450BE;
 	}
+
+
 
 
 /*********************************************************************************/
@@ -299,7 +302,7 @@ form label{
 
 form input{
 	width: 445px;
-	margin: none;
+	margin: 0px;
 	font-family: 'Varela', sans-serif;
 	color: #656565;
 	margin-bottom: 5px;
