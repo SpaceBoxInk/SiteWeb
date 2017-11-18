@@ -102,8 +102,9 @@
 		text-transform: uppercase;
 		font-weight: 400;
 		font-size: 1em;
-		color: white;r: #272925;
-	}*/
+		color: white;
+		/*r: #272925;*/
+	}
 
 	a.button{
 		text-decoration: none;
@@ -228,7 +229,7 @@
 	#menu ul.niv2 a{
 		display: block;
 		padding: 1em 1.5em;
-		width: 144px;
+		width: 198px;
 		background-color: #333;
 	}
 
@@ -251,7 +252,7 @@
 	#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul  /* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */
 	{
 			top: 50px;
-	        left: -100px; /* Repositionnement normal */
+	        left: -50px; /* Repositionnement normal */
 	        min-height: 0; /* Corrige un bug sous IE */
 	}
 
@@ -284,6 +285,48 @@
 	}
 
 
+/*********************************************************************************/
+/* Actualités                                                                    */
+/*********************************************************************************/
+
+	
+	#actualites{
+		background-color: #FFF;
+	}
+
+	#actualites .container{
+
+		/*margin-right: 25%;
+		margin-left: 25%;*/
+		width: 999px;
+		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+
+	#actualites .container h1{
+		margin-bottom: 10px;
+	}
+
+	#actualites .container article{
+		width: 300px;
+		border: 1px black solid;
+		border-radius: 5px;
+		padding: 4px;
+		display: inline-block;
+		margin: 10px;
+	}
+
+	#actualites .container .button{
+		font-size: 0.7em;
+		padding: 10px;
+		margin-left: 96px;
+		margin-right: 96px;
+		background: #FFF;
+		color: #656565;
+		border: 1px solid #656565;
+		border-radius: 5px;
+	}
 
 
 /*********************************************************************************/
@@ -313,4 +356,13 @@ form textarea{
 	font-family: 'Varela', sans-serif;
 	margin-top: 10px;
 	color: #656565;
+}
+
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+footer{
+	padding: 20px;
 }
