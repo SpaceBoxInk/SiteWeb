@@ -309,7 +309,7 @@
 	}
 
 	#actualites .container article{
-		width: 300px;
+		width: 30%;
 		border: 1px black solid;
 		border-radius: 5px;
 		padding: 4px;
@@ -324,6 +324,18 @@
 		margin-right: 96px;
 		background: #FFF;
 		color: #656565;
+		border: 1px solid #656565;
+		border-radius: 5px;
+	}
+
+
+	#actualites .container .button:hover{
+		font-size: 0.7em;
+		padding: 10px;
+		margin-left: 96px;
+		margin-right: 96px;
+		background: #C0C0C0;
+		color: #FFF;
 		border: 1px solid #656565;
 		border-radius: 5px;
 	}
