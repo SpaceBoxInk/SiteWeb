@@ -1,0 +1,31 @@
+.histoire{
+	text-align: center;
+}
+
+article{
+	border: 3px solid black;
+	display: inline-block;
+	width: 33%;
+	padding: 10px;
+	font-size: 1.2em;
+	text-align: justify;
+	border-radius: 15px;
+	vertical-align: middle;
+}
+
+article#aider{
+	margin-left: 100px;
+	border-color: #6fa939;
+}
+
+
+article#exploiter{
+	margin-right: 100px;
+	position: relative;
+	float: right;
+	border-color: #FF4848;
+}
+
+span{
+	font-size: 90px;
+}

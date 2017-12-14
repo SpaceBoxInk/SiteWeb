@@ -214,7 +214,7 @@
 		background-color: #3F6FBE;
 	}
 	
-	#menu .current-page a
+	/*#menu*/ .current-page a
 	{
 		background: #3450BE;
 		color: white;
@@ -284,6 +284,15 @@
 		background: #3450BE;
 	}
 
+	#short-banner{
+		padding-top: 120px;
+		padding-bottom: 100px;
+		background: white;
+		background-size: cover;
+		text-align: center;
+		background-image: url('../img/background.png');
+	}
+
 
 /*********************************************************************************/
 /* Actualités                                                                    */
@@ -339,6 +348,18 @@
 		border: 1px solid #656565;
 		border-radius: 5px;
 	}
+
+
+/*********************************************************************************/
+/* div white background                                                          */
+/*********************************************************************************/
+
+.white-bg{
+	background-color: #FFF;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
 
 
 /*********************************************************************************/
