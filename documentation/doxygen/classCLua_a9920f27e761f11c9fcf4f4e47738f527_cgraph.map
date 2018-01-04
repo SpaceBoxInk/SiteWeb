@@ -1,0 +1,9 @@
+<map id="CLua::setTaille" name="CLua::setTaille">
+<area shape="rect" id="node2" href="$classCLua.html#ab9866ddbeb59325fb9578c22d1091508" title="CLua::getEntite" alt="" coords="169,81,281,108"/>
+<area shape="rect" id="node8" href="$classMEntite.html#add94ce54951486cbd6fc7047e2ed3bd2" title="MEntite::setTaille" alt="" coords="163,132,287,159"/>
+<area shape="rect" id="node3" href="$classCPersonnage.html#abb4c9b3acc36467526ade0c090b85729" title="CPersonnage::getCurrentPerso" alt="" coords="335,5,537,32"/>
+<area shape="rect" id="node4" href="$classCJeu.html#ac45b184d2863d4c26ba155a73db119ce" title="CJeu::getEntite" alt="" coords="380,56,492,83"/>
+<area shape="rect" id="node6" href="$classMEntite.html#abda9c663b32a0d23fec165a3c2be606d" title="MEntite::getNom" alt="" coords="376,107,496,133"/>
+<area shape="rect" id="node7" href="$classCLua.html#a46d514d02d9d52990a40955be573cc5a" title="CLua::getTop" alt="" coords="386,157,486,184"/>
+<area shape="rect" id="node5" href="$classCNiveau.html#ab0a81ffe8a6bc031a9295e63b775e462" title="CNiveau::getEntite" alt="" coords="585,56,716,83"/>
+</map>

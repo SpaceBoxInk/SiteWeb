@@ -1,0 +1,10 @@
+<map id="CNiveau::setEventMethods" name="CNiveau::setEventMethods">
+<area shape="rect" id="node2" href="$classMTerrain.html#a9ef5b5208d23d13322fcd49d9b56a461" title="MTerrain::getImagesList" alt="" coords="248,5,411,32"/>
+<area shape="rect" id="node4" href="$classMParameters.html#a3b967cca77179298ca99c567092d19a9" title="MParameters::getTailleTuile" alt="" coords="237,56,422,83"/>
+<area shape="rect" id="node5" href="$classMParameters.html#a8540de9205ad88b3ad3c00db6a6c45d0" title="MParameters::getTextureFor" alt="" coords="235,107,424,133"/>
+<area shape="rect" id="node8" href="$classAppFrameInterface.html#a570e849675b04901a2ad040c0cb3c3dc" title="AppFrameInterface::\lloadFileIntoGround" alt="" coords="259,158,400,199"/>
+<area shape="rect" id="node9" href="$classAppFrameInterface.html#acdd83dc409347dfd87076aabd8798fd4" title="AppFrameInterface::\lsetPositionOf" alt="" coords="259,223,400,265"/>
+<area shape="rect" id="node3" href="$classMPartieCouche.html#a2e5d8888ce6af5865f53cca3fa298ab6" title="MPartieCouche::getId" alt="" coords="489,5,637,32"/>
+<area shape="rect" id="node6" href="$classMParameters.html#adb2ec50f0f6e8494bad919ee22912fdb" title="MParameters::getTuilePath" alt="" coords="472,81,653,108"/>
+<area shape="rect" id="node7" href="$MPartieCouche_8hpp.html#a3f6f4d61723b667fa2e33ce93ed20a46" title="to_string" alt="" coords="527,132,599,159"/>
+</map>

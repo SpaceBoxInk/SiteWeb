@@ -1,0 +1,6 @@
+<map id="MObjetTexture" name="MObjetTexture">
+<area shape="rect" id="node2" href="$classMEntite.html" title="MEntite" alt="" coords="78,80,145,107"/>
+<area shape="rect" id="node5" href="$classMItem.html" title="MItem" alt="" coords="169,80,227,107"/>
+<area shape="rect" id="node3" href="$classMPersonnage.html" title="MPersonnage" alt="" coords="5,155,108,181"/>
+<area shape="rect" id="node4" href="$classMRobot.html" title="MRobot" alt="" coords="133,155,199,181"/>
+</map>

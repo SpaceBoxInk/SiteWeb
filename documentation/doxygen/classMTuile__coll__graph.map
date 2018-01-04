@@ -1,0 +1,7 @@
+<map id="MTuile" name="MTuile">
+<area shape="rect" id="node3" href="$classMEntite.html" title="MEntite" alt="" coords="317,184,383,211"/>
+<area shape="rect" id="node2" href="$classMCoordonnees.html" title="MCoordonnees" alt="" coords="483,5,593,32"/>
+<area shape="rect" id="node4" href="$classMObjetTexture.html" title="MObjetTexture" alt="" coords="5,95,113,121"/>
+<area shape="rect" id="node6" href="$classMCompetence.html" title="MCompetence" alt="" coords="241,95,347,121"/>
+<area shape="rect" id="node7" href="$classMInventaire.html" title="MInventaire" alt="" coords="371,95,462,121"/>
+</map>

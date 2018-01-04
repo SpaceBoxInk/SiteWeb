@@ -1,0 +1,10 @@
+<map id="MTuile::deplacerEntiteVers" name="MTuile::deplacerEntiteVers">
+<area shape="rect" id="node2" href="$classMTuile.html#a1193ed08be242a30095bdbe0e8a3d565" title="MTuile::getPlaceDispo" alt="" coords="238,5,391,32"/>
+<area shape="rect" id="node4" href="$classMEntite.html#a704ad49cc015e24f32af566de78c9969" title="MEntite::getTaille" alt="" coords="253,56,377,83"/>
+<area shape="rect" id="node5" href="$classMTuile.html#a453691549b289183c7fe6e58687845e3" title="MTuile::isEntitePresente" alt="" coords="232,107,397,133"/>
+<area shape="rect" id="node6" href="$classMTuile.html#a4e2b938de02ed30be9777be461b74d3a" title="MTuile::placeEntite" alt="" coords="247,157,382,184"/>
+<area shape="rect" id="node3" href="$classMTuile.html#a28b666214049f90f0dd4552ebc327d05" title="MTuile::getPlaceDispoOn" alt="" coords="452,5,623,32"/>
+<area shape="rect" id="node7" href="$classMEntite.html#abda9c663b32a0d23fec165a3c2be606d" title="MEntite::getNom" alt="" coords="677,157,797,184"/>
+<area shape="rect" id="node8" href="$classMTuile.html#a22d03aae1d850841f69da814771ffdb6" title="MTuile::getPartieCouche" alt="" coords="455,157,620,184"/>
+<area shape="rect" id="node9" href="$classMPartieCouche.html#ab9142c1a541ed23c404fd7962f03c2d9" title="MPartieCouche::passageDe" alt="" coords="445,208,629,235"/>
+</map>

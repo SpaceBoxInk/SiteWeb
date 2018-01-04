@@ -1,0 +1,6 @@
+<map id="AppFrame::addEntite" name="AppFrame::addEntite">
+<area shape="rect" id="node2" href="$classCanvas.html#a35f47cc78b0e217dbd6b6252fea7db37" title="Canvas::addEntite" alt="" coords="210,31,339,57"/>
+<area shape="rect" id="node5" href="$structAppFrame.html#a06581ba30cdacec0d8cec97217a2bc09" title="AppFrame::getCaneva" alt="" coords="199,81,351,108"/>
+<area shape="rect" id="node3" href="$classCanvas.html#a94f8ea771adf30b3e64678a155771990" title="Canvas::setTexture" alt="" coords="399,5,535,32"/>
+<area shape="rect" id="node4" href="$classCanvas.html#a51767ec556d262bdc6391ead6728e058" title="Canvas::getTexture" alt="" coords="583,31,719,57"/>
+</map>

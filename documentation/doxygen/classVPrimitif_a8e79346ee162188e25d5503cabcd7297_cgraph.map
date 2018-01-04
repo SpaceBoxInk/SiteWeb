@@ -1,0 +1,7 @@
+<map id="VPrimitif::show" name="VPrimitif::show">
+<area shape="rect" id="node2" href="$VPrimitif_8cpp.html#a9d7e8af417b6d543da691e9c0e2f6f9f" title="clearScreen" alt="" coords="191,5,281,32"/>
+<area shape="rect" id="node3" href="$classMCoordonnees.html#aa0ab58bfdc40b94109a03f6e658cd418" title="MCoordonnees::getX" alt="" coords="164,56,308,83"/>
+<area shape="rect" id="node4" href="$classVPrimitif.html#a23ad955a1f88b9e70da3cd26d570bbd5" title="VPrimitif::printTile" alt="" coords="173,107,299,133"/>
+<area shape="rect" id="node5" href="$classVPrimitif.html#a131618ff97aaae9b4a3fa4cca86583c6" title="VPrimitif::sendInput" alt="" coords="167,157,305,184"/>
+<area shape="rect" id="node6" href="$VPrimitif_8cpp.html#a7f4ae7238da9a6302941d0fe34c3f0fe" title="clear" alt="" coords="356,157,407,184"/>
+</map>

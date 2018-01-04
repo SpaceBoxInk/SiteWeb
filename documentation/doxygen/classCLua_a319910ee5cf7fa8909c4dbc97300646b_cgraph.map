@@ -1,0 +1,9 @@
+<map id="CLua::setTexture" name="CLua::setTexture">
+<area shape="rect" id="node2" href="$classCLua.html#ab9866ddbeb59325fb9578c22d1091508" title="CLua::getEntite" alt="" coords="209,81,321,108"/>
+<area shape="rect" id="node8" href="$classMObjetTexture.html#a8ac989915a61dac6285200368405a14f" title="MObjetTexture::setTexture" alt="" coords="176,132,355,159"/>
+<area shape="rect" id="node3" href="$classCPersonnage.html#abb4c9b3acc36467526ade0c090b85729" title="CPersonnage::getCurrentPerso" alt="" coords="403,5,605,32"/>
+<area shape="rect" id="node4" href="$classCJeu.html#ac45b184d2863d4c26ba155a73db119ce" title="CJeu::getEntite" alt="" coords="448,56,560,83"/>
+<area shape="rect" id="node6" href="$classMEntite.html#abda9c663b32a0d23fec165a3c2be606d" title="MEntite::getNom" alt="" coords="444,107,564,133"/>
+<area shape="rect" id="node7" href="$classCLua.html#a46d514d02d9d52990a40955be573cc5a" title="CLua::getTop" alt="" coords="454,157,554,184"/>
+<area shape="rect" id="node5" href="$classCNiveau.html#ab0a81ffe8a6bc031a9295e63b775e462" title="CNiveau::getEntite" alt="" coords="653,56,784,83"/>
+</map>

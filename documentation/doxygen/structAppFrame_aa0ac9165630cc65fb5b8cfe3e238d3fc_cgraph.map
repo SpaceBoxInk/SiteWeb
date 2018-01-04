@@ -1,0 +1,7 @@
+<map id="AppFrame::loadFileIntoGround" name="AppFrame::loadFileIntoGround">
+<area shape="rect" id="node2" href="$structAppFrame.html#a06581ba30cdacec0d8cec97217a2bc09" title="AppFrame::getCaneva" alt="" coords="267,5,419,32"/>
+<area shape="rect" id="node3" href="$classCanvas.html#aa21bee0bb3e465602f20925d8b98e3f9" title="Canvas::loadFileIntoGround" alt="" coords="252,56,435,83"/>
+<area shape="rect" id="node4" href="$classTileMap.html#a1b0ec17701e008e9d8b7d2a3b337cd84" title="TileMap::load" alt="" coords="491,31,591,57"/>
+<area shape="rect" id="node5" href="$classCanvas.html#a755157536c8c0c1e9687959d9d64bedf" title="Canvas::drawAll" alt="" coords="483,81,599,108"/>
+<area shape="rect" id="node6" href="$VPrimitif_8cpp.html#a7f4ae7238da9a6302941d0fe34c3f0fe" title="clear" alt="" coords="647,81,697,108"/>
+</map>

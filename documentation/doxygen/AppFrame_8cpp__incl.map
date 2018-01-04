@@ -1,0 +1,14 @@
+<map id="src/vue/AppFrame.cpp" name="src/vue/AppFrame.cpp">
+<area shape="rect" id="node2" href="$AppFrame_8hpp.html" title="AppFrame.hpp" alt="" coords="1238,80,1345,107"/>
+<area shape="rect" id="node29" href="$MParameters_8hpp.html" title="../model/MParameters.hpp" alt="" coords="1529,155,1705,181"/>
+<area shape="rect" id="node3" href="$AppFrameInterface_8hpp.html" title="TODO complete. " alt="" coords="1212,155,1371,181"/>
+<area shape="rect" id="node14" href="$Caneva_8hpp.html" title="Caneva.hpp" alt="" coords="670,155,761,181"/>
+<area shape="rect" id="node4" href="$MPartieCouche_8hpp.html" title="TODO complete. " alt="" coords="1523,229,1710,256"/>
+<area shape="rect" id="node5" href="$MEntite_8hpp.html" title="TODO complete. " alt="" coords="1571,304,1663,331"/>
+<area shape="rect" id="node6" href="$MCompetence_8hpp.html" title="MCompetence.hpp" alt="" coords="1551,386,1682,413"/>
+<area shape="rect" id="node7" href="$MCoordonnees_8hpp.html" title="MCoordonnees.hpp" alt="" coords="2104,386,2239,413"/>
+<area shape="rect" id="node10" href="$MInventaire_8hpp.html" title="MInventaire.hpp" alt="" coords="1965,386,2079,413"/>
+<area shape="rect" id="node11" href="$MObjetTexture_8hpp.html" title="TODO complete. " alt="" coords="1706,386,1839,413"/>
+<area shape="rect" id="node22" href="$Tilemap_8cpp.html" title="Tilemap.cpp" alt="" coords="874,229,967,256"/>
+<area shape="rect" id="node26" href="$wxSFMLCanevas_8hpp.html" title="wxSFMLCanevas.hpp" alt="" coords="991,229,1141,256"/>
+</map>

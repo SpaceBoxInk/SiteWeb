@@ -1,0 +1,11 @@
+<map id="CLua::newEntity" name="CLua::newEntity">
+<area shape="rect" id="node2" href="$classCNiveau.html#a1228cfe83592f6afa269d4f04ad36de6" title="CNiveau::addEntite" alt="" coords="171,107,305,134"/>
+<area shape="rect" id="node6" href="$classCLua.html#a4c1486c39cd6ee7c3a8a4ca099a2c2fc" title="CLua::getTuile" alt="" coords="185,187,291,214"/>
+<area shape="rect" id="node8" href="$classCLua.html#aefaf60f47f7263e8169f1e4da94fddc8" title="CLua::testArgs" alt="" coords="183,238,293,265"/>
+<area shape="rect" id="node3" href="$classAppFrameInterface.html#aa6d9476afe0d758f508406d1ebf41777" title="AppFrameInterface::\laddEntite" alt="" coords="357,5,499,47"/>
+<area shape="rect" id="node4" href="$classAppFrameInterface.html#acdd83dc409347dfd87076aabd8798fd4" title="AppFrameInterface::\lsetPositionOf" alt="" coords="357,71,499,112"/>
+<area shape="rect" id="node5" href="$classMTuile.html#afb36f69c200a75c87f8318d8f8cb176a" title="MTuile::getPosition" alt="" coords="361,137,495,163"/>
+<area shape="rect" id="node7" href="$classCNiveau.html#a0c1efb830071aef7ee98d4ad15b39836" title="CNiveau::getTerrain" alt="" coords="359,187,497,214"/>
+<area shape="rect" id="node9" href="$MPartieCouche_8hpp.html#a3f6f4d61723b667fa2e33ce93ed20a46" title="to_string" alt="" coords="392,238,464,265"/>
+<area shape="rect" id="node10" href="$classMAssException.html#ad701362c037325da6b9b7b6494527f58" title="MAssException::what" alt="" coords="353,289,503,315"/>
+</map>

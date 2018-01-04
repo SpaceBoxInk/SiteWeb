@@ -1,0 +1,5 @@
+<map id="MEntite" name="MEntite">
+<area shape="rect" id="node4" href="$classMPersonnage.html" title="MPersonnage" alt="" coords="12,155,115,181"/>
+<area shape="rect" id="node5" href="$classMRobot.html" title="MRobot" alt="" coords="139,155,206,181"/>
+<area shape="rect" id="node2" href="$classMObjetTexture.html" title="MObjetTexture" alt="" coords="5,5,113,32"/>
+</map>

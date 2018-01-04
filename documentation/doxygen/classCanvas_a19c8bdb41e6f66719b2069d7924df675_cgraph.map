@@ -1,0 +1,8 @@
+<map id="Canvas::setPositionOf" name="Canvas::setPositionOf">
+<area shape="rect" id="node2" href="$classCanvas.html#a755157536c8c0c1e9687959d9d64bedf" title="Canvas::drawAll" alt="" coords="232,5,348,32"/>
+<area shape="rect" id="node4" href="$classCanvas.html#a25c7db03cf10075363e17476eea6043b" title="Canvas::getSprites" alt="" coords="223,56,357,83"/>
+<area shape="rect" id="node5" href="$classCanvas.html#a34bfcd0bf5ab070f1c4320627bcbb9da" title="Canvas::getTailleTexture" alt="" coords="207,107,373,133"/>
+<area shape="rect" id="node6" href="$classMCoordonnees.html#aa0ab58bfdc40b94109a03f6e658cd418" title="MCoordonnees::getX" alt="" coords="218,157,362,184"/>
+<area shape="rect" id="node7" href="$classMCoordonnees.html#ac9a6ac1fc95fc9adf25f4fbfdfacaf80" title="MCoordonnees::getY" alt="" coords="218,208,362,235"/>
+<area shape="rect" id="node3" href="$VPrimitif_8cpp.html#a7f4ae7238da9a6302941d0fe34c3f0fe" title="clear" alt="" coords="421,5,472,32"/>
+</map>

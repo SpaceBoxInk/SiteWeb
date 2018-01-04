@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classMObjetTexture.html" title="MObjetTexture" alt="" coords="5,31,113,57"/>
+<area shape="rect" id="node2" href="$classMEntite.html" title="MEntite" alt="" coords="197,56,264,83"/>
+<area shape="rect" id="node5" href="$classMItem.html" title="MItem" alt="" coords="201,5,260,32"/>
+<area shape="rect" id="node3" href="$classMPersonnage.html" title="MPersonnage" alt="" coords="348,5,451,32"/>
+<area shape="rect" id="node4" href="$classMRobot.html" title="MRobot" alt="" coords="366,56,433,83"/>
+<area shape="rect" id="node7" href="$classAppFrameInterface.html" title="AppFrameInterface" alt="" coords="164,119,297,145"/>
+<area shape="rect" id="node9" href="$classMTerrain.html" title="MTerrain" alt="" coords="194,169,267,196"/>
+<area shape="rect" id="node10" href="$classVInventaireInterface.html" title="VInventaireInterface" alt="" coords="161,220,300,247"/>
+<area shape="rect" id="node11" href="$classVPrimitif.html" title="VPrimitif" alt="" coords="195,271,267,297"/>
+<area shape="rect" id="node8" href="$structAppFrame.html" title="wxFrame" alt="" coords="362,131,437,157"/>
+</map>

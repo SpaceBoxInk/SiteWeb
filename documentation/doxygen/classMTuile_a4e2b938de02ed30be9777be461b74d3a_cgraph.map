@@ -1,0 +1,5 @@
+<map id="MTuile::placeEntite" name="MTuile::placeEntite">
+<area shape="rect" id="node2" href="$classMEntite.html#abda9c663b32a0d23fec165a3c2be606d" title="MEntite::getNom" alt="" coords="420,24,540,51"/>
+<area shape="rect" id="node3" href="$classMTuile.html#a22d03aae1d850841f69da814771ffdb6" title="MTuile::getPartieCouche" alt="" coords="197,24,363,51"/>
+<area shape="rect" id="node4" href="$classMPartieCouche.html#ab9142c1a541ed23c404fd7962f03c2d9" title="MPartieCouche::passageDe" alt="" coords="188,75,372,102"/>
+</map>

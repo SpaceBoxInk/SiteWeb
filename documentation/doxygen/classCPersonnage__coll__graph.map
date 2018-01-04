@@ -1,0 +1,11 @@
+<map id="CPersonnage" name="CPersonnage">
+<area shape="rect" id="node3" href="$classMTerrain.html" title="MTerrain" alt="" coords="235,196,309,223"/>
+<area shape="rect" id="node7" href="$classMEntite.html" title="MEntite" alt="" coords="433,95,500,121"/>
+<area shape="rect" id="node12" href="$classAppFrameInterface.html" title="AppFrameInterface" alt="" coords="68,145,201,172"/>
+<area shape="rect" id="node5" href="$classMCoordonnees.html" title="MCoordonnees" alt="" coords="269,95,379,121"/>
+<area shape="rect" id="node11" href="$classMTuile.html" title="MTuile" alt="" coords="380,196,441,223"/>
+<area shape="rect" id="node6" href="$classMPersonnage.html" title="MPersonnage" alt="" coords="471,196,574,223"/>
+<area shape="rect" id="node8" href="$classMObjetTexture.html" title="MObjetTexture" alt="" coords="537,5,645,32"/>
+<area shape="rect" id="node9" href="$classMCompetence.html" title="MCompetence" alt="" coords="291,5,397,32"/>
+<area shape="rect" id="node10" href="$classMInventaire.html" title="MInventaire" alt="" coords="421,5,512,32"/>
+</map>

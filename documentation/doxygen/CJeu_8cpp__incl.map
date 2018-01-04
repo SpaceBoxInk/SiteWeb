@@ -1,0 +1,23 @@
+<map id="src/controlleur/CJeu.cpp" name="src/controlleur/CJeu.cpp">
+<area shape="rect" id="node2" href="$CJeu_8hpp.html" title="TODO complete. " alt="" coords="1545,80,1622,107"/>
+<area shape="rect" id="node17" href="$MCoordonnees_8hpp_source.html" title="MCoordonnees.hpp" alt="" coords="2915,565,3049,591"/>
+<area shape="rect" id="node36" href="$MPersonnage_8hpp.html" title="TODO complete. " alt="" coords="1655,326,1834,353"/>
+<area shape="rect" id="node3" href="$CLua_8hpp.html" title="TODO complete. " alt="" coords="303,408,381,435"/>
+<area shape="rect" id="node14" href="$CNiveau_8hpp.html" title="TODO complete. " alt="" coords="2246,155,2342,181"/>
+<area shape="rect" id="node34" href="$CPersonnage_8hpp_source.html" title="CPersonnage.hpp" alt="" coords="1521,237,1646,263"/>
+<area shape="rect" id="node39" href="$AppFrame_8hpp_source.html" title="../vue/AppFrame.hpp" alt="" coords="1353,237,1497,263"/>
+<area shape="rect" id="node15" href="$MEntite_8hpp.html" title="TODO complete. " alt="" coords="2409,483,2552,509"/>
+<area shape="rect" id="node23" href="$MParameters_8hpp_source.html" title="../model/MParameters.hpp" alt="" coords="2093,326,2269,353"/>
+<area shape="rect" id="node26" href="$MTerrain_8hpp_source.html" title="../model/MTerrain.hpp" alt="" coords="2495,237,2645,263"/>
+<area shape="rect" id="node16" href="$MCompetence_8hpp_source.html" title="MCompetence.hpp" alt="" coords="2415,565,2546,591"/>
+<area shape="rect" id="node19" href="$MInventaire_8hpp_source.html" title="MInventaire.hpp" alt="" coords="2570,565,2685,591"/>
+<area shape="rect" id="node20" href="$MObjetTexture_8hpp.html" title="TODO complete. " alt="" coords="2207,565,2341,591"/>
+<area shape="rect" id="node24" href="$MPartieCouche_8hpp.html" title="TODO complete. " alt="" coords="2521,408,2657,435"/>
+<area shape="rect" id="node27" href="$MTuile_8hpp_source.html" title="MTuile.hpp" alt="" coords="2831,326,2917,353"/>
+<area shape="rect" id="node28" href="$MAssException_8hpp.html" title="TODO complete. " alt="" coords="2805,408,2943,435"/>
+<area shape="rect" id="node37" href="$MRobot_8hpp.html" title="TODO complete. " alt="" coords="1936,408,2028,435"/>
+<area shape="rect" id="node40" href="$AppFrameInterface_8hpp.html" title="TODO complete. " alt="" coords="1909,326,2068,353"/>
+<area shape="rect" id="node41" href="$Caneva_8hpp_source.html" title="Caneva.hpp" alt="" coords="1147,326,1238,353"/>
+<area shape="rect" id="node47" href="$Tilemap_8cpp_source.html" title="Tilemap.cpp" alt="" coords="1146,408,1239,435"/>
+<area shape="rect" id="node50" href="$wxSFMLCanevas_8hpp_source.html" title="wxSFMLCanevas.hpp" alt="" coords="973,408,1122,435"/>
+</map>

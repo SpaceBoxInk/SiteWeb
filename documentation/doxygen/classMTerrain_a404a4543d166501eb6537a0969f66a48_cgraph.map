@@ -1,0 +1,8 @@
+<map id="MTerrain::loadTypes" name="MTerrain::loadTypes">
+<area shape="rect" id="node2" href="$classMParameters.html#af83e6205d823c8ebdbed2233d62b8124" title="MParameters::getCielsPath" alt="" coords="207,5,390,32"/>
+<area shape="rect" id="node4" href="$classMParameters.html#ac6cf1c414d3b2f08f0bdc7f5d2562aef" title="MParameters::getElementsPath" alt="" coords="195,56,403,83"/>
+<area shape="rect" id="node5" href="$classMParameters.html#a6a62c58a4427d61b3b57136cbe304e2a" title="MParameters::getSolsPath" alt="" coords="209,107,388,133"/>
+<area shape="rect" id="node6" href="$classMTerrain.html#a69e3dd36def2fa85746122b12827b9c1" title="MTerrain::loadSpecificPath" alt="" coords="209,157,388,184"/>
+<area shape="rect" id="node3" href="$classMParameters.html#adb2ec50f0f6e8494bad919ee22912fdb" title="MParameters::getTuilePath" alt="" coords="451,56,632,83"/>
+<area shape="rect" id="node7" href="$classMTerrain.html#ac65fbdc6d41468374ef27ae6a68467b0" title="MTerrain::getTypeList" alt="" coords="467,157,616,184"/>
+</map>

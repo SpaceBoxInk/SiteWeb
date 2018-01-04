@@ -1,0 +1,9 @@
+<map id="AppFrame::move" name="AppFrame::move">
+<area shape="rect" id="node2" href="$classCanvas.html#a0d94e20c70ea853a2390861cb3a270d7" title="Canvas::move" alt="" coords="176,107,283,133"/>
+<area shape="rect" id="node3" href="$classCanvas.html#a25c7db03cf10075363e17476eea6043b" title="Canvas::getSprites" alt="" coords="347,5,481,32"/>
+<area shape="rect" id="node4" href="$classMCoordonnees.html#aa0ab58bfdc40b94109a03f6e658cd418" title="MCoordonnees::getX" alt="" coords="342,56,486,83"/>
+<area shape="rect" id="node5" href="$classCanvas.html#a34bfcd0bf5ab070f1c4320627bcbb9da" title="Canvas::getTailleTexture" alt="" coords="331,107,497,133"/>
+<area shape="rect" id="node6" href="$classMCoordonnees.html#ac9a6ac1fc95fc9adf25f4fbfdfacaf80" title="MCoordonnees::getY" alt="" coords="342,157,486,184"/>
+<area shape="rect" id="node7" href="$classCanvas.html#a755157536c8c0c1e9687959d9d64bedf" title="Canvas::drawAll" alt="" coords="356,208,472,235"/>
+<area shape="rect" id="node8" href="$VPrimitif_8cpp.html#a7f4ae7238da9a6302941d0fe34c3f0fe" title="clear" alt="" coords="545,208,596,235"/>
+</map>

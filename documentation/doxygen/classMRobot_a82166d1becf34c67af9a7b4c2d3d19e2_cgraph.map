@@ -1,0 +1,17 @@
+<map id="MRobot::launch" name="MRobot::launch">
+<area shape="rect" id="node2" href="$classMRobot.html#a3d6cbe826b18e808377c0eb38e8b4def" title="MRobot::reset" alt="" coords="167,93,271,120"/>
+<area shape="rect" id="node3" href="$classMRobot.html#adbfef00cd315a961ba17d6f876caa341" title="MRobot::isReset" alt="" coords="331,43,450,69"/>
+<area shape="rect" id="node6" href="$classMEntite.html#ae1580901358b6dddd2ae18871425af03" title="MEntite::setDirection" alt="" coords="319,93,463,120"/>
+<area shape="rect" id="node7" href="$classMEntite.html#af4274ca3c463ec13753f262c1717b5d7" title="MEntite::setTuile" alt="" coords="330,144,451,171"/>
+<area shape="rect" id="node4" href="$classMTuile.html#afb36f69c200a75c87f8318d8f8cb176a" title="MTuile::getPosition" alt="" coords="533,5,667,32"/>
+<area shape="rect" id="node5" href="$classMEntite.html#a159cc853c5264942f996c5dd3fcc3196" title="MEntite::getTuile" alt="" coords="539,56,661,83"/>
+<area shape="rect" id="node8" href="$classMTuile.html#a25216fd04d4edd507e13b232e8f0a7dd" title="MTuile::deplacerEntiteVers" alt="" coords="511,119,689,145"/>
+<area shape="rect" id="node13" href="$classMTuile.html#a4e2b938de02ed30be9777be461b74d3a" title="MTuile::placeEntite" alt="" coords="753,169,887,196"/>
+<area shape="rect" id="node9" href="$classMTuile.html#a453691549b289183c7fe6e58687845e3" title="MTuile::isEntitePresente" alt="" coords="737,17,903,44"/>
+<area shape="rect" id="node10" href="$classMEntite.html#a704ad49cc015e24f32af566de78c9969" title="MEntite::getTaille" alt="" coords="758,68,882,95"/>
+<area shape="rect" id="node11" href="$classMTuile.html#a1193ed08be242a30095bdbe0e8a3d565" title="MTuile::getPlaceDispo" alt="" coords="743,119,897,145"/>
+<area shape="rect" id="node12" href="$classMTuile.html#a28b666214049f90f0dd4552ebc327d05" title="MTuile::getPlaceDispoOn" alt="" coords="957,93,1128,120"/>
+<area shape="rect" id="node14" href="$classMEntite.html#abda9c663b32a0d23fec165a3c2be606d" title="MEntite::getNom" alt="" coords="1183,195,1303,221"/>
+<area shape="rect" id="node15" href="$classMTuile.html#a22d03aae1d850841f69da814771ffdb6" title="MTuile::getPartieCouche" alt="" coords="960,195,1125,221"/>
+<area shape="rect" id="node16" href="$classMPartieCouche.html#ab9142c1a541ed23c404fd7962f03c2d9" title="MPartieCouche::passageDe" alt="" coords="951,245,1135,272"/>
+</map>

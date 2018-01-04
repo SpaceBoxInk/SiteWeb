@@ -1,0 +1,7 @@
+<map id="MEntite::interagirTuile" name="MEntite::interagirTuile">
+<area shape="rect" id="node2" href="$classMTuile.html#afb36f69c200a75c87f8318d8f8cb176a" title="MTuile::getPosition" alt="" coords="207,5,341,32"/>
+<area shape="rect" id="node3" href="$classMTuile.html#ac44bdd3f91a817400eddd71740b120e6" title="MTuile::interagirTuile" alt="" coords="203,56,345,83"/>
+<area shape="rect" id="node4" href="$classMTuile.html#a22d03aae1d850841f69da814771ffdb6" title="MTuile::getPartieCouche" alt="" coords="422,31,587,57"/>
+<area shape="rect" id="node5" href="$classMPartieCouche.html#a1f27113f174cfb245d58cdf3103bf4eb" title="MPartieCouche::declenchementDe" alt="" coords="393,81,616,108"/>
+<area shape="rect" id="node6" href="$classMEntite.html#abda9c663b32a0d23fec165a3c2be606d" title="MEntite::getNom" alt="" coords="664,81,784,108"/>
+</map>

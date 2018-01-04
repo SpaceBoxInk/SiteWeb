@@ -1,0 +1,5 @@
+<map id="CNiveau" name="CNiveau">
+<area shape="rect" id="node3" href="$classMTerrain.html" title="MTerrain" alt="" coords="262,95,335,121"/>
+<area shape="rect" id="node6" href="$classAppFrameInterface.html" title="AppFrameInterface" alt="" coords="104,95,237,121"/>
+<area shape="rect" id="node5" href="$classMCoordonnees.html" title="MCoordonnees" alt="" coords="244,5,353,32"/>
+</map>

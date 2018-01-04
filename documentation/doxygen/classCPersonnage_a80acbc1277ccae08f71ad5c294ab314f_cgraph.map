@@ -1,0 +1,11 @@
+<map id="CPersonnage::addRobot" name="CPersonnage::addRobot">
+<area shape="rect" id="node2" href="$classAppFrameInterface.html#aa6d9476afe0d758f508406d1ebf41777" title="AppFrameInterface::\laddEntite" alt="" coords="241,5,382,47"/>
+<area shape="rect" id="node3" href="$classMEntite.html#abda9c663b32a0d23fec165a3c2be606d" title="MEntite::getNom" alt="" coords="251,71,371,98"/>
+<area shape="rect" id="node4" href="$classMTuile.html#afb36f69c200a75c87f8318d8f8cb176a" title="MTuile::getPosition" alt="" coords="244,122,379,149"/>
+<area shape="rect" id="node5" href="$classMPersonnage.html#a440a89161031422e21ead5e089b40d07" title="MPersonnage::getRobot" alt="" coords="230,173,393,199"/>
+<area shape="rect" id="node6" href="$classMEntite.html#af0640be42f675e9be2b198631006a169" title="MEntite::interagirEntite" alt="" coords="234,223,389,250"/>
+<area shape="rect" id="node8" href="$classMPersonnage.html#a429b9d1362bc89919b18a759e76631ab" title="MPersonnage::makeRobot" alt="" coords="223,274,399,301"/>
+<area shape="rect" id="node9" href="$classMEntite.html#acaa6dd0282ae9e43293ad487e32ee7fa" title="MEntite::setActionInteraction" alt="" coords="216,325,407,351"/>
+<area shape="rect" id="node10" href="$classAppFrameInterface.html#acdd83dc409347dfd87076aabd8798fd4" title="AppFrameInterface::\lsetPositionOf" alt="" coords="241,376,382,417"/>
+<area shape="rect" id="node7" href="$classMEntite.html#a159cc853c5264942f996c5dd3fcc3196" title="MEntite::getTuile" alt="" coords="455,223,576,250"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="MEntite::defenseTotale" name="MEntite::defenseTotale">
+<area shape="rect" id="node2" href="$classMInventaire.html#a50df80ffb98e480ee5d9c8cbf89a410a" title="MInventaire::getDefenseEquipement" alt="" coords="211,5,444,32"/>
+<area shape="rect" id="node3" href="$classMInventaire.html#a742196afe18b22287684da32022a34f8" title="MInventaire::estEquipe" alt="" coords="492,5,648,32"/>
+</map>

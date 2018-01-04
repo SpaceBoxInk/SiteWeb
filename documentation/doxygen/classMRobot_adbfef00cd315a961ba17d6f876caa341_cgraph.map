@@ -1,0 +1,4 @@
+<map id="MRobot::isReset" name="MRobot::isReset">
+<area shape="rect" id="node2" href="$classMTuile.html#afb36f69c200a75c87f8318d8f8cb176a" title="MTuile::getPosition" alt="" coords="172,5,307,32"/>
+<area shape="rect" id="node3" href="$classMEntite.html#a159cc853c5264942f996c5dd3fcc3196" title="MEntite::getTuile" alt="" coords="179,56,300,83"/>
+</map>

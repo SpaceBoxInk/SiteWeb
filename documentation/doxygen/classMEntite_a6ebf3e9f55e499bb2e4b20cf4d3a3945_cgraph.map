@@ -1,0 +1,6 @@
+<map id="MEntite::forceTotale" name="MEntite::forceTotale">
+<area shape="rect" id="node2" href="$classMCompetence.html#a8a7e0b385b37e4e703d13d8783c23119" title="MCompetence::getForce" alt="" coords="220,5,385,32"/>
+<area shape="rect" id="node3" href="$classMInventaire.html#af7c108b2045be9c71289f0ebefb9f89b" title="MInventaire::getForceEquipement" alt="" coords="193,56,412,83"/>
+<area shape="rect" id="node4" href="$classMInventaire.html#a742196afe18b22287684da32022a34f8" title="MInventaire::estEquipe" alt="" coords="727,56,883,83"/>
+<area shape="rect" id="node5" href="$classMInventaire.html#a5dde423ba106a465a8f20fef2b3ef7c3" title="MInventaire::getDegatEquipement" alt="" coords="460,81,679,108"/>
+</map>
