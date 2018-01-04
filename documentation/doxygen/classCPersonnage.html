@@ -114,57 +114,469 @@ Collaboration diagram for CPersonnage:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a505cce87a7bcf6102c27a35e41f51711"><td class="memItemLeft" align="right" valign="top"><a id="a505cce87a7bcf6102c27a35e41f51711"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>CPersonnage</b> (<a class="el" href="classAppFrameInterface.html">AppFrameInterface</a> *vuePrincipale, <a class="el" href="classMTerrain.html">MTerrain</a> *terrain)</td></tr>
+<tr class="memitem:a505cce87a7bcf6102c27a35e41f51711"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPersonnage.html#a505cce87a7bcf6102c27a35e41f51711">CPersonnage</a> (<a class="el" href="classAppFrameInterface.html">AppFrameInterface</a> *<a class="el" href="classCPersonnage.html#aa6c55a68c2657e94d461755c37450c09">vuePrincipale</a>, <a class="el" href="classMTerrain.html">MTerrain</a> *<a class="el" href="classCPersonnage.html#a13f60ae70863dbcfb6132dd10c68ba1e">terrain</a>)</td></tr>
 <tr class="separator:a505cce87a7bcf6102c27a35e41f51711"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbd7fa94b3fceaf155b46267b0f67ba1"><td class="memItemLeft" align="right" valign="top"><a id="adbd7fa94b3fceaf155b46267b0f67ba1"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>setPersonnage</b> (std::string nom)</td></tr>
+<tr class="memitem:ab2f039ea37fa909e77c0e5009801bf1e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPersonnage.html#ab2f039ea37fa909e77c0e5009801bf1e">~CPersonnage</a> ()</td></tr>
+<tr class="separator:ab2f039ea37fa909e77c0e5009801bf1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbd7fa94b3fceaf155b46267b0f67ba1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPersonnage.html#adbd7fa94b3fceaf155b46267b0f67ba1">setPersonnage</a> (std::string nom)</td></tr>
 <tr class="separator:adbd7fa94b3fceaf155b46267b0f67ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60fd9070a613777c329bad9920ebf70f"><td class="memItemLeft" align="right" valign="top"><a id="a60fd9070a613777c329bad9920ebf70f"></a>
-<a class="el" href="classMPersonnage.html">MPersonnage</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getPersonnage</b> (std::string nom)</td></tr>
+<tr class="memitem:a60fd9070a613777c329bad9920ebf70f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMPersonnage.html">MPersonnage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPersonnage.html#a60fd9070a613777c329bad9920ebf70f">getPersonnage</a> (std::string nom)</td></tr>
 <tr class="separator:a60fd9070a613777c329bad9920ebf70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb4c9b3acc36467526ade0c090b85729"><td class="memItemLeft" align="right" valign="top"><a id="abb4c9b3acc36467526ade0c090b85729"></a>
-<a class="el" href="classMPersonnage.html">MPersonnage</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getCurrentPerso</b> ()</td></tr>
+<tr class="memitem:abb4c9b3acc36467526ade0c090b85729"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMPersonnage.html">MPersonnage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPersonnage.html#abb4c9b3acc36467526ade0c090b85729">getCurrentPerso</a> ()</td></tr>
 <tr class="separator:abb4c9b3acc36467526ade0c090b85729"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af36ad2bfda7d0aa09cc4e197d5f52264"><td class="memItemLeft" align="right" valign="top"><a id="af36ad2bfda7d0aa09cc4e197d5f52264"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addPersonnage</b> (std::string nom)</td></tr>
+<tr class="memitem:af36ad2bfda7d0aa09cc4e197d5f52264"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPersonnage.html#af36ad2bfda7d0aa09cc4e197d5f52264">addPersonnage</a> (std::string nom)</td></tr>
 <tr class="separator:af36ad2bfda7d0aa09cc4e197d5f52264"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80acbc1277ccae08f71ad5c294ab314f"><td class="memItemLeft" align="right" valign="top"><a id="a80acbc1277ccae08f71ad5c294ab314f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addRobot</b> (std::string const &amp;nom, std::string const &amp;texture, <a class="el" href="classMTuile.html">MTuile</a> *tuile, float taille)</td></tr>
+<tr class="memitem:a80acbc1277ccae08f71ad5c294ab314f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPersonnage.html#a80acbc1277ccae08f71ad5c294ab314f">addRobot</a> (std::string const &amp;nom, std::string const &amp;texture, <a class="el" href="classMTuile.html">MTuile</a> *tuile, float taille)</td></tr>
 <tr class="separator:a80acbc1277ccae08f71ad5c294ab314f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a7ba25ea9bbd1ba8867d8b0d579bcb0f5"><td class="memItemLeft" align="right" valign="top"><a id="a7ba25ea9bbd1ba8867d8b0d579bcb0f5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setEventMethods</b> ()</td></tr>
+<tr class="memitem:a7ba25ea9bbd1ba8867d8b0d579bcb0f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPersonnage.html#a7ba25ea9bbd1ba8867d8b0d579bcb0f5">setEventMethods</a> ()</td></tr>
 <tr class="separator:a7ba25ea9bbd1ba8867d8b0d579bcb0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aa6c55a68c2657e94d461755c37450c09"><td class="memItemLeft" align="right" valign="top"><a id="aa6c55a68c2657e94d461755c37450c09"></a>
-<a class="el" href="classAppFrameInterface.html">AppFrameInterface</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>vuePrincipale</b></td></tr>
+<tr class="memitem:aa6c55a68c2657e94d461755c37450c09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAppFrameInterface.html">AppFrameInterface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPersonnage.html#aa6c55a68c2657e94d461755c37450c09">vuePrincipale</a></td></tr>
 <tr class="separator:aa6c55a68c2657e94d461755c37450c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a264579c323573f27502d1bdd969d4660"><td class="memItemLeft" align="right" valign="top"><a id="a264579c323573f27502d1bdd969d4660"></a>
-CEditor&#160;</td><td class="memItemRight" valign="bottom"><b>editor</b></td></tr>
+<tr class="memitem:a264579c323573f27502d1bdd969d4660"><td class="memItemLeft" align="right" valign="top">CEditor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPersonnage.html#a264579c323573f27502d1bdd969d4660">editor</a></td></tr>
 <tr class="separator:a264579c323573f27502d1bdd969d4660"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d82610b9f7e7e8b995e9d662f7df24a"><td class="memItemLeft" align="right" valign="top"><a id="a1d82610b9f7e7e8b995e9d662f7df24a"></a>
-std::map&lt; std::string, <a class="el" href="classMPersonnage.html">MPersonnage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>personnages</b></td></tr>
+<tr class="memitem:a1d82610b9f7e7e8b995e9d662f7df24a"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="classMPersonnage.html">MPersonnage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPersonnage.html#a1d82610b9f7e7e8b995e9d662f7df24a">personnages</a></td></tr>
 <tr class="separator:a1d82610b9f7e7e8b995e9d662f7df24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0e1d9f20ca50664ec0fba60cda3a502"><td class="memItemLeft" align="right" valign="top"><a id="aa0e1d9f20ca50664ec0fba60cda3a502"></a>
-<a class="el" href="classMPersonnage.html">MPersonnage</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>currentPerso</b></td></tr>
+<tr class="memitem:aa0e1d9f20ca50664ec0fba60cda3a502"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMPersonnage.html">MPersonnage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPersonnage.html#aa0e1d9f20ca50664ec0fba60cda3a502">currentPerso</a></td></tr>
 <tr class="separator:aa0e1d9f20ca50664ec0fba60cda3a502"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13f60ae70863dbcfb6132dd10c68ba1e"><td class="memItemLeft" align="right" valign="top"><a id="a13f60ae70863dbcfb6132dd10c68ba1e"></a>
-<a class="el" href="classMTerrain.html">MTerrain</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>terrain</b></td></tr>
+<tr class="memitem:a13f60ae70863dbcfb6132dd10c68ba1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMTerrain.html">MTerrain</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPersonnage.html#a13f60ae70863dbcfb6132dd10c68ba1e">terrain</a></td></tr>
 <tr class="separator:a13f60ae70863dbcfb6132dd10c68ba1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec3c41317545bf9571eceda51e63c146"><td class="memItemLeft" align="right" valign="top"><a id="aec3c41317545bf9571eceda51e63c146"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>quit</b></td></tr>
+<tr class="memitem:aec3c41317545bf9571eceda51e63c146"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPersonnage.html#aec3c41317545bf9571eceda51e63c146">quit</a></td></tr>
 <tr class="separator:aec3c41317545bf9571eceda51e63c146"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>le controlleur pour gérer les déplacements, les interactions du personnage (comme il est indépendant des niveaux) </p>
 
 <p class="definition">Definition at line <a class="el" href="CPersonnage_8hpp_source.html#l00028">28</a> of file <a class="el" href="CPersonnage_8hpp_source.html">CPersonnage.hpp</a>.</p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a505cce87a7bcf6102c27a35e41f51711"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a505cce87a7bcf6102c27a35e41f51711">&#9670;&nbsp;</a></span>CPersonnage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CPersonnage::CPersonnage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAppFrameInterface.html">AppFrameInterface</a> *&#160;</td>
+          <td class="paramname"><em>vuePrincipale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMTerrain.html">MTerrain</a> *&#160;</td>
+          <td class="paramname"><em>terrain</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CPersonnage_8cpp_source.html#l00035">35</a> of file <a class="el" href="CPersonnage_8cpp_source.html">CPersonnage.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CPersonnage_8cpp_source.html#l00047">setEventMethods()</a>.</p>
+
+</div>
+</div>
+<a id="ab2f039ea37fa909e77c0e5009801bf1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2f039ea37fa909e77c0e5009801bf1e">&#9670;&nbsp;</a></span>~CPersonnage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CPersonnage::~CPersonnage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CPersonnage_8cpp_source.html#l00041">41</a> of file <a class="el" href="CPersonnage_8cpp_source.html">CPersonnage.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="af36ad2bfda7d0aa09cc4e197d5f52264"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af36ad2bfda7d0aa09cc4e197d5f52264">&#9670;&nbsp;</a></span>addPersonnage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPersonnage::addPersonnage </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>nom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CPersonnage_8hpp_source.html#l00097">97</a> of file <a class="el" href="CPersonnage_8hpp_source.html">CPersonnage.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CPersonnage_8hpp_source.html#l00035">personnages</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CJeu_8cpp_source.html#l00025">CJeu::CJeu()</a>.</p>
+
+</div>
+</div>
+<a id="a80acbc1277ccae08f71ad5c294ab314f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80acbc1277ccae08f71ad5c294ab314f">&#9670;&nbsp;</a></span>addRobot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPersonnage::addRobot </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>nom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMTuile.html">MTuile</a> *&#160;</td>
+          <td class="paramname"><em>tuile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CPersonnage_8cpp_source.html#l00090">90</a> of file <a class="el" href="CPersonnage_8cpp_source.html">CPersonnage.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="classAppFrameInterface.html#aa6d9476afe0d758f508406d1ebf41777">AppFrameInterface::addEntite()</a>, <a class="el" href="CPersonnage_8hpp_source.html#l00036">currentPerso</a>, <a class="el" href="CPersonnage_8hpp_source.html#l00033">editor</a>, <a class="el" href="MEntite_8hpp_source.html#l00120">MEntite::getNom()</a>, <a class="el" href="MTuile_8hpp_source.html#l00097">MTuile::getPosition()</a>, <a class="el" href="MPersonnage_8cpp_source.html#l00044">MPersonnage::getRobot()</a>, <a class="el" href="MEntite_8cpp_source.html#l00102">MEntite::interagirEntite()</a>, <a class="el" href="MPersonnage_8cpp_source.html#l00037">MPersonnage::makeRobot()</a>, <a class="el" href="MEntite_8hpp_source.html#l00109">MEntite::setActionInteraction()</a>, <a class="el" href="classAppFrameInterface.html#acdd83dc409347dfd87076aabd8798fd4">AppFrameInterface::setPositionOf()</a>, <a class="el" href="CPersonnage_8hpp_source.html#l00037">terrain</a>, and <a class="el" href="CPersonnage_8hpp_source.html#l00032">vuePrincipale</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00332">CLua::newRobot()</a>.</p>
+
+</div>
+</div>
+<a id="abb4c9b3acc36467526ade0c090b85729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb4c9b3acc36467526ade0c090b85729">&#9670;&nbsp;</a></span>getCurrentPerso()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMPersonnage.html">MPersonnage</a> * CPersonnage::getCurrentPerso </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CPersonnage_8hpp_source.html#l00092">92</a> of file <a class="el" href="CPersonnage_8hpp_source.html">CPersonnage.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CPersonnage_8hpp_source.html#l00036">currentPerso</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CJeu_8cpp_source.html#l00025">CJeu::CJeu()</a>, <a class="el" href="CLua_8cpp_source.html#l00321">CLua::getCurrentPerso()</a>, and <a class="el" href="CLua_8cpp_source.html#l00236">CLua::getEntite()</a>.</p>
+
+</div>
+</div>
+<a id="a60fd9070a613777c329bad9920ebf70f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60fd9070a613777c329bad9920ebf70f">&#9670;&nbsp;</a></span>getPersonnage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMPersonnage.html">MPersonnage</a> * CPersonnage::getPersonnage </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>nom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CPersonnage_8hpp_source.html#l00082">82</a> of file <a class="el" href="CPersonnage_8hpp_source.html">CPersonnage.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CPersonnage_8hpp_source.html#l00035">personnages</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CJeu_8cpp_source.html#l00068">CJeu::getPersonnage()</a>.</p>
+
+</div>
+</div>
+<a id="a7ba25ea9bbd1ba8867d8b0d579bcb0f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ba25ea9bbd1ba8867d8b0d579bcb0f5">&#9670;&nbsp;</a></span>setEventMethods()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPersonnage::setEventMethods </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CPersonnage_8cpp_source.html#l00047">47</a> of file <a class="el" href="CPersonnage_8cpp_source.html">CPersonnage.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9ac6ddd0f72ff2fd344693b9ca8d483871">ATTACK</a>, <a class="el" href="MEntite_8cpp_source.html#l00124">MEntite::attaquer()</a>, <a class="el" href="CPersonnage_8hpp_source.html#l00036">currentPerso</a>, <a class="el" href="MEntite_8cpp_source.html#l00051">MEntite::deplacer()</a>, <a class="el" href="MEvents_8hpp.html#a5b7be9ba770f3011c43b56cc83903307aedcc0d868525c192a00423fa7e2f3b79">ENTITY_MOVED</a>, <a class="el" href="MParameters_8cpp_source.html#l00109">MParameters::getActionFromKey()</a>, <a class="el" href="MParameters_8cpp_source.html#l00104">MParameters::getMouvFromKey()</a>, <a class="el" href="MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9a89a971e4a2e53f24138123694e7c73b6">INTERACT_ENTITY_KEY</a>, <a class="el" href="MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9ad5dff2a1513a5c0a0461243dc22e959e">INTERACT_ENV_KEY</a>, <a class="el" href="MEntite_8cpp_source.html#l00102">MEntite::interagirEntite()</a>, <a class="el" href="MEntite_8cpp_source.html#l00091">MEntite::interagirTuile()</a>, <a class="el" href="MParameters_8cpp_source.html#l00125">MParameters::isActionKey()</a>, <a class="el" href="MParameters_8cpp_source.html#l00114">MParameters::isMouvKey()</a>, <a class="el" href="MEvents_8hpp.html#ad2cdb7051c70ccfb0b0570a8e3b455c8a7ef8949a37c02f94d7975401b455b7f0">KEY_PRESSED</a>, <a class="el" href="CPersonnage_8hpp_source.html#l00041">quit</a>, <a class="el" href="classAppFrameInterface.html#acdd83dc409347dfd87076aabd8798fd4">AppFrameInterface::setPositionOf()</a>, <a class="el" href="CPersonnage_8hpp_source.html#l00037">terrain</a>, and <a class="el" href="CPersonnage_8hpp_source.html#l00032">vuePrincipale</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00035">CPersonnage()</a>.</p>
+
+</div>
+</div>
+<a id="adbd7fa94b3fceaf155b46267b0f67ba1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbd7fa94b3fceaf155b46267b0f67ba1">&#9670;&nbsp;</a></span>setPersonnage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CPersonnage::setPersonnage </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>nom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CPersonnage_8hpp_source.html#l00071">71</a> of file <a class="el" href="CPersonnage_8hpp_source.html">CPersonnage.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CPersonnage_8hpp_source.html#l00036">currentPerso</a>, and <a class="el" href="CPersonnage_8hpp_source.html#l00035">personnages</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CJeu_8cpp_source.html#l00025">CJeu::CJeu()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa0e1d9f20ca50664ec0fba60cda3a502"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0e1d9f20ca50664ec0fba60cda3a502">&#9670;&nbsp;</a></span>currentPerso</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMPersonnage.html">MPersonnage</a>* CPersonnage::currentPerso</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CPersonnage_8hpp_source.html#l00036">36</a> of file <a class="el" href="CPersonnage_8hpp_source.html">CPersonnage.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00090">addRobot()</a>, <a class="el" href="CPersonnage_8hpp_source.html#l00092">getCurrentPerso()</a>, <a class="el" href="CPersonnage_8cpp_source.html#l00047">setEventMethods()</a>, and <a class="el" href="CPersonnage_8hpp_source.html#l00071">setPersonnage()</a>.</p>
+
+</div>
+</div>
+<a id="a264579c323573f27502d1bdd969d4660"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a264579c323573f27502d1bdd969d4660">&#9670;&nbsp;</a></span>editor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CEditor CPersonnage::editor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CPersonnage_8hpp_source.html#l00033">33</a> of file <a class="el" href="CPersonnage_8hpp_source.html">CPersonnage.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00090">addRobot()</a>.</p>
+
+</div>
+</div>
+<a id="a1d82610b9f7e7e8b995e9d662f7df24a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d82610b9f7e7e8b995e9d662f7df24a">&#9670;&nbsp;</a></span>personnages</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, <a class="el" href="classMPersonnage.html">MPersonnage</a>&gt; CPersonnage::personnages</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CPersonnage_8hpp_source.html#l00035">35</a> of file <a class="el" href="CPersonnage_8hpp_source.html">CPersonnage.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8hpp_source.html#l00097">addPersonnage()</a>, <a class="el" href="CPersonnage_8hpp_source.html#l00082">getPersonnage()</a>, and <a class="el" href="CPersonnage_8hpp_source.html#l00071">setPersonnage()</a>.</p>
+
+</div>
+</div>
+<a id="aec3c41317545bf9571eceda51e63c146"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec3c41317545bf9571eceda51e63c146">&#9670;&nbsp;</a></span>quit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CPersonnage::quit</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd>ne sert plus, version non graphique </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="CPersonnage_8hpp_source.html#l00041">41</a> of file <a class="el" href="CPersonnage_8hpp_source.html">CPersonnage.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00047">setEventMethods()</a>.</p>
+
+</div>
+</div>
+<a id="a13f60ae70863dbcfb6132dd10c68ba1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13f60ae70863dbcfb6132dd10c68ba1e">&#9670;&nbsp;</a></span>terrain</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMTerrain.html">MTerrain</a>* CPersonnage::terrain</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CPersonnage_8hpp_source.html#l00037">37</a> of file <a class="el" href="CPersonnage_8hpp_source.html">CPersonnage.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00090">addRobot()</a>, and <a class="el" href="CPersonnage_8cpp_source.html#l00047">setEventMethods()</a>.</p>
+
+</div>
+</div>
+<a id="aa6c55a68c2657e94d461755c37450c09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6c55a68c2657e94d461755c37450c09">&#9670;&nbsp;</a></span>vuePrincipale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAppFrameInterface.html">AppFrameInterface</a>* CPersonnage::vuePrincipale</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CPersonnage_8hpp_source.html#l00032">32</a> of file <a class="el" href="CPersonnage_8hpp_source.html">CPersonnage.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00090">addRobot()</a>, and <a class="el" href="CPersonnage_8cpp_source.html#l00047">setEventMethods()</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/controlleur/<a class="el" href="CPersonnage_8hpp_source.html">CPersonnage.hpp</a></li>
 <li>src/controlleur/<a class="el" href="CPersonnage_8cpp_source.html">CPersonnage.cpp</a></li>
 </ul>

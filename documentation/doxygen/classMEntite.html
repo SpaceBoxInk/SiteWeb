@@ -88,6 +88,8 @@ $(document).ready(function(){initNavTree('classMEntite.html','');});
 <div class="title">MEntite Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for MEntite:</div>
 <div class="dyncontent">
@@ -113,106 +115,201 @@ Collaboration diagram for MEntite:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2a3f1dd8d3d7cee2144a85ff9f3b02ec"><td class="memItemLeft" align="right" valign="top"><a id="a2a3f1dd8d3d7cee2144a85ff9f3b02ec"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>MEntite</b> (std::string const &amp;nom, std::string const &amp;texture, <a class="el" href="classMTuile.html">MTuile</a> *tuile=nullptr, float taille=1)</td></tr>
+<tr class="memitem:a2a3f1dd8d3d7cee2144a85ff9f3b02ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a2a3f1dd8d3d7cee2144a85ff9f3b02ec">MEntite</a> (std::string const &amp;<a class="el" href="classMEntite.html#aaf8d68c2e2502702261af8e07fcd13be">nom</a>, std::string const &amp;<a class="el" href="classMObjetTexture.html#a685abdd7896f198f5b61468e7b2520c7">texture</a>, <a class="el" href="classMTuile.html">MTuile</a> *<a class="el" href="classMEntite.html#a744e705dc92723b3e166a50167acbefa">tuile</a>=nullptr, float <a class="el" href="classMEntite.html#a75bbb5835c5d2109f31245f96cf6bfb9">taille</a>=1)</td></tr>
 <tr class="separator:a2a3f1dd8d3d7cee2144a85ff9f3b02ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee87e766b5559ebf43a9ea6bd6acfc8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#aee87e766b5559ebf43a9ea6bd6acfc8f">deplacer</a> (<a class="el" href="classMTerrain.html">MTerrain</a> &amp;terrain, Mouvement const &amp;deplacement)</td></tr>
+<tr class="memitem:a7a4ec27bef1dd0636b17459b331b962c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a7a4ec27bef1dd0636b17459b331b962c">~MEntite</a> ()</td></tr>
+<tr class="separator:a7a4ec27bef1dd0636b17459b331b962c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee87e766b5559ebf43a9ea6bd6acfc8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#aee87e766b5559ebf43a9ea6bd6acfc8f">deplacer</a> (<a class="el" href="classMTerrain.html">MTerrain</a> &amp;terrain, <a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a> const &amp;deplacement)</td></tr>
 <tr class="separator:aee87e766b5559ebf43a9ea6bd6acfc8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94005bb9851f939005cb32e24a9da399"><td class="memItemLeft" align="right" valign="top"><a id="a94005bb9851f939005cb32e24a9da399"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>attaquer</b> (<a class="el" href="classMTerrain.html">MTerrain</a> &amp;terrain)</td></tr>
+<tr class="memitem:a94005bb9851f939005cb32e24a9da399"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a94005bb9851f939005cb32e24a9da399">attaquer</a> (<a class="el" href="classMTerrain.html">MTerrain</a> &amp;terrain)</td></tr>
 <tr class="separator:a94005bb9851f939005cb32e24a9da399"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97c4dd9032cd25bcfff73f38a90c3ebf"><td class="memItemLeft" align="right" valign="top"><a id="a97c4dd9032cd25bcfff73f38a90c3ebf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>seDefendre</b> (<a class="el" href="classMEntite.html">MEntite</a> &amp;attaquant, int degats)</td></tr>
+<tr class="memitem:a97c4dd9032cd25bcfff73f38a90c3ebf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a97c4dd9032cd25bcfff73f38a90c3ebf">seDefendre</a> (<a class="el" href="classMEntite.html">MEntite</a> &amp;attaquant, int degats)</td></tr>
 <tr class="separator:a97c4dd9032cd25bcfff73f38a90c3ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdd086e0ad1de17c3abca4f4f6875dce"><td class="memItemLeft" align="right" valign="top"><a id="afdd086e0ad1de17c3abca4f4f6875dce"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>interagirTuile</b> (<a class="el" href="classMTerrain.html">MTerrain</a> &amp;terrain)</td></tr>
+<tr class="memitem:afdd086e0ad1de17c3abca4f4f6875dce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#afdd086e0ad1de17c3abca4f4f6875dce">interagirTuile</a> (<a class="el" href="classMTerrain.html">MTerrain</a> &amp;terrain)</td></tr>
 <tr class="separator:afdd086e0ad1de17c3abca4f4f6875dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0640be42f675e9be2b198631006a169"><td class="memItemLeft" align="right" valign="top"><a id="af0640be42f675e9be2b198631006a169"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>interagirEntite</b> (<a class="el" href="classMTerrain.html">MTerrain</a> &amp;terrain)</td></tr>
+<tr class="memitem:af0640be42f675e9be2b198631006a169"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#af0640be42f675e9be2b198631006a169">interagirEntite</a> (<a class="el" href="classMTerrain.html">MTerrain</a> &amp;terrain)</td></tr>
 <tr class="separator:af0640be42f675e9be2b198631006a169"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab80594416682633016988cf0ae4e90d7"><td class="memItemLeft" align="right" valign="top"><a id="ab80594416682633016988cf0ae4e90d7"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>defenseTotale</b> () const</td></tr>
+<tr class="memitem:ab80594416682633016988cf0ae4e90d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#ab80594416682633016988cf0ae4e90d7">defenseTotale</a> () const</td></tr>
 <tr class="separator:ab80594416682633016988cf0ae4e90d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ebf3e9f55e499bb2e4b20cf4d3a3945"><td class="memItemLeft" align="right" valign="top"><a id="a6ebf3e9f55e499bb2e4b20cf4d3a3945"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>forceTotale</b> () const</td></tr>
+<tr class="memitem:a6ebf3e9f55e499bb2e4b20cf4d3a3945"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a6ebf3e9f55e499bb2e4b20cf4d3a3945">forceTotale</a> () const</td></tr>
 <tr class="separator:a6ebf3e9f55e499bb2e4b20cf4d3a3945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7949990e9bebe334c2fd0363bddc0d5e"><td class="memItemLeft" align="right" valign="top"><a id="a7949990e9bebe334c2fd0363bddc0d5e"></a>
-Mouvement&#160;</td><td class="memItemRight" valign="bottom"><b>getDirection</b> () const</td></tr>
+<tr class="memitem:a7949990e9bebe334c2fd0363bddc0d5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a7949990e9bebe334c2fd0363bddc0d5e">getDirection</a> () const</td></tr>
 <tr class="separator:a7949990e9bebe334c2fd0363bddc0d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1580901358b6dddd2ae18871425af03"><td class="memItemLeft" align="right" valign="top"><a id="ae1580901358b6dddd2ae18871425af03"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setDirection</b> (Mouvement <a class="el" href="classMEntite.html#a01cc951d397c0e862c6dca16aadc498f">direction</a>)</td></tr>
+<tr class="memitem:ae1580901358b6dddd2ae18871425af03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#ae1580901358b6dddd2ae18871425af03">setDirection</a> (<a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a> <a class="el" href="classMEntite.html#a01cc951d397c0e862c6dca16aadc498f">direction</a>)</td></tr>
 <tr class="separator:ae1580901358b6dddd2ae18871425af03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abda9c663b32a0d23fec165a3c2be606d"><td class="memItemLeft" align="right" valign="top"><a id="abda9c663b32a0d23fec165a3c2be606d"></a>
-std::string const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getNom</b> () const</td></tr>
+<tr class="memitem:abda9c663b32a0d23fec165a3c2be606d"><td class="memItemLeft" align="right" valign="top">std::string const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#abda9c663b32a0d23fec165a3c2be606d">getNom</a> () const</td></tr>
 <tr class="separator:abda9c663b32a0d23fec165a3c2be606d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a159cc853c5264942f996c5dd3fcc3196"><td class="memItemLeft" align="right" valign="top"><a id="a159cc853c5264942f996c5dd3fcc3196"></a>
-<a class="el" href="classMTuile.html">MTuile</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><b>getTuile</b> () const</td></tr>
+<tr class="memitem:a159cc853c5264942f996c5dd3fcc3196"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMTuile.html">MTuile</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a159cc853c5264942f996c5dd3fcc3196">getTuile</a> () const</td></tr>
 <tr class="separator:a159cc853c5264942f996c5dd3fcc3196"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4274ca3c463ec13753f262c1717b5d7"><td class="memItemLeft" align="right" valign="top"><a id="af4274ca3c463ec13753f262c1717b5d7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setTuile</b> (<a class="el" href="classMTuile.html">MTuile</a> *tuile)</td></tr>
+<tr class="memitem:af4274ca3c463ec13753f262c1717b5d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#af4274ca3c463ec13753f262c1717b5d7">setTuile</a> (<a class="el" href="classMTuile.html">MTuile</a> *<a class="el" href="classMEntite.html#a744e705dc92723b3e166a50167acbefa">tuile</a>)</td></tr>
 <tr class="separator:af4274ca3c463ec13753f262c1717b5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a704ad49cc015e24f32af566de78c9969"><td class="memItemLeft" align="right" valign="top"><a id="a704ad49cc015e24f32af566de78c9969"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>getTaille</b> () const</td></tr>
+<tr class="memitem:a704ad49cc015e24f32af566de78c9969"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a704ad49cc015e24f32af566de78c9969">getTaille</a> () const</td></tr>
 <tr class="separator:a704ad49cc015e24f32af566de78c9969"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add94ce54951486cbd6fc7047e2ed3bd2"><td class="memItemLeft" align="right" valign="top"><a id="add94ce54951486cbd6fc7047e2ed3bd2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setTaille</b> (float taille)</td></tr>
+<tr class="memitem:add94ce54951486cbd6fc7047e2ed3bd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#add94ce54951486cbd6fc7047e2ed3bd2">setTaille</a> (float <a class="el" href="classMEntite.html#a75bbb5835c5d2109f31245f96cf6bfb9">taille</a>)</td></tr>
 <tr class="separator:add94ce54951486cbd6fc7047e2ed3bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4684a09fcc07576401d442ddb012a3ab"><td class="memItemLeft" align="right" valign="top"><a id="a4684a09fcc07576401d442ddb012a3ab"></a>
-<a class="el" href="classMCompetence.html">MCompetence</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getCompetences</b> () const</td></tr>
+<tr class="memitem:a4684a09fcc07576401d442ddb012a3ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMCompetence.html">MCompetence</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a4684a09fcc07576401d442ddb012a3ab">getCompetences</a> () const</td></tr>
 <tr class="separator:a4684a09fcc07576401d442ddb012a3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8eb40560cff1bc9250d45c6d98811c4"><td class="memItemLeft" align="right" valign="top"><a id="ad8eb40560cff1bc9250d45c6d98811c4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setActionDefense</b> (std::function&lt; void(std::string entite, int degat)&gt; actionDefense)</td></tr>
+<tr class="memitem:ad8eb40560cff1bc9250d45c6d98811c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#ad8eb40560cff1bc9250d45c6d98811c4">setActionDefense</a> (std::function&lt; void(std::string entite, int degat)&gt; <a class="el" href="classMEntite.html#a71dd2072b856d88b7c9f9976f9d235cc">actionDefense</a>)</td></tr>
 <tr class="separator:ad8eb40560cff1bc9250d45c6d98811c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaa6dd0282ae9e43293ad487e32ee7fa"><td class="memItemLeft" align="right" valign="top"><a id="acaa6dd0282ae9e43293ad487e32ee7fa"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setActionInteraction</b> (std::function&lt; void(<a class="el" href="classMEntite.html">MEntite</a> const &amp;entite)&gt; actionInteraction)</td></tr>
+<tr class="memitem:acaa6dd0282ae9e43293ad487e32ee7fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#acaa6dd0282ae9e43293ad487e32ee7fa">setActionInteraction</a> (std::function&lt; void(<a class="el" href="classMEntite.html">MEntite</a> const &amp;entite)&gt; <a class="el" href="classMEntite.html#ab1c9fcd19b40f61ce150eb3cd8e731fa">actionInteraction</a>)</td></tr>
 <tr class="separator:acaa6dd0282ae9e43293ad487e32ee7fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMObjetTexture"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMObjetTexture')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMObjetTexture.html">MObjetTexture</a></td></tr>
-<tr class="memitem:a1c16a415b120a9d5c56998fec8bd8886 inherit pub_methods_classMObjetTexture"><td class="memItemLeft" align="right" valign="top"><a id="a1c16a415b120a9d5c56998fec8bd8886"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>MObjetTexture</b> (std::string texture)</td></tr>
+<tr class="memitem:a1c16a415b120a9d5c56998fec8bd8886 inherit pub_methods_classMObjetTexture"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMObjetTexture.html#a1c16a415b120a9d5c56998fec8bd8886">MObjetTexture</a> (std::string <a class="el" href="classMObjetTexture.html#a685abdd7896f198f5b61468e7b2520c7">texture</a>)</td></tr>
 <tr class="separator:a1c16a415b120a9d5c56998fec8bd8886 inherit pub_methods_classMObjetTexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e2ea85d7eedda0b615baed4d357e1bd inherit pub_methods_classMObjetTexture"><td class="memItemLeft" align="right" valign="top"><a id="a2e2ea85d7eedda0b615baed4d357e1bd"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getTexture</b> ()</td></tr>
+<tr class="memitem:a8ba4e6cc03c92b1eae0aad8993e966cd inherit pub_methods_classMObjetTexture"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMObjetTexture.html#a8ba4e6cc03c92b1eae0aad8993e966cd">~MObjetTexture</a> ()</td></tr>
+<tr class="separator:a8ba4e6cc03c92b1eae0aad8993e966cd inherit pub_methods_classMObjetTexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e2ea85d7eedda0b615baed4d357e1bd inherit pub_methods_classMObjetTexture"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMObjetTexture.html#a2e2ea85d7eedda0b615baed4d357e1bd">getTexture</a> ()</td></tr>
 <tr class="separator:a2e2ea85d7eedda0b615baed4d357e1bd inherit pub_methods_classMObjetTexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ac989915a61dac6285200368405a14f inherit pub_methods_classMObjetTexture"><td class="memItemLeft" align="right" valign="top"><a id="a8ac989915a61dac6285200368405a14f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setTexture</b> (std::string texture)</td></tr>
+<tr class="memitem:a8ac989915a61dac6285200368405a14f inherit pub_methods_classMObjetTexture"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMObjetTexture.html#a8ac989915a61dac6285200368405a14f">setTexture</a> (std::string <a class="el" href="classMObjetTexture.html#a685abdd7896f198f5b61468e7b2520c7">texture</a>)</td></tr>
 <tr class="separator:a8ac989915a61dac6285200368405a14f inherit pub_methods_classMObjetTexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a443941e2af506b75bf212d2b42435e8c"><td class="memItemLeft" align="right" valign="top"><a id="a443941e2af506b75bf212d2b42435e8c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isAccessible</b> (<a class="el" href="classMTuile.html">MTuile</a> const &amp;tuile)</td></tr>
+<tr class="memitem:a443941e2af506b75bf212d2b42435e8c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a443941e2af506b75bf212d2b42435e8c">isAccessible</a> (<a class="el" href="classMTuile.html">MTuile</a> const &amp;<a class="el" href="classMEntite.html#a744e705dc92723b3e166a50167acbefa">tuile</a>)</td></tr>
 <tr class="separator:a443941e2af506b75bf212d2b42435e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aaf8d68c2e2502702261af8e07fcd13be"><td class="memItemLeft" align="right" valign="top"><a id="aaf8d68c2e2502702261af8e07fcd13be"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>nom</b></td></tr>
+<tr class="memitem:aaf8d68c2e2502702261af8e07fcd13be"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#aaf8d68c2e2502702261af8e07fcd13be">nom</a></td></tr>
 <tr class="separator:aaf8d68c2e2502702261af8e07fcd13be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a744e705dc92723b3e166a50167acbefa"><td class="memItemLeft" align="right" valign="top"><a id="a744e705dc92723b3e166a50167acbefa"></a>
-<a class="el" href="classMTuile.html">MTuile</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>tuile</b></td></tr>
+<tr class="memitem:a744e705dc92723b3e166a50167acbefa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMTuile.html">MTuile</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a744e705dc92723b3e166a50167acbefa">tuile</a></td></tr>
 <tr class="separator:a744e705dc92723b3e166a50167acbefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01cc951d397c0e862c6dca16aadc498f"><td class="memItemLeft" align="right" valign="top">Mouvement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a01cc951d397c0e862c6dca16aadc498f">direction</a></td></tr>
+<tr class="memitem:a01cc951d397c0e862c6dca16aadc498f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a01cc951d397c0e862c6dca16aadc498f">direction</a></td></tr>
 <tr class="separator:a01cc951d397c0e862c6dca16aadc498f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75bbb5835c5d2109f31245f96cf6bfb9"><td class="memItemLeft" align="right" valign="top"><a id="a75bbb5835c5d2109f31245f96cf6bfb9"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>taille</b></td></tr>
+<tr class="memitem:a75bbb5835c5d2109f31245f96cf6bfb9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a75bbb5835c5d2109f31245f96cf6bfb9">taille</a></td></tr>
 <tr class="separator:a75bbb5835c5d2109f31245f96cf6bfb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0949d262ed88cc3b45e330079dcd9413"><td class="memItemLeft" align="right" valign="top"><a id="a0949d262ed88cc3b45e330079dcd9413"></a>
-<a class="el" href="classMCompetence.html">MCompetence</a>&#160;</td><td class="memItemRight" valign="bottom"><b>competences</b></td></tr>
+<tr class="memitem:a0949d262ed88cc3b45e330079dcd9413"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMCompetence.html">MCompetence</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a0949d262ed88cc3b45e330079dcd9413">competences</a></td></tr>
 <tr class="separator:a0949d262ed88cc3b45e330079dcd9413"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a689e893ef3323616195b6164ff857b19"><td class="memItemLeft" align="right" valign="top"><a id="a689e893ef3323616195b6164ff857b19"></a>
-<a class="el" href="classMInventaire.html">MInventaire</a>&#160;</td><td class="memItemRight" valign="bottom"><b>inventaire</b></td></tr>
+<tr class="memitem:a689e893ef3323616195b6164ff857b19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMInventaire.html">MInventaire</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a689e893ef3323616195b6164ff857b19">inventaire</a></td></tr>
 <tr class="separator:a689e893ef3323616195b6164ff857b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71dd2072b856d88b7c9f9976f9d235cc"><td class="memItemLeft" align="right" valign="top"><a id="a71dd2072b856d88b7c9f9976f9d235cc"></a>
-std::function&lt; void(std::string entite, int degat)&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>actionDefense</b></td></tr>
+<tr class="memitem:a71dd2072b856d88b7c9f9976f9d235cc"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(std::string entite, int degat)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a71dd2072b856d88b7c9f9976f9d235cc">actionDefense</a></td></tr>
 <tr class="separator:a71dd2072b856d88b7c9f9976f9d235cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1c9fcd19b40f61ce150eb3cd8e731fa"><td class="memItemLeft" align="right" valign="top"><a id="ab1c9fcd19b40f61ce150eb3cd8e731fa"></a>
-std::function&lt; void(<a class="el" href="classMEntite.html">MEntite</a> const  &amp;entite)&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>actionInteraction</b></td></tr>
+<tr class="memitem:ab1c9fcd19b40f61ce150eb3cd8e731fa"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="classMEntite.html">MEntite</a> const  &amp;entite)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#ab1c9fcd19b40f61ce150eb3cd8e731fa">actionInteraction</a></td></tr>
 <tr class="separator:ab1c9fcd19b40f61ce150eb3cd8e731fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00027">27</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00028">28</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a2a3f1dd8d3d7cee2144a85ff9f3b02ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a3f1dd8d3d7cee2144a85ff9f3b02ec">&#9670;&nbsp;</a></span>MEntite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MEntite::MEntite </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>nom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMTuile.html">MTuile</a> *&#160;</td>
+          <td class="paramname"><em>tuile</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>taille</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8cpp_source.html#l00026">26</a> of file <a class="el" href="MEntite_8cpp_source.html">MEntite.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223af6b6a72233b964c057152159a0ef6da8">DROITE</a>, <a class="el" href="MEntite_8hpp_source.html#l00135">setTaille()</a>, and <a class="el" href="MEntite_8cpp_source.html#l00156">setTuile()</a>.</p>
+
+</div>
+</div>
+<a id="a7a4ec27bef1dd0636b17459b331b962c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a4ec27bef1dd0636b17459b331b962c">&#9670;&nbsp;</a></span>~MEntite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MEntite::~MEntite </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8cpp_source.html#l00036">36</a> of file <a class="el" href="MEntite_8cpp_source.html">MEntite.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a94005bb9851f939005cb32e24a9da399"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94005bb9851f939005cb32e24a9da399">&#9670;&nbsp;</a></span>attaquer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MEntite::attaquer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMTerrain.html">MTerrain</a> &amp;&#160;</td>
+          <td class="paramname"><em>terrain</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8cpp_source.html#l00124">124</a> of file <a class="el" href="MEntite_8cpp_source.html">MEntite.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MEntite_8hpp_source.html#l00041">direction</a>, <a class="el" href="MEntite_8cpp_source.html#l00138">forceTotale()</a>, <a class="el" href="MEntite_8hpp_source.html#l00125">getTuile()</a>, and <a class="el" href="MEntite_8cpp_source.html#l00082">seDefendre()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00047">CPersonnage::setEventMethods()</a>.</p>
+
+</div>
+</div>
+<a id="ab80594416682633016988cf0ae4e90d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab80594416682633016988cf0ae4e90d7">&#9670;&nbsp;</a></span>defenseTotale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MEntite::defenseTotale </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8cpp_source.html#l00143">143</a> of file <a class="el" href="MEntite_8cpp_source.html">MEntite.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MInventaire_8cpp_source.html#l00048">MInventaire::getDefenseEquipement()</a>, and <a class="el" href="MEntite_8hpp_source.html#l00047">inventaire</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00082">seDefendre()</a>.</p>
+
+</div>
+</div>
 <a id="aee87e766b5559ebf43a9ea6bd6acfc8f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aee87e766b5559ebf43a9ea6bd6acfc8f">&#9670;&nbsp;</a></span>deplacer()</h2>
 
@@ -228,7 +325,7 @@ std::function&lt; void(<a class="el" href="classMEntite.html">MEntite</a> const 
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Mouvement const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a> const &amp;&#160;</td>
           <td class="paramname"><em>deplacement</em>&#160;</td>
         </tr>
         <tr>
@@ -238,7 +335,7 @@ std::function&lt; void(<a class="el" href="classMEntite.html">MEntite</a> const 
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Deplace l'entite de deplacement sur le terrain\ eg: avec deplacement == Mouvement::HAUT,\ l'entite va se deplacer d'une case vers le haut</p>
+<p>Deplace l'entite de deplacement sur le terrain\ eg: avec deplacement == <a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223a3e446a07216685e75b27a788840b51f5">Mouvement::HAUT</a>,\ l'entite va se deplacer d'une case vers le haut</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">terrain</td><td>le terrain où se deplace l'entite </td></tr>
@@ -247,11 +344,525 @@ std::function&lt; void(<a class="el" href="classMEntite.html">MEntite</a> const 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="MEntite_8cpp_source.html#l00049">49</a> of file <a class="el" href="MEntite_8cpp_source.html">MEntite.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MEntite_8cpp_source.html#l00051">51</a> of file <a class="el" href="MEntite_8cpp_source.html">MEntite.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MTuile_8cpp_source.html#l00095">MTuile::deplacerEntiteVers()</a>, <a class="el" href="MEvents_8hpp.html#a5b7be9ba770f3011c43b56cc83903307aedcc0d868525c192a00423fa7e2f3b79">ENTITY_MOVED</a>, <a class="el" href="MTuile_8hpp_source.html#l00097">MTuile::getPosition()</a>, <a class="el" href="MEntite_8cpp_source.html#l00119">isAccessible()</a>, <a class="el" href="MEntite_8hpp_source.html#l00115">setDirection()</a>, and <a class="el" href="MEntite_8hpp_source.html#l00033">tuile</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00047">CPersonnage::setEventMethods()</a>.</p>
+
+</div>
+</div>
+<a id="a6ebf3e9f55e499bb2e4b20cf4d3a3945"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ebf3e9f55e499bb2e4b20cf4d3a3945">&#9670;&nbsp;</a></span>forceTotale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MEntite::forceTotale </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8cpp_source.html#l00138">138</a> of file <a class="el" href="MEntite_8cpp_source.html">MEntite.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MEntite_8hpp_source.html#l00046">competences</a>, <a class="el" href="MCompetence_8cpp_source.html#l00017">MCompetence::getForce()</a>, <a class="el" href="MInventaire_8cpp_source.html#l00035">MInventaire::getForceEquipement()</a>, and <a class="el" href="MEntite_8hpp_source.html#l00047">inventaire</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00124">attaquer()</a>.</p>
+
+</div>
+</div>
+<a id="a4684a09fcc07576401d442ddb012a3ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4684a09fcc07576401d442ddb012a3ab">&#9670;&nbsp;</a></span>getCompetences()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMCompetence.html">MCompetence</a> const  &amp; MEntite::getCompetences </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8cpp_source.html#l00151">151</a> of file <a class="el" href="MEntite_8cpp_source.html">MEntite.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MEntite_8hpp_source.html#l00046">competences</a>.</p>
+
+</div>
+</div>
+<a id="a7949990e9bebe334c2fd0363bddc0d5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7949990e9bebe334c2fd0363bddc0d5e">&#9670;&nbsp;</a></span>getDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a> MEntite::getDirection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00099">99</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MEntite_8hpp_source.html#l00041">direction</a>.</p>
+
+</div>
+</div>
+<a id="abda9c663b32a0d23fec165a3c2be606d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abda9c663b32a0d23fec165a3c2be606d">&#9670;&nbsp;</a></span>getNom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string const  &amp; MEntite::getNom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00120">120</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MEntite_8hpp_source.html#l00032">nom</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00090">CPersonnage::addRobot()</a>, <a class="el" href="CJeu_8cpp_source.html#l00025">CJeu::CJeu()</a>, <a class="el" href="MPartieCouche_8cpp_source.html#l00051">MPartieCouche::declenchementDe()</a>, <a class="el" href="CLua_8cpp_source.html#l00321">CLua::getCurrentPerso()</a>, <a class="el" href="CLua_8cpp_source.html#l00236">CLua::getEntite()</a>, <a class="el" href="MPartieCouche_8cpp_source.html#l00043">MPartieCouche::passageDe()</a>, <a class="el" href="MTuile_8hpp_source.html#l00136">MTuile::placeEntite()</a>, <a class="el" href="MEntite_8cpp_source.html#l00082">seDefendre()</a>, and <a class="el" href="MEntite_8hpp_source.html#l00135">setTaille()</a>.</p>
+
+</div>
+</div>
+<a id="a704ad49cc015e24f32af566de78c9969"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a704ad49cc015e24f32af566de78c9969">&#9670;&nbsp;</a></span>getTaille()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MEntite::getTaille </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00130">130</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MEntite_8hpp_source.html#l00045">taille</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MTuile_8cpp_source.html#l00095">MTuile::deplacerEntiteVers()</a>.</p>
+
+</div>
+</div>
+<a id="a159cc853c5264942f996c5dd3fcc3196"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a159cc853c5264942f996c5dd3fcc3196">&#9670;&nbsp;</a></span>getTuile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMTuile.html">MTuile</a> const  * MEntite::getTuile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00125">125</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MEntite_8hpp_source.html#l00033">tuile</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00124">attaquer()</a>, <a class="el" href="CJeu_8cpp_source.html#l00025">CJeu::CJeu()</a>, <a class="el" href="MEntite_8cpp_source.html#l00102">interagirEntite()</a>, and <a class="el" href="MRobot_8cpp_source.html#l00065">MRobot::isReset()</a>.</p>
+
+</div>
+</div>
+<a id="af0640be42f675e9be2b198631006a169"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0640be42f675e9be2b198631006a169">&#9670;&nbsp;</a></span>interagirEntite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MEntite::interagirEntite </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMTerrain.html">MTerrain</a> &amp;&#160;</td>
+          <td class="paramname"><em>terrain</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8cpp_source.html#l00102">102</a> of file <a class="el" href="MEntite_8cpp_source.html">MEntite.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MEntite_8hpp_source.html#l00050">actionInteraction</a>, <a class="el" href="MEntite_8hpp_source.html#l00041">direction</a>, and <a class="el" href="MEntite_8hpp_source.html#l00125">getTuile()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00090">CPersonnage::addRobot()</a>, and <a class="el" href="CPersonnage_8cpp_source.html#l00047">CPersonnage::setEventMethods()</a>.</p>
+
+</div>
+</div>
+<a id="afdd086e0ad1de17c3abca4f4f6875dce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdd086e0ad1de17c3abca4f4f6875dce">&#9670;&nbsp;</a></span>interagirTuile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MEntite::interagirTuile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMTerrain.html">MTerrain</a> &amp;&#160;</td>
+          <td class="paramname"><em>terrain</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8cpp_source.html#l00091">91</a> of file <a class="el" href="MEntite_8cpp_source.html">MEntite.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MEntite_8hpp_source.html#l00041">direction</a>, <a class="el" href="MTuile_8hpp_source.html#l00097">MTuile::getPosition()</a>, <a class="el" href="MTuile_8cpp_source.html#l00116">MTuile::interagirTuile()</a>, and <a class="el" href="MEntite_8hpp_source.html#l00033">tuile</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00047">CPersonnage::setEventMethods()</a>.</p>
+
+</div>
+</div>
+<a id="a443941e2af506b75bf212d2b42435e8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a443941e2af506b75bf212d2b42435e8c">&#9670;&nbsp;</a></span>isAccessible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MEntite::isAccessible </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMTuile.html">MTuile</a> const &amp;&#160;</td>
+          <td class="paramname"><em>tuile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8cpp_source.html#l00119">119</a> of file <a class="el" href="MEntite_8cpp_source.html">MEntite.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MTuile_8cpp_source.html#l00076">MTuile::isAdjacente()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00051">deplacer()</a>.</p>
+
+</div>
+</div>
+<a id="a97c4dd9032cd25bcfff73f38a90c3ebf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97c4dd9032cd25bcfff73f38a90c3ebf">&#9670;&nbsp;</a></span>seDefendre()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MEntite::seDefendre </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMEntite.html">MEntite</a> &amp;&#160;</td>
+          <td class="paramname"><em>attaquant</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>degats</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8cpp_source.html#l00082">82</a> of file <a class="el" href="MEntite_8cpp_source.html">MEntite.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MEntite_8hpp_source.html#l00049">actionDefense</a>, <a class="el" href="MEntite_8hpp_source.html#l00046">competences</a>, <a class="el" href="MEntite_8cpp_source.html#l00143">defenseTotale()</a>, <a class="el" href="MCompetence_8cpp_source.html#l00039">MCompetence::enleveVie()</a>, and <a class="el" href="MEntite_8hpp_source.html#l00120">getNom()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00124">attaquer()</a>.</p>
+
+</div>
+</div>
+<a id="ad8eb40560cff1bc9250d45c6d98811c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8eb40560cff1bc9250d45c6d98811c4">&#9670;&nbsp;</a></span>setActionDefense()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MEntite::setActionDefense </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; void(std::string entite, int degat)&gt;&#160;</td>
+          <td class="paramname"><em>actionDefense</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00104">104</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MEntite_8hpp_source.html#l00049">actionDefense</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00202">CLua::addActionDefense()</a>.</p>
+
+</div>
+</div>
+<a id="acaa6dd0282ae9e43293ad487e32ee7fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaa6dd0282ae9e43293ad487e32ee7fa">&#9670;&nbsp;</a></span>setActionInteraction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MEntite::setActionInteraction </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="classMEntite.html">MEntite</a> const &amp;entite)&gt;&#160;</td>
+          <td class="paramname"><em>actionInteraction</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00109">109</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MEntite_8hpp_source.html#l00050">actionInteraction</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00090">CPersonnage::addRobot()</a>.</p>
+
+</div>
+</div>
+<a id="ae1580901358b6dddd2ae18871425af03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1580901358b6dddd2ae18871425af03">&#9670;&nbsp;</a></span>setDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MEntite::setDirection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a>&#160;</td>
+          <td class="paramname"><em>direction</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00115">115</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MEntite_8hpp_source.html#l00041">direction</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00051">deplacer()</a>, and <a class="el" href="MRobot_8cpp_source.html#l00048">MRobot::reset()</a>.</p>
+
+</div>
+</div>
+<a id="add94ce54951486cbd6fc7047e2ed3bd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add94ce54951486cbd6fc7047e2ed3bd2">&#9670;&nbsp;</a></span>setTaille()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MEntite::setTaille </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>taille</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00135">135</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MEntite_8hpp_source.html#l00120">getNom()</a>, <a class="el" href="MEntite_8hpp_source.html#l00045">taille</a>, and <a class="el" href="MPartieCouche_8hpp_source.html#l00027">to_string()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00026">MEntite()</a>, and <a class="el" href="CLua_8cpp_source.html#l00298">CLua::setTaille()</a>.</p>
+
+</div>
+</div>
+<a id="af4274ca3c463ec13753f262c1717b5d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4274ca3c463ec13753f262c1717b5d7">&#9670;&nbsp;</a></span>setTuile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MEntite::setTuile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMTuile.html">MTuile</a> *&#160;</td>
+          <td class="paramname"><em>tuile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8cpp_source.html#l00156">156</a> of file <a class="el" href="MEntite_8cpp_source.html">MEntite.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MTuile_8cpp_source.html#l00095">MTuile::deplacerEntiteVers()</a>, <a class="el" href="MTuile_8hpp_source.html#l00136">MTuile::placeEntite()</a>, and <a class="el" href="MEntite_8hpp_source.html#l00033">tuile</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00026">MEntite()</a>, <a class="el" href="MRobot_8cpp_source.html#l00048">MRobot::reset()</a>, and <a class="el" href="CLua_8cpp_source.html#l00258">CLua::setPosition()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a71dd2072b856d88b7c9f9976f9d235cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71dd2072b856d88b7c9f9976f9d235cc">&#9670;&nbsp;</a></span>actionDefense</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(std::string entite, int degat)&gt; MEntite::actionDefense</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00049">49</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00082">seDefendre()</a>, and <a class="el" href="MEntite_8hpp_source.html#l00104">setActionDefense()</a>.</p>
+
+</div>
+</div>
+<a id="ab1c9fcd19b40f61ce150eb3cd8e731fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1c9fcd19b40f61ce150eb3cd8e731fa">&#9670;&nbsp;</a></span>actionInteraction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(<a class="el" href="classMEntite.html">MEntite</a> const&amp; entite)&gt; MEntite::actionInteraction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00050">50</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00102">interagirEntite()</a>, and <a class="el" href="MEntite_8hpp_source.html#l00109">setActionInteraction()</a>.</p>
+
+</div>
+</div>
+<a id="a0949d262ed88cc3b45e330079dcd9413"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0949d262ed88cc3b45e330079dcd9413">&#9670;&nbsp;</a></span>competences</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMCompetence.html">MCompetence</a> MEntite::competences</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00046">46</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00138">forceTotale()</a>, <a class="el" href="MEntite_8cpp_source.html#l00151">getCompetences()</a>, and <a class="el" href="MEntite_8cpp_source.html#l00082">seDefendre()</a>.</p>
+
+</div>
+</div>
 <a id="a01cc951d397c0e862c6dca16aadc498f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a01cc951d397c0e862c6dca16aadc498f">&#9670;&nbsp;</a></span>direction</h2>
 
@@ -262,7 +873,7 @@ std::function&lt; void(<a class="el" href="classMEntite.html">MEntite</a> const 
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Mouvement MEntite::direction</td>
+          <td class="memname"><a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a> MEntite::direction</td>
         </tr>
       </table>
   </td>
@@ -271,9 +882,116 @@ std::function&lt; void(<a class="el" href="classMEntite.html">MEntite</a> const 
   </tr>
 </table>
 </div><div class="memdoc">
-<p>en degrée, 0 : en haut, 90 : droite -90 : gauche 180 : bas </p>
+<p>en degrée, 0 : en haut (0), 90 : droite (1) 180 : bas (2) -90 : gauche (3) </p>
 
-<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00040">40</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00041">41</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00124">attaquer()</a>, <a class="el" href="MEntite_8hpp_source.html#l00099">getDirection()</a>, <a class="el" href="MEntite_8cpp_source.html#l00102">interagirEntite()</a>, <a class="el" href="MEntite_8cpp_source.html#l00091">interagirTuile()</a>, and <a class="el" href="MEntite_8hpp_source.html#l00115">setDirection()</a>.</p>
+
+</div>
+</div>
+<a id="a689e893ef3323616195b6164ff857b19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a689e893ef3323616195b6164ff857b19">&#9670;&nbsp;</a></span>inventaire</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMInventaire.html">MInventaire</a> MEntite::inventaire</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00047">47</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00143">defenseTotale()</a>, and <a class="el" href="MEntite_8cpp_source.html#l00138">forceTotale()</a>.</p>
+
+</div>
+</div>
+<a id="aaf8d68c2e2502702261af8e07fcd13be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf8d68c2e2502702261af8e07fcd13be">&#9670;&nbsp;</a></span>nom</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MEntite::nom</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00032">32</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8hpp_source.html#l00120">getNom()</a>.</p>
+
+</div>
+</div>
+<a id="a75bbb5835c5d2109f31245f96cf6bfb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75bbb5835c5d2109f31245f96cf6bfb9">&#9670;&nbsp;</a></span>taille</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MEntite::taille</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>allant de 0 à 1 pour savoir quel pourcentage d'une tuile prend une entité </p>
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00045">45</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8hpp_source.html#l00130">getTaille()</a>, and <a class="el" href="MEntite_8hpp_source.html#l00135">setTaille()</a>.</p>
+
+</div>
+</div>
+<a id="a744e705dc92723b3e166a50167acbefa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a744e705dc92723b3e166a50167acbefa">&#9670;&nbsp;</a></span>tuile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMTuile.html">MTuile</a>* MEntite::tuile</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MEntite_8hpp_source.html#l00033">33</a> of file <a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00051">deplacer()</a>, <a class="el" href="MEntite_8hpp_source.html#l00125">getTuile()</a>, <a class="el" href="MEntite_8cpp_source.html#l00091">interagirTuile()</a>, and <a class="el" href="MEntite_8cpp_source.html#l00156">setTuile()</a>.</p>
 
 </div>
 </div>

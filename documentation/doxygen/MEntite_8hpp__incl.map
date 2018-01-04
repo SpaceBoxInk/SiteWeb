@@ -1,6 +1,7 @@
 <map id="src/model/MEntite.hpp" name="src/model/MEntite.hpp">
-<area shape="rect" id="node2" href="$MCompetence_8hpp_source.html" title="MCompetence.hpp" alt="" coords="5,87,136,114"/>
-<area shape="rect" id="node3" href="$MCoordonnees_8hpp_source.html" title="MCoordonnees.hpp" alt="" coords="369,87,503,114"/>
-<area shape="rect" id="node6" href="$MInventaire_8hpp_source.html" title="MInventaire.hpp" alt="" coords="528,87,643,114"/>
-<area shape="rect" id="node7" href="$MObjetTexture_8hpp.html" title="TODO complete. " alt="" coords="211,87,344,114"/>
+<area shape="rect" id="node2" href="$MAssException_8hpp.html" title="TODO complete. " alt="" coords="151,87,289,114"/>
+<area shape="rect" id="node3" href="$MCoordonnees_8hpp.html" title="MCoordonnees.hpp" alt="" coords="145,169,279,196"/>
+<area shape="rect" id="node7" href="$MCompetence_8hpp.html" title="MCompetence.hpp" alt="" coords="313,87,444,114"/>
+<area shape="rect" id="node8" href="$MInventaire_8hpp.html" title="MInventaire.hpp" alt="" coords="5,169,120,196"/>
+<area shape="rect" id="node9" href="$MObjetTexture_8hpp.html" title="TODO complete. " alt="" coords="519,169,652,196"/>
 </map>

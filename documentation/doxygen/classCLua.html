@@ -89,6 +89,8 @@ $(document).ready(function(){initNavTree('classCLua.html','');});
 <div class="title">CLua Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="CLua_8hpp_source.html">CLua.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for CLua:</div>
 <div class="dyncontent">
@@ -113,20 +115,18 @@ Collaboration diagram for CLua:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae0f0474a391c018f305463309ef321cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#ae0f0474a391c018f305463309ef321cc">CLua</a> (<a class="el" href="classCJeu.html">CJeu</a> *<a class="el" href="classCLua.html#a0466db11a4cbe8d247c51e4db1ed0046">cJeu</a>)</td></tr>
 <tr class="separator:ae0f0474a391c018f305463309ef321cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3bfe15926f80f71f9016a2fa24b9bc4"><td class="memItemLeft" align="right" valign="top"><a id="ac3bfe15926f80f71f9016a2fa24b9bc4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>executeScript</b> (std::string script)</td></tr>
+<tr class="memitem:a9d0a320045c4b6e56e43b366508a9b3d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a9d0a320045c4b6e56e43b366508a9b3d">~CLua</a> ()</td></tr>
+<tr class="separator:a9d0a320045c4b6e56e43b366508a9b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3bfe15926f80f71f9016a2fa24b9bc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#ac3bfe15926f80f71f9016a2fa24b9bc4">executeScript</a> (std::string script)</td></tr>
 <tr class="separator:ac3bfe15926f80f71f9016a2fa24b9bc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ae93f535757f6f8f6f72d87fc9e930ab3"><td class="memItemLeft" align="right" valign="top"><a id="ae93f535757f6f8f6f72d87fc9e930ab3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>registerBaseFunctions</b> ()</td></tr>
+<tr class="memitem:ae93f535757f6f8f6f72d87fc9e930ab3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#ae93f535757f6f8f6f72d87fc9e930ab3">registerBaseFunctions</a> ()</td></tr>
 <tr class="separator:ae93f535757f6f8f6f72d87fc9e930ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26dc66bd3107419aaeca94e5d540e620"><td class="memItemLeft" align="right" valign="top"><a id="a26dc66bd3107419aaeca94e5d540e620"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>registerTerrainFunctions</b> ()</td></tr>
+<tr class="memitem:a26dc66bd3107419aaeca94e5d540e620"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a26dc66bd3107419aaeca94e5d540e620">registerTerrainFunctions</a> ()</td></tr>
 <tr class="separator:a26dc66bd3107419aaeca94e5d540e620"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41582b56e86b6b69456505505f36dceb"><td class="memItemLeft" align="right" valign="top"><a id="a41582b56e86b6b69456505505f36dceb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>registerEntiteFunctions</b> ()</td></tr>
+<tr class="memitem:a41582b56e86b6b69456505505f36dceb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a41582b56e86b6b69456505505f36dceb">registerEntiteFunctions</a> ()</td></tr>
 <tr class="separator:a41582b56e86b6b69456505505f36dceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8414c02b367c4fb567c71971f86bdfe0"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a8414c02b367c4fb567c71971f86bdfe0"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCLua.html#a8414c02b367c4fb567c71971f86bdfe0">getTableData</a> (lua_State *l, char const *key, int paramNb=1)</td></tr>
@@ -140,14 +140,11 @@ Static Private Member Functions</h2></td></tr>
 <tr class="separator:ac516e6a657c952d75dd78f5bcc8e2af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6ebad550b77f08d89cbceaeb28f25ae"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#af6ebad550b77f08d89cbceaeb28f25ae">getScriptPath</a> (lua_State *l)</td></tr>
 <tr class="separator:af6ebad550b77f08d89cbceaeb28f25ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1449345e55109551e8b7253037dbcd7e"><td class="memItemLeft" align="right" valign="top"><a id="a1449345e55109551e8b7253037dbcd7e"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>getResourcesPath</b> (lua_State *l)</td></tr>
+<tr class="memitem:a1449345e55109551e8b7253037dbcd7e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a1449345e55109551e8b7253037dbcd7e">getResourcesPath</a> (lua_State *l)</td></tr>
 <tr class="separator:a1449345e55109551e8b7253037dbcd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37e285903c413e4e45812ad13dc7be0d"><td class="memItemLeft" align="right" valign="top"><a id="a37e285903c413e4e45812ad13dc7be0d"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>addActionDeclenchement</b> (lua_State *l)</td></tr>
+<tr class="memitem:a37e285903c413e4e45812ad13dc7be0d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a37e285903c413e4e45812ad13dc7be0d">addActionDeclenchement</a> (lua_State *l)</td></tr>
 <tr class="separator:a37e285903c413e4e45812ad13dc7be0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a0d385beb26c3869442071ca1fc8ab1"><td class="memItemLeft" align="right" valign="top"><a id="a4a0d385beb26c3869442071ca1fc8ab1"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>addActionPassage</b> (lua_State *l)</td></tr>
+<tr class="memitem:a4a0d385beb26c3869442071ca1fc8ab1"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a4a0d385beb26c3869442071ca1fc8ab1">addActionPassage</a> (lua_State *l)</td></tr>
 <tr class="separator:a4a0d385beb26c3869442071ca1fc8ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0d17862be75d8adc41e24b3951f173a"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#aa0d17862be75d8adc41e24b3951f173a">newEntity</a> (lua_State *l)</td></tr>
 <tr class="separator:aa0d17862be75d8adc41e24b3951f173a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,41 +156,29 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>addActionPassag
 <tr class="separator:a880a09768d4f4ccdc61bbd98ce982e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9920f27e761f11c9fcf4f4e47738f527"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a9920f27e761f11c9fcf4f4e47738f527">setTaille</a> (lua_State *l)</td></tr>
 <tr class="separator:a9920f27e761f11c9fcf4f4e47738f527"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a319910ee5cf7fa8909c4dbc97300646b"><td class="memItemLeft" align="right" valign="top"><a id="a319910ee5cf7fa8909c4dbc97300646b"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>setTexture</b> (lua_State *l)</td></tr>
+<tr class="memitem:a319910ee5cf7fa8909c4dbc97300646b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a319910ee5cf7fa8909c4dbc97300646b">setTexture</a> (lua_State *l)</td></tr>
 <tr class="separator:a319910ee5cf7fa8909c4dbc97300646b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a393aa8537b291c6a236213ad728e121e"><td class="memItemLeft" align="right" valign="top"><a id="a393aa8537b291c6a236213ad728e121e"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>getCurrentPerso</b> (lua_State *l)</td></tr>
+<tr class="memitem:a393aa8537b291c6a236213ad728e121e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a393aa8537b291c6a236213ad728e121e">getCurrentPerso</a> (lua_State *l)</td></tr>
 <tr class="separator:a393aa8537b291c6a236213ad728e121e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a9d5e0f89dcb27e982b04f687bb7748"><td class="memItemLeft" align="right" valign="top"><a id="a8a9d5e0f89dcb27e982b04f687bb7748"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>newRobot</b> (lua_State *l)</td></tr>
+<tr class="memitem:a8a9d5e0f89dcb27e982b04f687bb7748"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a8a9d5e0f89dcb27e982b04f687bb7748">newRobot</a> (lua_State *l)</td></tr>
 <tr class="separator:a8a9d5e0f89dcb27e982b04f687bb7748"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c1486c39cd6ee7c3a8a4ca099a2c2fc"><td class="memItemLeft" align="right" valign="top"><a id="a4c1486c39cd6ee7c3a8a4ca099a2c2fc"></a>
-static <a class="el" href="classMTuile.html">MTuile</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getTuile</b> (int index)</td></tr>
+<tr class="memitem:a4c1486c39cd6ee7c3a8a4ca099a2c2fc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMTuile.html">MTuile</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a4c1486c39cd6ee7c3a8a4ca099a2c2fc">getTuile</a> (int index)</td></tr>
 <tr class="separator:a4c1486c39cd6ee7c3a8a4ca099a2c2fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c0496d6dad9917a701f3bd1433fa5c0"><td class="memItemLeft" align="right" valign="top"><a id="a4c0496d6dad9917a701f3bd1433fa5c0"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>push</b> (lua_Number n)</td></tr>
+<tr class="memitem:a4c0496d6dad9917a701f3bd1433fa5c0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a4c0496d6dad9917a701f3bd1433fa5c0">push</a> (lua_Number n)</td></tr>
 <tr class="separator:a4c0496d6dad9917a701f3bd1433fa5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f1e9ef36d08bd87e4b4579486b1228c"><td class="memItemLeft" align="right" valign="top"><a id="a4f1e9ef36d08bd87e4b4579486b1228c"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>push</b> (lua_Integer n)</td></tr>
+<tr class="memitem:a4f1e9ef36d08bd87e4b4579486b1228c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a4f1e9ef36d08bd87e4b4579486b1228c">push</a> (lua_Integer n)</td></tr>
 <tr class="separator:a4f1e9ef36d08bd87e4b4579486b1228c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35ddd5df30bcc0640e7ded6f71308a61"><td class="memItemLeft" align="right" valign="top"><a id="a35ddd5df30bcc0640e7ded6f71308a61"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>push</b> (int n)</td></tr>
+<tr class="memitem:a35ddd5df30bcc0640e7ded6f71308a61"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a35ddd5df30bcc0640e7ded6f71308a61">push</a> (int n)</td></tr>
 <tr class="separator:a35ddd5df30bcc0640e7ded6f71308a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af16acf9eb6433c35aa30b262267acc01"><td class="memItemLeft" align="right" valign="top"><a id="af16acf9eb6433c35aa30b262267acc01"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>push</b> (lua_String str)</td></tr>
+<tr class="memitem:af16acf9eb6433c35aa30b262267acc01"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#af16acf9eb6433c35aa30b262267acc01">push</a> (<a class="el" href="CLua_8hpp.html#a0d5b49fe51870b264b46b1d71c62ff40">lua_String</a> str)</td></tr>
 <tr class="separator:af16acf9eb6433c35aa30b262267acc01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f1eedec43c9e3b6d8cb2ff9cf695efc"><td class="memItemLeft" align="right" valign="top"><a id="a3f1eedec43c9e3b6d8cb2ff9cf695efc"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>push</b> (lua_CFunction f)</td></tr>
+<tr class="memitem:a3f1eedec43c9e3b6d8cb2ff9cf695efc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a3f1eedec43c9e3b6d8cb2ff9cf695efc">push</a> (lua_CFunction f)</td></tr>
 <tr class="separator:a3f1eedec43c9e3b6d8cb2ff9cf695efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60f74f2978c8184ccb90c2b904a6a303"><td class="memItemLeft" align="right" valign="top"><a id="a60f74f2978c8184ccb90c2b904a6a303"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>push</b> (lua_Boolean b)</td></tr>
+<tr class="memitem:a60f74f2978c8184ccb90c2b904a6a303"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a60f74f2978c8184ccb90c2b904a6a303">push</a> (<a class="el" href="CLua_8hpp.html#a1a0e68ecf5e2229557a2a19b20e193d8">lua_Boolean</a> b)</td></tr>
 <tr class="separator:a60f74f2978c8184ccb90c2b904a6a303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46d514d02d9d52990a40955be573cc5a"><td class="memItemLeft" align="right" valign="top"><a id="a46d514d02d9d52990a40955be573cc5a"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>getTop</b> ()</td></tr>
+<tr class="memitem:a46d514d02d9d52990a40955be573cc5a"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#a46d514d02d9d52990a40955be573cc5a">getTop</a> ()</td></tr>
 <tr class="separator:a46d514d02d9d52990a40955be573cc5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefaf60f47f7263e8169f1e4da94fddc8"><td class="memItemLeft" align="right" valign="top"><a id="aefaf60f47f7263e8169f1e4da94fddc8"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>testArgs</b> (int nbExcpected)</td></tr>
+<tr class="memitem:aefaf60f47f7263e8169f1e4da94fddc8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLua.html#aefaf60f47f7263e8169f1e4da94fddc8">testArgs</a> (int nbExcpected)</td></tr>
 <tr class="separator:aefaf60f47f7263e8169f1e4da94fddc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
@@ -204,8 +189,9 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:a0466db11a4cbe8d247c51e4db1ed0046"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="CLua_8hpp_source.html#l00037">37</a> of file <a class="el" href="CLua_8hpp_source.html">CLua.hpp</a>.</p>
+<div class="textblock"><p>interpreteur lua pour créer et gerer les niveaux </p>
+
+<p class="definition">Definition at line <a class="el" href="CLua_8hpp_source.html#l00045">45</a> of file <a class="el" href="CLua_8hpp_source.html">CLua.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae0f0474a391c018f305463309ef321cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae0f0474a391c018f305463309ef321cc">&#9670;&nbsp;</a></span>CLua()</h2>
@@ -231,11 +217,74 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00036">36</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00053">cJeu</a>, and <a class="el" href="CLua_8hpp_source.html#l00048">lua</a>.</p>
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00061">cJeu</a>, <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>, <a class="el" href="CLua_8cpp_source.html#l00344">registerBaseFunctions()</a>, <a class="el" href="CLua_8cpp_source.html#l00358">registerEntiteFunctions()</a>, and <a class="el" href="CLua_8cpp_source.html#l00351">registerTerrainFunctions()</a>.</p>
+
+</div>
+</div>
+<a id="a9d0a320045c4b6e56e43b366508a9b3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d0a320045c4b6e56e43b366508a9b3d">&#9670;&nbsp;</a></span>~CLua()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CLua::~CLua </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00046">46</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a37e285903c413e4e45812ad13dc7be0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37e285903c413e4e45812ad13dc7be0d">&#9670;&nbsp;</a></span>addActionDeclenchement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CLua::addActionDeclenchement </td>
+          <td>(</td>
+          <td class="paramtype">lua_State *&#160;</td>
+          <td class="paramname"><em>l</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>addActionDeclenchement(int x, int y, int couche, fonction actionDeclenchement(entite))<br />
+ajoute l'action actionDeclenchement à la couche n°couche en (x,y) déclenché lorsqu'une entité déclenche la couche(action volontaire) </p>
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00124">124</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MTuile_8hpp_source.html#l00121">MTuile::getPartieCouche()</a>, <a class="el" href="CLua_8cpp_source.html#l00397">getTuile()</a>, <a class="el" href="CLua_8cpp_source.html#l00422">push()</a>, <a class="el" href="MPartieCouche_8hpp_source.html#l00112">MPartieCouche::setActionDeclenchement()</a>, and <a class="el" href="CLua_8cpp_source.html#l00442">testArgs()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00351">registerTerrainFunctions()</a>.</p>
+
+</div>
+</div>
 <a id="afbbe3506a68af353cb4b57358912ad3f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afbbe3506a68af353cb4b57358912ad3f">&#9670;&nbsp;</a></span>addActionDefense()</h2>
 
@@ -261,11 +310,103 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>addActionDefense(string entite, actionDefense(string entiteAttaquante, int degat)); </p>
 
-<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00186">186</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00202">202</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00053">cJeu</a>.</p>
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00061">cJeu</a>, <a class="el" href="CJeu_8cpp_source.html#l00057">CJeu::getEntite()</a>, <a class="el" href="CLua_8cpp_source.html#l00422">push()</a>, <a class="el" href="MEntite_8hpp_source.html#l00104">MEntite::setActionDefense()</a>, and <a class="el" href="CLua_8cpp_source.html#l00442">testArgs()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00270">setTaille()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00358">registerEntiteFunctions()</a>.</p>
+
+</div>
+</div>
+<a id="a4a0d385beb26c3869442071ca1fc8ab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a0d385beb26c3869442071ca1fc8ab1">&#9670;&nbsp;</a></span>addActionPassage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CLua::addActionPassage </td>
+          <td>(</td>
+          <td class="paramtype">lua_State *&#160;</td>
+          <td class="paramname"><em>l</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>addActionPassage(int x, int y, int couche, fonction actionPassage(string entite))<br />
+ajoute l'action actionPassage à la couche n°couche en (x,y) déclenché lorsqu'une entité passe sur la couche(action NON volontaire) </p>
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00156">156</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MTuile_8hpp_source.html#l00121">MTuile::getPartieCouche()</a>, <a class="el" href="CLua_8cpp_source.html#l00397">getTuile()</a>, <a class="el" href="CLua_8cpp_source.html#l00422">push()</a>, <a class="el" href="MPartieCouche_8hpp_source.html#l00118">MPartieCouche::setActionPassage()</a>, and <a class="el" href="CLua_8cpp_source.html#l00442">testArgs()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00351">registerTerrainFunctions()</a>.</p>
+
+</div>
+</div>
+<a id="ac3bfe15926f80f71f9016a2fa24b9bc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3bfe15926f80f71f9016a2fa24b9bc4">&#9670;&nbsp;</a></span>executeScript()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CLua::executeScript </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>script</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00370">370</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CJeu_8cpp_source.html#l00025">CJeu::CJeu()</a>.</p>
+
+</div>
+</div>
+<a id="a393aa8537b291c6a236213ad728e121e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a393aa8537b291c6a236213ad728e121e">&#9670;&nbsp;</a></span>getCurrentPerso()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CLua::getCurrentPerso </td>
+          <td>(</td>
+          <td class="paramtype">lua_State *&#160;</td>
+          <td class="paramname"><em>l</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>string <a class="el" href="classCLua.html#a393aa8537b291c6a236213ad728e121e">getCurrentPerso()</a><br />
+retourne le nom du perso courant </p>
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00321">321</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00061">cJeu</a>, <a class="el" href="CJeu_8hpp_source.html#l00030">CJeu::cPersonnage</a>, <a class="el" href="CPersonnage_8hpp_source.html#l00092">CPersonnage::getCurrentPerso()</a>, <a class="el" href="MEntite_8hpp_source.html#l00120">MEntite::getNom()</a>, and <a class="el" href="CLua_8cpp_source.html#l00442">testArgs()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00358">registerEntiteFunctions()</a>.</p>
 
 </div>
 </div>
@@ -309,13 +450,47 @@ Static Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>si le nom de l'entité est spécifié (getTop() - nbArgsNoEntity == 1) alors retourne l'entité nommée sinon retourne le personnage courrant </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>retourne l'entité nommée si le nom de l'entité est spécifié (<a class="el" href="classCLua.html#a46d514d02d9d52990a40955be573cc5a">getTop()</a> - nbArgsNoEntity == 1) sinon retourne le personnage courant </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00220">220</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00236">236</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00053">cJeu</a>, and <a class="el" href="CLua_8hpp_source.html#l00048">lua</a>.</p>
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00061">cJeu</a>, <a class="el" href="CJeu_8hpp_source.html#l00030">CJeu::cPersonnage</a>, <a class="el" href="CPersonnage_8hpp_source.html#l00092">CPersonnage::getCurrentPerso()</a>, <a class="el" href="CJeu_8cpp_source.html#l00057">CJeu::getEntite()</a>, <a class="el" href="MEntite_8hpp_source.html#l00120">MEntite::getNom()</a>, <a class="el" href="CLua_8cpp_source.html#l00437">getTop()</a>, and <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00242">setPosition()</a>, and <a class="el" href="CLua_8cpp_source.html#l00270">setTaille()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00258">setPosition()</a>, <a class="el" href="CLua_8cpp_source.html#l00298">setTaille()</a>, and <a class="el" href="CLua_8cpp_source.html#l00283">setTexture()</a>.</p>
+
+</div>
+</div>
+<a id="a1449345e55109551e8b7253037dbcd7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1449345e55109551e8b7253037dbcd7e">&#9670;&nbsp;</a></span>getResourcesPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CLua::getResourcesPath </td>
+          <td>(</td>
+          <td class="paramtype">lua_State *&#160;</td>
+          <td class="paramname"><em>l</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>string <a class="el" href="classCLua.html#a1449345e55109551e8b7253037dbcd7e">getResourcesPath()</a><br />
+return le chemin vers le dossier de ressources </p>
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00113">113</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MParameters_8cpp_source.html#l00059">MParameters::getRootPath()</a>, and <a class="el" href="CLua_8cpp_source.html#l00422">push()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00344">registerBaseFunctions()</a>.</p>
 
 </div>
 </div>
@@ -342,13 +517,14 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>return the current lua path and the current luaFile </p>
+<p>string <a class="el" href="classCLua.html#af6ebad550b77f08d89cbceaeb28f25ae">getScriptPath()</a><br />
+return the current lua path and the current luaFile </p>
 
-<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00100">100</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00101">101</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00053">cJeu</a>.</p>
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00061">cJeu</a>, <a class="el" href="CJeu_8hpp_source.html#l00029">CJeu::cNiveau</a>, <a class="el" href="CNiveau_8cpp_source.html#l00078">CNiveau::getLevelMainFile()</a>, <a class="el" href="CNiveau_8cpp_source.html#l00068">CNiveau::getScriptFolder()</a>, <a class="el" href="CLua_8cpp_source.html#l00422">push()</a>, and <a class="el" href="CLua_8cpp_source.html#l00442">testArgs()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00270">setTaille()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00344">registerBaseFunctions()</a>.</p>
 
 </div>
 </div>
@@ -403,7 +579,77 @@ template&lt;class T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="CLua_8hpp_source.html#l00123">123</a> of file <a class="el" href="CLua_8hpp_source.html">CLua.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CLua_8hpp_source.html#l00131">131</a> of file <a class="el" href="CLua_8hpp_source.html">CLua.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a46d514d02d9d52990a40955be573cc5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46d514d02d9d52990a40955be573cc5a">&#9670;&nbsp;</a></span>getTop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CLua::getTop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00437">437</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00236">getEntite()</a>, and <a class="el" href="CLua_8cpp_source.html#l00083">setScriptPath()</a>.</p>
+
+</div>
+</div>
+<a id="a4c1486c39cd6ee7c3a8a4ca099a2c2fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c1486c39cd6ee7c3a8a4ca099a2c2fc">&#9670;&nbsp;</a></span>getTuile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMTuile.html">MTuile</a> * CLua::getTuile </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>a partir du quel sont rangé le x, y dans la pile lua </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>la tuile en (x, y) pris depuis l'index </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00397">397</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00061">cJeu</a>, <a class="el" href="CJeu_8hpp_source.html#l00029">CJeu::cNiveau</a>, <a class="el" href="CNiveau_8cpp_source.html#l00115">CNiveau::getTerrain()</a>, and <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00124">addActionDeclenchement()</a>, <a class="el" href="CLua_8cpp_source.html#l00156">addActionPassage()</a>, <a class="el" href="CLua_8cpp_source.html#l00187">newEntity()</a>, <a class="el" href="CLua_8cpp_source.html#l00332">newRobot()</a>, and <a class="el" href="CLua_8cpp_source.html#l00258">setPosition()</a>.</p>
 
 </div>
 </div>
@@ -430,8 +676,9 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>lua function signature : void loadCouche(string coucheFile, int couche);</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>lua function signature :<br />
+void loadCouche(string coucheFile, int couche);<br />
+ </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">l</td><td>lua interpreter </td></tr>
   </table>
@@ -441,7 +688,9 @@ template&lt;class T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00061">61</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00270">setTaille()</a>.</p>
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00061">cJeu</a>, <a class="el" href="CJeu_8hpp_source.html#l00029">CJeu::cNiveau</a>, <a class="el" href="CNiveau_8cpp_source.html#l00068">CNiveau::getScriptFolder()</a>, <a class="el" href="CNiveau_8cpp_source.html#l00115">CNiveau::getTerrain()</a>, <a class="el" href="MTerrain_8cpp_source.html#l00120">MTerrain::loadCouche()</a>, <a class="el" href="CLua_8cpp_source.html#l00442">testArgs()</a>, and <a class="el" href="MAssException_8cpp_source.html#l00031">MAssException::what()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00351">registerTerrainFunctions()</a>.</p>
 
 </div>
 </div>
@@ -470,11 +719,320 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 <p>newEntity(name, texture, x, y, taille) </p>
 
-<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00171">171</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00187">187</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00053">cJeu</a>.</p>
+<p class="reference">References <a class="el" href="CNiveau_8cpp_source.html#l00093">CNiveau::addEntite()</a>, <a class="el" href="CLua_8hpp_source.html#l00061">cJeu</a>, <a class="el" href="CJeu_8hpp_source.html#l00029">CJeu::cNiveau</a>, <a class="el" href="CLua_8cpp_source.html#l00397">getTuile()</a>, and <a class="el" href="CLua_8cpp_source.html#l00442">testArgs()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00270">setTaille()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00358">registerEntiteFunctions()</a>.</p>
+
+</div>
+</div>
+<a id="a8a9d5e0f89dcb27e982b04f687bb7748"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a9d5e0f89dcb27e982b04f687bb7748">&#9670;&nbsp;</a></span>newRobot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CLua::newRobot </td>
+          <td>(</td>
+          <td class="paramtype">lua_State *&#160;</td>
+          <td class="paramname"><em>l</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>newRobot(string nom, string texture, int x, int y, float taille)<br />
+</p>
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00332">332</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CPersonnage_8cpp_source.html#l00090">CPersonnage::addRobot()</a>, <a class="el" href="CLua_8hpp_source.html#l00061">cJeu</a>, <a class="el" href="CJeu_8hpp_source.html#l00030">CJeu::cPersonnage</a>, and <a class="el" href="CLua_8cpp_source.html#l00397">getTuile()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00358">registerEntiteFunctions()</a>.</p>
+
+</div>
+</div>
+<a id="a4c0496d6dad9917a701f3bd1433fa5c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c0496d6dad9917a701f3bd1433fa5c0">&#9670;&nbsp;</a></span>push() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CLua::push </td>
+          <td>(</td>
+          <td class="paramtype">lua_Number&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00422">422</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00124">addActionDeclenchement()</a>, <a class="el" href="CLua_8cpp_source.html#l00202">addActionDefense()</a>, <a class="el" href="CLua_8cpp_source.html#l00156">addActionPassage()</a>, <a class="el" href="CLua_8cpp_source.html#l00113">getResourcesPath()</a>, and <a class="el" href="CLua_8cpp_source.html#l00101">getScriptPath()</a>.</p>
+
+</div>
+</div>
+<a id="a4f1e9ef36d08bd87e4b4579486b1228c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f1e9ef36d08bd87e4b4579486b1228c">&#9670;&nbsp;</a></span>push() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CLua::push </td>
+          <td>(</td>
+          <td class="paramtype">lua_Integer&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00427">427</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>.</p>
+
+</div>
+</div>
+<a id="a35ddd5df30bcc0640e7ded6f71308a61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35ddd5df30bcc0640e7ded6f71308a61">&#9670;&nbsp;</a></span>push() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CLua::push </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00432">432</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>.</p>
+
+</div>
+</div>
+<a id="af16acf9eb6433c35aa30b262267acc01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af16acf9eb6433c35aa30b262267acc01">&#9670;&nbsp;</a></span>push() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CLua::push </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="CLua_8hpp.html#a0d5b49fe51870b264b46b1d71c62ff40">lua_String</a>&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00417">417</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>.</p>
+
+</div>
+</div>
+<a id="a3f1eedec43c9e3b6d8cb2ff9cf695efc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f1eedec43c9e3b6d8cb2ff9cf695efc">&#9670;&nbsp;</a></span>push() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CLua::push </td>
+          <td>(</td>
+          <td class="paramtype">lua_CFunction&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00412">412</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>.</p>
+
+</div>
+</div>
+<a id="a60f74f2978c8184ccb90c2b904a6a303"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60f74f2978c8184ccb90c2b904a6a303">&#9670;&nbsp;</a></span>push() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CLua::push </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="CLua_8hpp.html#a1a0e68ecf5e2229557a2a19b20e193d8">lua_Boolean</a>&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00407">407</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>.</p>
+
+</div>
+</div>
+<a id="ae93f535757f6f8f6f72d87fc9e930ab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae93f535757f6f8f6f72d87fc9e930ab3">&#9670;&nbsp;</a></span>registerBaseFunctions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CLua::registerBaseFunctions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00344">344</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8cpp_source.html#l00113">getResourcesPath()</a>, <a class="el" href="CLua_8cpp_source.html#l00101">getScriptPath()</a>, <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>, and <a class="el" href="CLua_8cpp_source.html#l00083">setScriptPath()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00036">CLua()</a>.</p>
+
+</div>
+</div>
+<a id="a41582b56e86b6b69456505505f36dceb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41582b56e86b6b69456505505f36dceb">&#9670;&nbsp;</a></span>registerEntiteFunctions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CLua::registerEntiteFunctions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00358">358</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8cpp_source.html#l00202">addActionDefense()</a>, <a class="el" href="CLua_8cpp_source.html#l00321">getCurrentPerso()</a>, <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>, <a class="el" href="CLua_8cpp_source.html#l00187">newEntity()</a>, <a class="el" href="CLua_8cpp_source.html#l00332">newRobot()</a>, <a class="el" href="CLua_8cpp_source.html#l00258">setPosition()</a>, <a class="el" href="CLua_8cpp_source.html#l00298">setTaille()</a>, and <a class="el" href="CLua_8cpp_source.html#l00283">setTexture()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00036">CLua()</a>.</p>
+
+</div>
+</div>
+<a id="a26dc66bd3107419aaeca94e5d540e620"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26dc66bd3107419aaeca94e5d540e620">&#9670;&nbsp;</a></span>registerTerrainFunctions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CLua::registerTerrainFunctions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00351">351</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8cpp_source.html#l00124">addActionDeclenchement()</a>, <a class="el" href="CLua_8cpp_source.html#l00156">addActionPassage()</a>, <a class="el" href="CLua_8cpp_source.html#l00061">loadCouche()</a>, and <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00036">CLua()</a>.</p>
 
 </div>
 </div>
@@ -503,11 +1061,11 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 <p>setPosition(string entiteName, int x, int y) </p>
 
-<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00242">242</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00258">258</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CLua_8cpp_source.html#l00220">getEntite()</a>.</p>
+<p class="reference">References <a class="el" href="CLua_8cpp_source.html#l00236">getEntite()</a>, <a class="el" href="CLua_8cpp_source.html#l00397">getTuile()</a>, and <a class="el" href="MEntite_8cpp_source.html#l00156">MEntite::setTuile()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00270">setTaille()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00358">registerEntiteFunctions()</a>.</p>
 
 </div>
 </div>
@@ -539,9 +1097,9 @@ set the current folder (and the luaFile to execute if 2 args are passed) </p>
 
 <p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00083">83</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00053">cJeu</a>.</p>
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00061">cJeu</a>, <a class="el" href="CJeu_8hpp_source.html#l00029">CJeu::cNiveau</a>, <a class="el" href="CLua_8cpp_source.html#l00437">getTop()</a>, <a class="el" href="CNiveau_8cpp_source.html#l00073">CNiveau::setLevelMainFile()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00063">CNiveau::setScriptFolder()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00270">setTaille()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00344">registerBaseFunctions()</a>.</p>
 
 </div>
 </div>
@@ -568,11 +1126,84 @@ set the current folder (and the luaFile to execute if 2 args are passed) </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>setTaille(string entiteName, int taille) </p>
+<p>setTaille(string entiteName, int taille)<br />
+set la taille de l'entité spécifiée<br />
+ setTaille(int taille)<br />
+set la taille du perso courant </p>
 
-<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00270">270</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00298">298</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CLua_8cpp_source.html#l00186">addActionDefense()</a>, <a class="el" href="CLua_8hpp_source.html#l00053">cJeu</a>, <a class="el" href="CLua_8cpp_source.html#l00220">getEntite()</a>, <a class="el" href="CLua_8cpp_source.html#l00100">getScriptPath()</a>, <a class="el" href="CLua_8cpp_source.html#l00061">loadCouche()</a>, <a class="el" href="CLua_8hpp_source.html#l00048">lua</a>, <a class="el" href="CLua_8cpp_source.html#l00171">newEntity()</a>, <a class="el" href="CLua_8cpp_source.html#l00242">setPosition()</a>, and <a class="el" href="CLua_8cpp_source.html#l00083">setScriptPath()</a>.</p>
+<p class="reference">References <a class="el" href="CLua_8cpp_source.html#l00236">getEntite()</a>, and <a class="el" href="MEntite_8hpp_source.html#l00135">MEntite::setTaille()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00358">registerEntiteFunctions()</a>.</p>
+
+</div>
+</div>
+<a id="a319910ee5cf7fa8909c4dbc97300646b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a319910ee5cf7fa8909c4dbc97300646b">&#9670;&nbsp;</a></span>setTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CLua::setTexture </td>
+          <td>(</td>
+          <td class="paramtype">lua_State *&#160;</td>
+          <td class="paramname"><em>l</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>setTexture(string entiteName, string texture)<br />
+set la texture de l'entité spécifiée<br />
+ setTexture(string texture)<br />
+set la texture du perso courant </p>
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00283">283</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8cpp_source.html#l00236">getEntite()</a>, and <a class="el" href="MObjetTexture_8hpp_source.html#l00048">MObjetTexture::setTexture()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00358">registerEntiteFunctions()</a>.</p>
+
+</div>
+</div>
+<a id="aefaf60f47f7263e8169f1e4da94fddc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefaf60f47f7263e8169f1e4da94fddc8">&#9670;&nbsp;</a></span>testArgs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CLua::testArgs </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nbExcpected</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CLua_8cpp_source.html#l00442">442</a> of file <a class="el" href="CLua_8cpp_source.html">CLua.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CLua_8hpp_source.html#l00056">lua</a>, <a class="el" href="MPartieCouche_8hpp_source.html#l00027">to_string()</a>, and <a class="el" href="MAssException_8cpp_source.html#l00031">MAssException::what()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00124">addActionDeclenchement()</a>, <a class="el" href="CLua_8cpp_source.html#l00202">addActionDefense()</a>, <a class="el" href="CLua_8cpp_source.html#l00156">addActionPassage()</a>, <a class="el" href="CLua_8cpp_source.html#l00321">getCurrentPerso()</a>, <a class="el" href="CLua_8cpp_source.html#l00101">getScriptPath()</a>, <a class="el" href="CLua_8cpp_source.html#l00061">loadCouche()</a>, and <a class="el" href="CLua_8cpp_source.html#l00187">newEntity()</a>.</p>
 
 </div>
 </div>
@@ -599,9 +1230,9 @@ set the current folder (and the luaFile to execute if 2 args are passed) </p>
 <p>pointeur vers la "racine" du jeu<br />
 utilisé pour les fonctions appelées depuis le lua (eg: pour faire les niveaux) </p>
 
-<p class="definition">Definition at line <a class="el" href="CLua_8hpp_source.html#l00053">53</a> of file <a class="el" href="CLua_8hpp_source.html">CLua.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CLua_8hpp_source.html#l00061">61</a> of file <a class="el" href="CLua_8hpp_source.html">CLua.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00186">addActionDefense()</a>, <a class="el" href="CLua_8cpp_source.html#l00036">CLua()</a>, <a class="el" href="CLua_8cpp_source.html#l00220">getEntite()</a>, <a class="el" href="CLua_8cpp_source.html#l00100">getScriptPath()</a>, <a class="el" href="CLua_8cpp_source.html#l00171">newEntity()</a>, <a class="el" href="CLua_8cpp_source.html#l00083">setScriptPath()</a>, and <a class="el" href="CLua_8cpp_source.html#l00270">setTaille()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00202">addActionDefense()</a>, <a class="el" href="CLua_8cpp_source.html#l00036">CLua()</a>, <a class="el" href="CLua_8cpp_source.html#l00321">getCurrentPerso()</a>, <a class="el" href="CLua_8cpp_source.html#l00236">getEntite()</a>, <a class="el" href="CLua_8cpp_source.html#l00101">getScriptPath()</a>, <a class="el" href="CLua_8cpp_source.html#l00397">getTuile()</a>, <a class="el" href="CLua_8cpp_source.html#l00061">loadCouche()</a>, <a class="el" href="CLua_8cpp_source.html#l00187">newEntity()</a>, <a class="el" href="CLua_8cpp_source.html#l00332">newRobot()</a>, and <a class="el" href="CLua_8cpp_source.html#l00083">setScriptPath()</a>.</p>
 
 </div>
 </div>
@@ -631,9 +1262,9 @@ utilisé pour les fonctions appelées depuis le lua (eg: pour faire les niveaux)
 <dd>
 <a href="http://gamerboom.com/wp-content/uploads/2012/02/lua-Stack-1-from-altdevblogaday.com_.png">detail de la pile</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="CLua_8hpp_source.html#l00048">48</a> of file <a class="el" href="CLua_8hpp_source.html">CLua.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CLua_8hpp_source.html#l00056">56</a> of file <a class="el" href="CLua_8hpp_source.html">CLua.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00036">CLua()</a>, <a class="el" href="CLua_8cpp_source.html#l00220">getEntite()</a>, and <a class="el" href="CLua_8cpp_source.html#l00270">setTaille()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00036">CLua()</a>, <a class="el" href="CLua_8cpp_source.html#l00370">executeScript()</a>, <a class="el" href="CLua_8cpp_source.html#l00236">getEntite()</a>, <a class="el" href="CLua_8cpp_source.html#l00437">getTop()</a>, <a class="el" href="CLua_8cpp_source.html#l00397">getTuile()</a>, <a class="el" href="CLua_8cpp_source.html#l00407">push()</a>, <a class="el" href="CLua_8cpp_source.html#l00344">registerBaseFunctions()</a>, <a class="el" href="CLua_8cpp_source.html#l00358">registerEntiteFunctions()</a>, <a class="el" href="CLua_8cpp_source.html#l00351">registerTerrainFunctions()</a>, <a class="el" href="CLua_8cpp_source.html#l00442">testArgs()</a>, and <a class="el" href="CLua_8cpp_source.html#l00046">~CLua()</a>.</p>
 
 </div>
 </div>

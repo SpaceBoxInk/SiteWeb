@@ -1,7 +1,8 @@
 <map id="src/model/MPartieCouche.hpp" name="src/model/MPartieCouche.hpp">
-<area shape="rect" id="node2" href="$MEntite_8hpp.html" title="TODO complete. " alt="" coords="572,80,664,107"/>
-<area shape="rect" id="node3" href="$MCompetence_8hpp_source.html" title="MCompetence.hpp" alt="" coords="353,162,483,189"/>
-<area shape="rect" id="node4" href="$MCoordonnees_8hpp_source.html" title="MCoordonnees.hpp" alt="" coords="508,162,643,189"/>
-<area shape="rect" id="node7" href="$MInventaire_8hpp_source.html" title="MInventaire.hpp" alt="" coords="25,162,139,189"/>
-<area shape="rect" id="node8" href="$MObjetTexture_8hpp.html" title="TODO complete. " alt="" coords="718,162,851,189"/>
+<area shape="rect" id="node2" href="$MEntite_8hpp.html" title="TODO complete. " alt="" coords="466,80,558,107"/>
+<area shape="rect" id="node3" href="$MAssException_8hpp.html" title="TODO complete. " alt="" coords="442,162,581,189"/>
+<area shape="rect" id="node4" href="$MCoordonnees_8hpp.html" title="MCoordonnees.hpp" alt="" coords="550,244,684,271"/>
+<area shape="rect" id="node8" href="$MCompetence_8hpp.html" title="MCompetence.hpp" alt="" coords="48,162,178,189"/>
+<area shape="rect" id="node9" href="$MInventaire_8hpp.html" title="MInventaire.hpp" alt="" coords="709,244,824,271"/>
+<area shape="rect" id="node10" href="$MObjetTexture_8hpp.html" title="TODO complete. " alt="" coords="101,244,234,271"/>
 </map>

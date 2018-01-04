@@ -1,8 +1,20 @@
 var searchData=
 [
-  ['setpartiecouche',['setPartieCouche',['../classMTuile.html#a7d8f1348ce4ed10afd94a330e5fd1282',1,'MTuile']]],
-  ['setposition',['setPosition',['../classCLua.html#a880a09768d4f4ccdc61bbd98ce982e3e',1,'CLua']]],
-  ['setscriptpath',['setScriptPath',['../classCLua.html#ac516e6a657c952d75dd78f5bcc8e2af2',1,'CLua']]],
-  ['settaille',['setTaille',['../classCLua.html#a9920f27e761f11c9fcf4f4e47738f527',1,'CLua']]],
-  ['solstype',['solsType',['../classMTerrain.html#aeeb831f2986b0a1919ecfa68d8eddb23',1,'MTerrain']]]
+  ['id',['id',['../classMPartieCouche.html#a5f2b10d5aaf4b748598e947277bb49ed',1,'MPartieCouche']]],
+  ['imgciels',['imgCiels',['../classVPrimitif.html#a18ea16fd0901bd3e281ebee0588f37a0',1,'VPrimitif']]],
+  ['imgelems',['imgElems',['../classVPrimitif.html#a09cd8c6d8606e4372320a89d93bfcd33',1,'VPrimitif']]],
+  ['imgsols',['imgSols',['../classVPrimitif.html#aafc28252606c4e3530255eb85b4eff54',1,'VPrimitif']]],
+  ['implement_5fapp',['IMPLEMENT_APP',['../App_8cpp.html#a094c4912efc3d38b028e2dd8ed76d73d',1,'App.cpp']]],
+  ['interact_5fentity_5fkey',['INTERACT_ENTITY_KEY',['../MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9a89a971e4a2e53f24138123694e7c73b6',1,'MParameters.hpp']]],
+  ['interact_5fenv_5fkey',['INTERACT_ENV_KEY',['../MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9ad5dff2a1513a5c0a0461243dc22e959e',1,'MParameters.hpp']]],
+  ['interagirentite',['interagirEntite',['../classMEntite.html#af0640be42f675e9be2b198631006a169',1,'MEntite']]],
+  ['interagirtuile',['interagirTuile',['../classMEntite.html#afdd086e0ad1de17c3abca4f4f6875dce',1,'MEntite::interagirTuile()'],['../classMTuile.html#ac44bdd3f91a817400eddd71740b120e6',1,'MTuile::interagirTuile()']]],
+  ['inventaire',['inventaire',['../classMEntite.html#a689e893ef3323616195b6164ff857b19',1,'MEntite']]],
+  ['isaccessible',['isAccessible',['../classMEntite.html#a443941e2af506b75bf212d2b42435e8c',1,'MEntite']]],
+  ['isactionkey',['isActionKey',['../classMParameters.html#a69653ab8e928cefaef8c246022f1a26a',1,'MParameters']]],
+  ['isadjacente',['isAdjacente',['../classMTuile.html#afd959ec30b1eeb659f4fa36efb6c6cf7',1,'MTuile']]],
+  ['isentitepresente',['isEntitePresente',['../classMTuile.html#a453691549b289183c7fe6e58687845e3',1,'MTuile']]],
+  ['ismouvkey',['isMouvKey',['../classMParameters.html#aa2b186492c4170e04fe2c0db261ac015',1,'MParameters']]],
+  ['isreset',['isReset',['../classMRobot.html#adbfef00cd315a961ba17d6f876caa341',1,'MRobot']]],
+  ['istypeof',['isTypeOf',['../classMPartieCouche.html#a552b25b09c5f819ceab8dfa760558d50',1,'MPartieCouche']]]
 ];

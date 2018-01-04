@@ -86,6 +86,8 @@ $(document).ready(function(){initNavTree('classAppFrameInterface.html','');});
 <div class="title">AppFrameInterface Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="AppFrameInterface_8hpp_source.html">AppFrameInterface.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for AppFrameInterface:</div>
 <div class="dyncontent">
@@ -102,23 +104,246 @@ Collaboration diagram for AppFrameInterface:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a570e849675b04901a2ad040c0cb3c3dc"><td class="memItemLeft" align="right" valign="top"><a id="a570e849675b04901a2ad040c0cb3c3dc"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>loadFileIntoGround</b> (int const *idList, std::string texture, MTypeCouche level, int tailleTexture)=0</td></tr>
+<tr class="memitem:aa63bdcdd838f7e65a14788d56887a912"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAppFrameInterface.html#aa63bdcdd838f7e65a14788d56887a912">AppFrameInterface</a> ()=default</td></tr>
+<tr class="separator:aa63bdcdd838f7e65a14788d56887a912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac10e6e2d9ad25845cf753d7d3559882e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAppFrameInterface.html#ac10e6e2d9ad25845cf753d7d3559882e">~AppFrameInterface</a> ()=default</td></tr>
+<tr class="separator:ac10e6e2d9ad25845cf753d7d3559882e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a570e849675b04901a2ad040c0cb3c3dc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAppFrameInterface.html#a570e849675b04901a2ad040c0cb3c3dc">loadFileIntoGround</a> (int const *idList, std::string texture, <a class="el" href="MPartieCouche_8hpp.html#ae18c81088d9cb955424aa450cb1349d4">MTypeCouche</a> level, int tailleTexture)=0</td></tr>
 <tr class="separator:a570e849675b04901a2ad040c0cb3c3dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6d9476afe0d758f508406d1ebf41777"><td class="memItemLeft" align="right" valign="top"><a id="aa6d9476afe0d758f508406d1ebf41777"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>addEntite</b> (std::string entityName, std::string file)=0</td></tr>
+<tr class="memitem:aa6d9476afe0d758f508406d1ebf41777"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAppFrameInterface.html#aa6d9476afe0d758f508406d1ebf41777">addEntite</a> (std::string entityName, std::string file)=0</td></tr>
 <tr class="separator:aa6d9476afe0d758f508406d1ebf41777"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af33a29dff8dfdc0cceff878c465f1280"><td class="memItemLeft" align="right" valign="top"><a id="af33a29dff8dfdc0cceff878c465f1280"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>move</b> (std::string entityName, <a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;offset)=0</td></tr>
+<tr class="memitem:af33a29dff8dfdc0cceff878c465f1280"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAppFrameInterface.html#af33a29dff8dfdc0cceff878c465f1280">move</a> (std::string entityName, <a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;offset)=0</td></tr>
 <tr class="separator:af33a29dff8dfdc0cceff878c465f1280"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdd83dc409347dfd87076aabd8798fd4"><td class="memItemLeft" align="right" valign="top"><a id="acdd83dc409347dfd87076aabd8798fd4"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setPositionOf</b> (std::string entityName, <a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;position)=0</td></tr>
+<tr class="memitem:acdd83dc409347dfd87076aabd8798fd4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAppFrameInterface.html#acdd83dc409347dfd87076aabd8798fd4">setPositionOf</a> (std::string entityName, <a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;position)=0</td></tr>
 <tr class="separator:acdd83dc409347dfd87076aabd8798fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="AppFrameInterface_8hpp_source.html#l00020">20</a> of file <a class="el" href="AppFrameInterface_8hpp_source.html">AppFrameInterface.hpp</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+<div class="textblock"><p>interface pour contrôleur &lt;-&gt; vue </p>
+
+<p class="definition">Definition at line <a class="el" href="AppFrameInterface_8hpp_source.html#l00022">22</a> of file <a class="el" href="AppFrameInterface_8hpp_source.html">AppFrameInterface.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa63bdcdd838f7e65a14788d56887a912"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa63bdcdd838f7e65a14788d56887a912">&#9670;&nbsp;</a></span>AppFrameInterface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AppFrameInterface::AppFrameInterface </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac10e6e2d9ad25845cf753d7d3559882e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac10e6e2d9ad25845cf753d7d3559882e">&#9670;&nbsp;</a></span>~AppFrameInterface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual AppFrameInterface::~AppFrameInterface </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa6d9476afe0d758f508406d1ebf41777"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6d9476afe0d758f508406d1ebf41777">&#9670;&nbsp;</a></span>addEntite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AppFrameInterface::addEntite </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>entityName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>file</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="structAppFrame.html#a4f6cc605e027359faa0d04c758b612d3">AppFrame</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00093">CNiveau::addEntite()</a>, <a class="el" href="CPersonnage_8cpp_source.html#l00090">CPersonnage::addRobot()</a>, and <a class="el" href="CJeu_8cpp_source.html#l00025">CJeu::CJeu()</a>.</p>
+
+</div>
+</div>
+<a id="a570e849675b04901a2ad040c0cb3c3dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a570e849675b04901a2ad040c0cb3c3dc">&#9670;&nbsp;</a></span>loadFileIntoGround()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AppFrameInterface::loadFileIntoGround </td>
+          <td>(</td>
+          <td class="paramtype">int const *&#160;</td>
+          <td class="paramname"><em>idList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MPartieCouche_8hpp.html#ae18c81088d9cb955424aa450cb1349d4">MTypeCouche</a>&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tailleTexture</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="structAppFrame.html#aa0ac9165630cc65fb5b8cfe3e238d3fc">AppFrame</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00044">CNiveau::setEventMethods()</a>.</p>
+
+</div>
+</div>
+<a id="af33a29dff8dfdc0cceff878c465f1280"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af33a29dff8dfdc0cceff878c465f1280">&#9670;&nbsp;</a></span>move()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AppFrameInterface::move </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>entityName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="structAppFrame.html#a1db4bd79ce592304bae941a0342a65e7">AppFrame</a>.</p>
+
+</div>
+</div>
+<a id="acdd83dc409347dfd87076aabd8798fd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdd83dc409347dfd87076aabd8798fd4">&#9670;&nbsp;</a></span>setPositionOf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AppFrameInterface::setPositionOf </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>entityName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="structAppFrame.html#acc9e509dc200f13f5f611f5a1ab83e48">AppFrame</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00093">CNiveau::addEntite()</a>, <a class="el" href="CPersonnage_8cpp_source.html#l00090">CPersonnage::addRobot()</a>, <a class="el" href="CJeu_8cpp_source.html#l00025">CJeu::CJeu()</a>, <a class="el" href="CPersonnage_8cpp_source.html#l00047">CPersonnage::setEventMethods()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00044">CNiveau::setEventMethods()</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/vue/<a class="el" href="AppFrameInterface_8hpp_source.html">AppFrameInterface.hpp</a></li>
 </ul>
 </div><!-- contents -->

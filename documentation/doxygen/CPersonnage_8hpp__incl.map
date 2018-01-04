@@ -1,10 +1,10 @@
 <map id="src/controlleur/CPersonnage.hpp" name="src/controlleur/CPersonnage.hpp">
-<area shape="rect" id="node3" href="$MAssException_8hpp.html" title="TODO complete. " alt="" coords="201,244,391,271"/>
-<area shape="rect" id="node8" href="$MPersonnage_8hpp.html" title="TODO complete. " alt="" coords="353,87,532,114"/>
-<area shape="rect" id="node4" href="$MCoordonnees_8hpp.html" title="MCoordonnees.hpp" alt="" coords="533,326,667,353"/>
-<area shape="rect" id="node9" href="$MRobot_8hpp.html" title="TODO complete. " alt="" coords="467,169,559,196"/>
-<area shape="rect" id="node10" href="$MEntite_8hpp.html" title="TODO complete. " alt="" coords="841,244,933,271"/>
-<area shape="rect" id="node11" href="$MCompetence_8hpp.html" title="MCompetence.hpp" alt="" coords="900,326,1031,353"/>
-<area shape="rect" id="node12" href="$MInventaire_8hpp.html" title="MInventaire.hpp" alt="" coords="1347,326,1461,353"/>
-<area shape="rect" id="node13" href="$MObjetTexture_8hpp.html" title="TODO complete. " alt="" coords="743,326,876,353"/>
+<area shape="rect" id="node3" href="$MAssException_8hpp.html" title="TODO complete. " alt="" coords="95,326,286,353"/>
+<area shape="rect" id="node8" href="$MPersonnage_8hpp.html" title="TODO complete. " alt="" coords="887,87,1065,114"/>
+<area shape="rect" id="node4" href="$MCoordonnees_8hpp.html" title="MCoordonnees.hpp" alt="" coords="286,408,421,435"/>
+<area shape="rect" id="node9" href="$MRobot_8hpp.html" title="TODO complete. " alt="" coords="894,169,986,196"/>
+<area shape="rect" id="node10" href="$MEntite_8hpp.html" title="TODO complete. " alt="" coords="626,244,718,271"/>
+<area shape="rect" id="node11" href="$MCompetence_8hpp.html" title="MCompetence.hpp" alt="" coords="361,326,492,353"/>
+<area shape="rect" id="node12" href="$MInventaire_8hpp.html" title="MInventaire.hpp" alt="" coords="5,408,120,435"/>
+<area shape="rect" id="node13" href="$MObjetTexture_8hpp.html" title="TODO complete. " alt="" coords="837,408,971,435"/>
 </map>
