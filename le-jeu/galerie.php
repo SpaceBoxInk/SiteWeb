@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link href="../resources/css/style.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="../resources/css/le-jeu.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../resources/css/galerie.css" rel="stylesheet" type="text/css" media="all" />
 	<link rel="stylesheet" type="text/css" href="../resources/css/font-awesome.min.css">
 
 	<script src="resources/js/menu.js"></script>
@@ -33,7 +33,7 @@
 							<ul class="niv2">
 								<li><a href="../leJeu.jar">Télécharger</a></li>
 								<li><a href="univers.html">Univers</a></li>
-								<li class="current-page"><a href="galerie.html">Galerie</a></li>
+								<li class="current-page"><a href="">Galerie</a></li>
 							</ul>
 					</li>
 
@@ -64,11 +64,28 @@
 	<div class="white-bg">
 		<div class="container">
 
-			<h2>Coming soon !</h2>
+
+			<?php
+
+				if ($dossier = opendir("galerie/")){
+
+					while (false != ($fichier = readdir($dossier))){
+
+						if ($fichier != '.' && $fichier != '..'){
+							echo "<a href=\"galerie/$fichier\" target=\"blank\"><img src=\"galerie/$fichier\" title=\"$fichier\"></a>";
+						}
+
+
+					}
+
+					closedir($dossier);
+
+				}
+
+			?>
 
 		</div>
 	</div>
-
 
 </div>
 
