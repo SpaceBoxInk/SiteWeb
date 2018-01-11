@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link href="../resources/css/style.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="../resources/css/galerie.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../resources/css/dl.css" rel="stylesheet" type="text/css" media="all" />
 	<link rel="stylesheet" type="text/css" href="../resources/css/font-awesome.min.css">
 
 	<script src="resources/js/menu.js"></script>
@@ -31,9 +31,9 @@
 					<li> <!-- Onglet "Le jeu" -->
 						<a href="#">Le jeu</a>
 							<ul class="niv2">
-								<li><a href="download.html">Télécharger</a></li>
+								<li class="current-page"><a href="">Télécharger</a></li>
 								<li><a href="univers.html">Univers</a></li>
-								<li class="current-page"><a href="">Galerie</a></li>
+								<li><a href="galerie.php">Galerie</a></li>
 							</ul>
 					</li>
 
@@ -56,7 +56,7 @@
 	<div id="short-banner">
 		<div class="container">
 			<div class="title">
-				<h2>Galerie d'images</h2>
+				<h2>Télécharger</h2>
 			</div>
 		</div>
 	</div>
@@ -64,28 +64,36 @@
 	<div class="white-bg">
 		<div class="container">
 
+			<div class="download">
+				<a href="">
+					<article>
+						<img src="../resources/img/linux.ico">
+						Télécharger pour Linux
+					</article>
+				</a>
 
-			<?php
+				<a href="">
 
-				if ($dossier = opendir("galerie/")){
+					<article>
+						<img src="../resources/img/windows.png">
+						Télécharger pour Windows
+					</article>
+				</a>
 
-					while (false != ($fichier = readdir($dossier))){
+				<a href="">
 
-						if ($fichier != '.' && $fichier != '..'){
-							echo "<a href=\"galerie/$fichier\" target=\"blank\"><img src=\"galerie/$fichier\" title=\"$fichier\"></a>";
-						}
+					<article>
+						<img src="../resources/img/mac.png">
+						Télécharger pour Mac
+					</article>
+				</a>
 
+			</div>
 
-					}
-
-					closedir($dossier);
-
-				}
-
-			?>
 
 		</div>
 	</div>
+
 
 </div>
 
