@@ -29,15 +29,17 @@ var NAVTREE =
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ]
       ] ]
-    ] ]
+    ] ],
+    [ "Examples", "examples.html", "examples" ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
 "AppFrameInterface_8hpp.html",
-"classCanvas.html#adea02f755c0e3b3c7a57c19b5fc4ee83",
-"classVPrimitif.html#a87e53e46140cc79fcc16d2a72027996a"
+"classCLua.html#aab16cbbc94b3f7b5eb7033fad1a939f2",
+"classMParameters.html#a66285921b27bab7f8517967d78ee38ac",
+"dir_8f7dc8b7646eaddc876c69a3055e8e20.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

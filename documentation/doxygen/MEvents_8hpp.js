@@ -5,6 +5,8 @@ var MEvents_8hpp =
       [ "ENTITY_MOVED", "MEvents_8hpp.html#a5b7be9ba770f3011c43b56cc83903307aedcc0d868525c192a00423fa7e2f3b79", null ]
     ] ],
     [ "MUserEvents", "MEvents_8hpp.html#ad2cdb7051c70ccfb0b0570a8e3b455c8", [
-      [ "KEY_PRESSED", "MEvents_8hpp.html#ad2cdb7051c70ccfb0b0570a8e3b455c8a7ef8949a37c02f94d7975401b455b7f0", null ]
+      [ "KEY_PRESSED", "MEvents_8hpp.html#ad2cdb7051c70ccfb0b0570a8e3b455c8a7ef8949a37c02f94d7975401b455b7f0", null ],
+      [ "NEXT_DIALOG", "MEvents_8hpp.html#ad2cdb7051c70ccfb0b0570a8e3b455c8a2ec8c1b6a1573a7852965fb46988bad1", null ],
+      [ "EXIT", "MEvents_8hpp.html#ad2cdb7051c70ccfb0b0570a8e3b455c8aa42b2fb0e720a080e79a92f4ca97d927", null ]
     ] ]
 ];

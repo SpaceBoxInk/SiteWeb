@@ -1,8 +1,9 @@
 <map id="MPersonnage" name="MPersonnage">
-<area shape="rect" id="node2" href="$classMEntite.html" title="MEntite" alt="" coords="202,95,269,121"/>
-<area shape="rect" id="node7" href="$classMTuile.html" title="MTuile" alt="" coords="137,184,198,211"/>
-<area shape="rect" id="node3" href="$classMObjetTexture.html" title="MObjetTexture" alt="" coords="5,5,113,32"/>
-<area shape="rect" id="node5" href="$classMCompetence.html" title="MCompetence" alt="" coords="241,5,347,32"/>
-<area shape="rect" id="node6" href="$classMInventaire.html" title="MInventaire" alt="" coords="371,5,462,32"/>
-<area shape="rect" id="node8" href="$classMCoordonnees.html" title="MCoordonnees" alt="" coords="33,95,142,121"/>
+<area shape="rect" id="node2" href="$classMEntite.html" title="MEntite" alt="" coords="292,95,359,121"/>
+<area shape="rect" id="node7" href="$classMTuile.html" title="MTuile" alt="" coords="189,184,251,211"/>
+<area shape="rect" id="node3" href="$classMObjetTexture.html" title="MObjetTexture" alt="" coords="254,5,362,32"/>
+<area shape="rect" id="node9" href="$classVInventaireInterface.html" title="VInventaireInterface" alt="" coords="121,95,260,121"/>
+<area shape="rect" id="node5" href="$classMCompetence.html" title="MCompetence" alt="" coords="387,5,493,32"/>
+<area shape="rect" id="node6" href="$classMInventaire.html" title="MInventaire" alt="" coords="517,5,608,32"/>
+<area shape="rect" id="node8" href="$classMCoordonnees.html" title="MCoordonnees" alt="" coords="5,5,115,32"/>
 </map>

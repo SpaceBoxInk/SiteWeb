@@ -6,8 +6,12 @@ var MParameters_8hpp =
       [ "FR", "MParameters_8hpp.html#a1eb9b2d1a4872e3beb1191518139a04ca11aedd0e432747c2bcd97b82808d24a0", null ]
     ] ],
     [ "MActionsKey", "MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9", [
-      [ "INTERACT_ENV_KEY", "MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9ad5dff2a1513a5c0a0461243dc22e959e", null ],
       [ "INTERACT_ENTITY_KEY", "MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9a89a971e4a2e53f24138123694e7c73b6", null ],
-      [ "ATTACK", "MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9ac6ddd0f72ff2fd344693b9ca8d483871", null ]
+      [ "INTERACT_ENV", "MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9a7dd74e8ea8166b22dba2ca3542b9960a", null ],
+      [ "MINE", "MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9aa54829d454e759904d9594897686dc7b", null ],
+      [ "ATTACK", "MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9ac6ddd0f72ff2fd344693b9ca8d483871", null ],
+      [ "USE_MAIN_OBJECT", "MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9ab30c277da41e5e545d8a3c031620e575", null ],
+      [ "OPEN_EDITOR", "MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9a1b253434746b19ce7f1726510821bb6a", null ],
+      [ "OPEN_INVENTORY", "MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9a400956b02c024fd29cf0cd1f48874c53", null ]
     ] ]
 ];

@@ -81,9 +81,10 @@ $(document).ready(function(){initNavTree('classVInventaireInterface.html','');})
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classVInventaireInterface-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">VInventaireInterface Class Reference</div>  </div>
+<div class="title">VInventaireInterface Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -92,26 +93,45 @@ $(document).ready(function(){initNavTree('classVInventaireInterface.html','');})
 Inheritance diagram for VInventaireInterface:</div>
 <div class="dyncontent">
 <div class="center"><img src="classVInventaireInterface__inherit__graph.png" border="0" usemap="#VInventaireInterface_inherit__map" alt="Inheritance graph"/></div>
+<map name="VInventaireInterface_inherit__map" id="VInventaireInterface_inherit__map">
+<area shape="rect" id="node3" href="classVInventory.html" title="VInventory" alt="" coords="5,155,91,181"/>
+<area shape="rect" id="node5" href="classVPlayerInventaireInterface.html" title="VPlayerInventaireInterface" alt="" coords="115,155,291,181"/>
+<area shape="rect" id="node4" href="classVPlayerInventory.html" title="VPlayerInventory" alt="" coords="64,229,187,256"/>
+</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for VInventaireInterface:</div>
 <div class="dyncontent">
 <div class="center"><img src="classVInventaireInterface__coll__graph.png" border="0" usemap="#VInventaireInterface_coll__map" alt="Collaboration graph"/></div>
+<map name="VInventaireInterface_coll__map" id="VInventaireInterface_coll__map">
+<area shape="rect" id="node3" href="classMCoordonnees.html" title="MCoordonnees" alt="" coords="109,5,218,32"/>
+</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9bfcb6f82ed041ae013c0728f88bc6e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVInventaireInterface.html#a9bfcb6f82ed041ae013c0728f88bc6e1">VInventaireInterface</a> ()=default</td></tr>
-<tr class="separator:a9bfcb6f82ed041ae013c0728f88bc6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84181b5377f1b30bd3b265c68ca74045"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVInventaireInterface.html#a84181b5377f1b30bd3b265c68ca74045">VInventaireInterface</a> (<a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;<a class="el" href="classVInventaireInterface.html#a8430dca31536d0e0dfbf9ed93e7e8c64">size</a>)</td></tr>
+<tr class="separator:a84181b5377f1b30bd3b265c68ca74045"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6adb31ea0e61f3235015f9fefd115f12"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVInventaireInterface.html#a6adb31ea0e61f3235015f9fefd115f12">~VInventaireInterface</a> ()=default</td></tr>
 <tr class="separator:a6adb31ea0e61f3235015f9fefd115f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a501eb053241cf137cd9d73620505a5ee"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVInventaireInterface.html#a501eb053241cf137cd9d73620505a5ee">addObjInv</a> (unsigned long long id, std::string name, std::string description, std::string image, int position=-1)=0</td></tr>
+<tr class="separator:a501eb053241cf137cd9d73620505a5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c867a53b39267263ba2e1ef4e163f80"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVInventaireInterface.html#a2c867a53b39267263ba2e1ef4e163f80">delObjInv</a> (unsigned long long id)=0</td></tr>
+<tr class="separator:a2c867a53b39267263ba2e1ef4e163f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6b790209464d39fbb98f8c092037795"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVInventaireInterface.html#af6b790209464d39fbb98f8c092037795">show</a> (bool show=true)=0</td></tr>
+<tr class="separator:af6b790209464d39fbb98f8c092037795"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a8430dca31536d0e0dfbf9ed93e7e8c64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMCoordonnees.html">MCoordonnees</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVInventaireInterface.html#a8430dca31536d0e0dfbf9ed93e7e8c64">size</a></td></tr>
+<tr class="separator:a8430dca31536d0e0dfbf9ed93e7e8c64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="VInventaireInterface_8hpp_source.html#l00016">16</a> of file <a class="el" href="VInventaireInterface_8hpp_source.html">VInventaireInterface.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VInventaireInterface_8hpp_source.html#l00017">17</a> of file <a class="el" href="VInventaireInterface_8hpp_source.html">VInventaireInterface.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a9bfcb6f82ed041ae013c0728f88bc6e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bfcb6f82ed041ae013c0728f88bc6e1">&#9670;&nbsp;</a></span>VInventaireInterface()</h2>
+<a id="a84181b5377f1b30bd3b265c68ca74045"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84181b5377f1b30bd3b265c68ca74045">&#9670;&nbsp;</a></span>VInventaireInterface()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -122,16 +142,29 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">VInventaireInterface::VInventaireInterface </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>définie la taille de l'inventaire, et aussi le x définie la taille du quickInventaire\ Il y a donc x*(y+1) cases\</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>eg : x = 3, y = 2, il y a au total 3*(2+1) cases\ □□□ // inventaire □□□</p>
+<p>□□□ // barre d'inventaire rapide </p>
+
+<p class="definition">Definition at line <a class="el" href="VInventaireInterface_8hpp_source.html#l00036">36</a> of file <a class="el" href="VInventaireInterface_8hpp_source.html">VInventaireInterface.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="classVInventaireInterface.html#a501eb053241cf137cd9d73620505a5ee">addObjInv()</a>, <a class="el" href="classVInventaireInterface.html#a2c867a53b39267263ba2e1ef4e163f80">delObjInv()</a>, <a class="el" href="classVInventaireInterface.html#af6b790209464d39fbb98f8c092037795">show()</a>, and <a class="el" href="classVInventaireInterface.html#a6adb31ea0e61f3235015f9fefd115f12">~VInventaireInterface()</a>.</p>
 
 </div>
 </div>
@@ -157,6 +190,160 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="VInventaireInterface_8hpp_source.html#l00036">VInventaireInterface()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a501eb053241cf137cd9d73620505a5ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a501eb053241cf137cd9d73620505a5ee">&#9670;&nbsp;</a></span>addObjInv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void VInventaireInterface::addObjInv </td>
+          <td>(</td>
+          <td class="paramtype">unsigned long long&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>description</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>image</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>id de l'objet </td></tr>
+    <tr><td class="paramname">image</td><td>image de l'objet </td></tr>
+    <tr><td class="paramname">position</td><td>la position dans l'inventaire ligne par ligne, si <em>-1</em> l'objet va dans la première case disponible </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classVInventory.html#afb9391debaeec26ddb54337f18abbe51">VInventory</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MTuile_8cpp_source.html#l00147">MTuile::addItem()</a>, and <a class="el" href="VInventaireInterface_8hpp_source.html#l00036">VInventaireInterface()</a>.</p>
+
+</div>
+</div>
+<a id="a2c867a53b39267263ba2e1ef4e163f80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c867a53b39267263ba2e1ef4e163f80">&#9670;&nbsp;</a></span>delObjInv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void VInventaireInterface::delObjInv </td>
+          <td>(</td>
+          <td class="paramtype">unsigned long long&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classVPlayerInventory.html#a65916b2a54a020bf7cc0374b6a47537f">VPlayerInventory</a>, and <a class="el" href="classVInventory.html#a63cfbe961c0dd02acf473375ad971f94">VInventory</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="VInventaireInterface_8hpp_source.html#l00036">VInventaireInterface()</a>.</p>
+
+</div>
+</div>
+<a id="af6b790209464d39fbb98f8c092037795"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6b790209464d39fbb98f8c092037795">&#9670;&nbsp;</a></span>show()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void VInventaireInterface::show </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>show</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classVInventory.html#adcb12663b916bb8a7802163ba79389f9">VInventory</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00488">CLua::cppShowInventory()</a>, <a class="el" href="MTuile_8cpp_source.html#l00129">MTuile::interagirTuile()</a>, and <a class="el" href="VInventaireInterface_8hpp_source.html#l00036">VInventaireInterface()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8430dca31536d0e0dfbf9ed93e7e8c64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8430dca31536d0e0dfbf9ed93e7e8c64">&#9670;&nbsp;</a></span>size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMCoordonnees.html">MCoordonnees</a> VInventaireInterface::size</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="VInventaireInterface_8hpp_source.html#l00021">21</a> of file <a class="el" href="VInventaireInterface_8hpp_source.html">VInventaireInterface.hpp</a>.</p>
 
 </div>
 </div>

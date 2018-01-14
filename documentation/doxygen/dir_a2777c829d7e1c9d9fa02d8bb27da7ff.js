@@ -17,6 +17,5 @@ var dir_a2777c829d7e1c9d9fa02d8bb27da7ff =
     [ "CPersonnage.cpp", "CPersonnage_8cpp.html", null ],
     [ "CPersonnage.hpp", "CPersonnage_8hpp.html", [
       [ "CPersonnage", "classCPersonnage.html", "classCPersonnage" ]
-    ] ],
-    [ "main.cpp", "main_8cpp.html", "main_8cpp" ]
+    ] ]
 ];

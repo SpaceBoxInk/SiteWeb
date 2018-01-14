@@ -1,6 +1,7 @@
 var MInventaire_8hpp =
 [
     [ "MInventaire", "classMInventaire.html", "classMInventaire" ],
+    [ "Id", "MInventaire_8hpp.html#a2cefafbec781c37c25b966b68f6bbb32", null ],
     [ "MTypeEquipement", "MInventaire_8hpp.html#a05bb4cc73f1adaa56286db44266cfdc0", [
       [ "MAIN", "MInventaire_8hpp.html#a05bb4cc73f1adaa56286db44266cfdc0a186495f7da296bf880df3a22a492b378", null ],
       [ "CASQUE", "MInventaire_8hpp.html#a05bb4cc73f1adaa56286db44266cfdc0a1c86684b680a9fe7d59f268323bd9f78", null ],

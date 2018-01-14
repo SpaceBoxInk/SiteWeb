@@ -1,13 +1,25 @@
 var structAppFrame =
 [
-    [ "AppFrame", "structAppFrame.html#a81efc6ec3e5ceb03fc65a35425a14bcb", null ],
+    [ "AppFrame", "structAppFrame.html#a5392d935da1f0b3361cbace1f04f149c", null ],
+    [ "~AppFrame", "structAppFrame.html#a4a4a9a1431da6216453d1ecf3d0e5a6e", null ],
     [ "addEntite", "structAppFrame.html#a4f6cc605e027359faa0d04c758b612d3", null ],
+    [ "effacerParler", "structAppFrame.html#ab948db763f18db00553207574e0aa7c3", null ],
     [ "getCaneva", "structAppFrame.html#a06581ba30cdacec0d8cec97217a2bc09", null ],
     [ "getPanel", "structAppFrame.html#aafbfdb430bc9c22e55e75fa100e15198", null ],
     [ "loadFileIntoGround", "structAppFrame.html#aa0ac9165630cc65fb5b8cfe3e238d3fc", null ],
-    [ "move", "structAppFrame.html#a1db4bd79ce592304bae941a0342a65e7", null ],
+    [ "move", "structAppFrame.html#ad05f0d39e0afe3630e49f97c3e5b01ad", null ],
+    [ "onFocus", "structAppFrame.html#a0447b6b40bc2a0ee60806afa5d22a073", null ],
+    [ "onKey", "structAppFrame.html#aeea6ceca3a8efe3aafc6ca1eacac7429", null ],
+    [ "onNext", "structAppFrame.html#a493c66d27c299ea534ab1941fe6de7e7", null ],
     [ "onResize", "structAppFrame.html#ad189ff94e8e74b7164c9f13f42440f05", null ],
-    [ "setPositionOf", "structAppFrame.html#acc9e509dc200f13f5f611f5a1ab83e48", null ],
+    [ "parler", "structAppFrame.html#a72c5c421cff2dcd86dfa1720ab72168d", null ],
+    [ "setPositionOf", "structAppFrame.html#a4fae93e93ee562e4a3e6c37e670a83d1", null ],
+    [ "showEnigma", "structAppFrame.html#a1005835ec32389541e48672f40453d34", null ],
     [ "_canvas", "structAppFrame.html#a1088ac38a18ae72dd9316db2320d404e", null ],
-    [ "_panel2", "structAppFrame.html#a38743e78ff8a462ed84823d6a4aaca7b", null ]
+    [ "_panel2", "structAppFrame.html#a38743e78ff8a462ed84823d6a4aaca7b", null ],
+    [ "cursorloc", "structAppFrame.html#aad16426aac75a3ad8072e8462bb61d4f", null ],
+    [ "dialogBox", "structAppFrame.html#a50f33ce66b8defe5916219734b71d140", null ],
+    [ "persoDireImage", "structAppFrame.html#aff0b4052f789ad4f73293a469f00d085", null ],
+    [ "tailleInventory", "structAppFrame.html#ab336ceb9c12954a2c5f4a6b396622c3a", null ],
+    [ "waitNextParler", "structAppFrame.html#aa90835dcd05c2349036cc61066c71bcf", null ]
 ];

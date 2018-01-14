@@ -8,5 +8,6 @@ var classCJeu =
     [ "cLua", "classCJeu.html#a466607b920a9b6b5acd6f485a39c834d", null ],
     [ "cNiveau", "classCJeu.html#a868eb7ebcdf33a47fdf36770aafdc391", null ],
     [ "cPersonnage", "classCJeu.html#a2b5a498a25e0d3962dc636940c2b94a6", null ],
+    [ "thread", "classCJeu.html#aeef92ceff7415bfb49235f8f379e4d97", null ],
     [ "vuePrincipale", "classCJeu.html#aea31c21e6ed4d75e63d156cebaec55e4", null ]
 ];

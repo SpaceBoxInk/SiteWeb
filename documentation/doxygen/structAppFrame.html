@@ -81,6 +81,7 @@ $(document).ready(function(){initNavTree('structAppFrame.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="structAppFrame-members.html">List of all members</a>  </div>
@@ -104,38 +105,65 @@ Collaboration diagram for AppFrame:</div>
 <div class="center"><img src="structAppFrame__coll__graph.png" border="0" usemap="#AppFrame_coll__map" alt="Collaboration graph"/></div>
 <map name="AppFrame_coll__map" id="AppFrame_coll__map">
 <area shape="rect" id="node2" href="classAppFrameInterface.html" title="AppFrameInterface" alt="" coords="5,200,139,227"/>
-<area shape="rect" id="node5" href="classCanvas.html" title="Canvas" alt="" coords="261,200,328,227"/>
-<area shape="rect" id="node6" href="classwxSfmlCanvas.html" title="wxSfmlCanvas" alt="" coords="188,81,297,108"/>
-<area shape="rect" id="node9" href="classTileMap.html" title="TileMap" alt="" coords="343,81,411,108"/>
+<area shape="rect" id="node5" href="classMCoordonnees.html" title="MCoordonnees" alt="" coords="261,200,371,227"/>
+<area shape="rect" id="node6" href="classCanvas.html" title="Canvas" alt="" coords="540,200,607,227"/>
+<area shape="rect" id="node7" href="classwxSfmlCanvas.html" title="wxSfmlCanvas" alt="" coords="488,81,597,108"/>
+<area shape="rect" id="node13" href="classwxImagePanelP.html" title="wxImagePanelP" alt="" coords="362,141,478,167"/>
+<area shape="rect" id="node10" href="classTileMap.html" title="TileMap" alt="" coords="643,81,711,108"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a81efc6ec3e5ceb03fc65a35425a14bcb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#a81efc6ec3e5ceb03fc65a35425a14bcb">AppFrame</a> (wxString const &amp;title, wxPoint const &amp;pos, wxSize const &amp;size, int tailleTexture)</td></tr>
-<tr class="separator:a81efc6ec3e5ceb03fc65a35425a14bcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5392d935da1f0b3361cbace1f04f149c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#a5392d935da1f0b3361cbace1f04f149c">AppFrame</a> (wxString const &amp;title, wxPoint const &amp;pos, wxSize const &amp;size, int tailleTexture, <a class="el" href="classMCoordonnees.html">MCoordonnees</a> taille=<a class="el" href="classMCoordonnees.html">MCoordonnees</a>(10, 8))</td></tr>
+<tr class="separator:a5392d935da1f0b3361cbace1f04f149c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a4a9a1431da6216453d1ecf3d0e5a6e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#a4a4a9a1431da6216453d1ecf3d0e5a6e">~AppFrame</a> ()</td></tr>
+<tr class="separator:a4a4a9a1431da6216453d1ecf3d0e5a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0ac9165630cc65fb5b8cfe3e238d3fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#aa0ac9165630cc65fb5b8cfe3e238d3fc">loadFileIntoGround</a> (int const *idList, std::string texture, <a class="el" href="MPartieCouche_8hpp.html#ae18c81088d9cb955424aa450cb1349d4">MTypeCouche</a> level, int tailleTexture) override</td></tr>
 <tr class="separator:aa0ac9165630cc65fb5b8cfe3e238d3fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f6cc605e027359faa0d04c758b612d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#a4f6cc605e027359faa0d04c758b612d3">addEntite</a> (std::string name, std::string file) override</td></tr>
 <tr class="separator:a4f6cc605e027359faa0d04c758b612d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1db4bd79ce592304bae941a0342a65e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#a1db4bd79ce592304bae941a0342a65e7">move</a> (std::string entityName, <a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;offset) override</td></tr>
-<tr class="separator:a1db4bd79ce592304bae941a0342a65e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc9e509dc200f13f5f611f5a1ab83e48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#acc9e509dc200f13f5f611f5a1ab83e48">setPositionOf</a> (std::string entityName, <a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;offset) override</td></tr>
-<tr class="separator:acc9e509dc200f13f5f611f5a1ab83e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad05f0d39e0afe3630e49f97c3e5b01ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#ad05f0d39e0afe3630e49f97c3e5b01ad">move</a> (std::string entityName, <a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;offset, <a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a> direction) override</td></tr>
+<tr class="separator:ad05f0d39e0afe3630e49f97c3e5b01ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fae93e93ee562e4a3e6c37e670a83d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#a4fae93e93ee562e4a3e6c37e670a83d1">setPositionOf</a> (std::string entityName, <a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;offset, <a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a> direction) override</td></tr>
+<tr class="separator:a4fae93e93ee562e4a3e6c37e670a83d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1005835ec32389541e48672f40453d34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#a1005835ec32389541e48672f40453d34">showEnigma</a> (std::string title, std::string file, std::string textInside)</td></tr>
+<tr class="separator:a1005835ec32389541e48672f40453d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafbfdb430bc9c22e55e75fa100e15198"><td class="memItemLeft" align="right" valign="top">wxPanel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#aafbfdb430bc9c22e55e75fa100e15198">getPanel</a> ()</td></tr>
+<tr class="separator:aafbfdb430bc9c22e55e75fa100e15198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72c5c421cff2dcd86dfa1720ab72168d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#a72c5c421cff2dcd86dfa1720ab72168d">parler</a> (std::string entityTexture, std::string parole)</td></tr>
+<tr class="separator:a72c5c421cff2dcd86dfa1720ab72168d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab948db763f18db00553207574e0aa7c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#ab948db763f18db00553207574e0aa7c3">effacerParler</a> ()</td></tr>
+<tr class="separator:ab948db763f18db00553207574e0aa7c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classAppFrameInterface"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classAppFrameInterface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classAppFrameInterface.html">AppFrameInterface</a></td></tr>
 <tr class="memitem:aa63bdcdd838f7e65a14788d56887a912 inherit pub_methods_classAppFrameInterface"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAppFrameInterface.html#aa63bdcdd838f7e65a14788d56887a912">AppFrameInterface</a> ()=default</td></tr>
 <tr class="separator:aa63bdcdd838f7e65a14788d56887a912 inherit pub_methods_classAppFrameInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac10e6e2d9ad25845cf753d7d3559882e inherit pub_methods_classAppFrameInterface"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAppFrameInterface.html#ac10e6e2d9ad25845cf753d7d3559882e">~AppFrameInterface</a> ()=default</td></tr>
 <tr class="separator:ac10e6e2d9ad25845cf753d7d3559882e inherit pub_methods_classAppFrameInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aad16426aac75a3ad8072e8462bb61d4f"><td class="memItemLeft" align="right" valign="top">wxTextCtrl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#aad16426aac75a3ad8072e8462bb61d4f">cursorloc</a></td></tr>
+<tr class="separator:aad16426aac75a3ad8072e8462bb61d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50f33ce66b8defe5916219734b71d140"><td class="memItemLeft" align="right" valign="top">wxTextCtrl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#a50f33ce66b8defe5916219734b71d140">dialogBox</a></td></tr>
+<tr class="separator:a50f33ce66b8defe5916219734b71d140"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff0b4052f789ad4f73293a469f00d085"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwxImagePanelP.html">wxImagePanelP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#aff0b4052f789ad4f73293a469f00d085">persoDireImage</a></td></tr>
+<tr class="separator:aff0b4052f789ad4f73293a469f00d085"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa90835dcd05c2349036cc61066c71bcf"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#aa90835dcd05c2349036cc61066c71bcf">waitNextParler</a></td></tr>
+<tr class="separator:aa90835dcd05c2349036cc61066c71bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a06581ba30cdacec0d8cec97217a2bc09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCanvas.html">Canvas</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#a06581ba30cdacec0d8cec97217a2bc09">getCaneva</a> ()</td></tr>
 <tr class="separator:a06581ba30cdacec0d8cec97217a2bc09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0447b6b40bc2a0ee60806afa5d22a073"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#a0447b6b40bc2a0ee60806afa5d22a073">onFocus</a> (wxFocusEvent &amp;event)</td></tr>
+<tr class="separator:a0447b6b40bc2a0ee60806afa5d22a073"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeea6ceca3a8efe3aafc6ca1eacac7429"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#aeea6ceca3a8efe3aafc6ca1eacac7429">onKey</a> (wxKeyEvent &amp;event)</td></tr>
+<tr class="separator:aeea6ceca3a8efe3aafc6ca1eacac7429"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad189ff94e8e74b7164c9f13f42440f05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#ad189ff94e8e74b7164c9f13f42440f05">onResize</a> (wxSizeEvent &amp;event)</td></tr>
 <tr class="separator:ad189ff94e8e74b7164c9f13f42440f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafbfdb430bc9c22e55e75fa100e15198"><td class="memItemLeft" align="right" valign="top">wxPanel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#aafbfdb430bc9c22e55e75fa100e15198">getPanel</a> ()</td></tr>
-<tr class="separator:aafbfdb430bc9c22e55e75fa100e15198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a493c66d27c299ea534ab1941fe6de7e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#a493c66d27c299ea534ab1941fe6de7e7">onNext</a> (wxCommandEvent &amp;event)</td></tr>
+<tr class="separator:a493c66d27c299ea534ab1941fe6de7e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -143,14 +171,16 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a1088ac38a18ae72dd9316db2320d404e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38743e78ff8a462ed84823d6a4aaca7b"><td class="memItemLeft" align="right" valign="top">wxPanel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#a38743e78ff8a462ed84823d6a4aaca7b">_panel2</a></td></tr>
 <tr class="separator:a38743e78ff8a462ed84823d6a4aaca7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab336ceb9c12954a2c5f4a6b396622c3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMCoordonnees.html">MCoordonnees</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAppFrame.html#ab336ceb9c12954a2c5f4a6b396622c3a">tailleInventory</a></td></tr>
+<tr class="separator:ab336ceb9c12954a2c5f4a6b396622c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>La racine de la vue (application) </p>
 
-<p class="definition">Definition at line <a class="el" href="AppFrame_8hpp_source.html#l00016">16</a> of file <a class="el" href="AppFrame_8hpp_source.html">AppFrame.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AppFrame_8hpp_source.html#l00019">19</a> of file <a class="el" href="AppFrame_8hpp_source.html">AppFrame.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a81efc6ec3e5ceb03fc65a35425a14bcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81efc6ec3e5ceb03fc65a35425a14bcb">&#9670;&nbsp;</a></span>AppFrame()</h2>
+<a id="a5392d935da1f0b3361cbace1f04f149c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5392d935da1f0b3361cbace1f04f149c">&#9670;&nbsp;</a></span>AppFrame()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,7 +207,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>tailleTexture</em>&#160;</td>
+          <td class="paramname"><em>tailleTexture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMCoordonnees.html">MCoordonnees</a>&#160;</td>
+          <td class="paramname"><em>taille</em> = <code><a class="el" href="classMCoordonnees.html">MCoordonnees</a>(10,&#160;8)</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -187,9 +223,38 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00012">12</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00032">32</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="AppFrame_8hpp_source.html#l00036">_canvas</a>, and <a class="el" href="AppFrame_8hpp_source.html#l00037">_panel2</a>.</p>
+<p class="reference">References <a class="el" href="AppFrame_8hpp_source.html#l00050">_canvas</a>, <a class="el" href="AppFrame_8hpp_source.html#l00051">_panel2</a>, <a class="el" href="AppFrame_8hpp_source.html#l00054">cursorloc</a>, <a class="el" href="AppFrame_8hpp_source.html#l00055">dialogBox</a>, <a class="el" href="MEvents_8hpp.html#ad2cdb7051c70ccfb0b0570a8e3b455c8aa42b2fb0e720a080e79a92f4ca97d927">EXIT</a>, <a class="el" href="MParameters_8cpp_source.html#l00059">MParameters::getRootPath()</a>, <a class="el" href="AppFrame_8cpp_source.html#l00140">onKey()</a>, <a class="el" href="AppFrame_8cpp_source.html#l00188">onNext()</a>, and <a class="el" href="AppFrame_8hpp_source.html#l00056">persoDireImage</a>.</p>
+
+</div>
+</div>
+<a id="a4a4a9a1431da6216453d1ecf3d0e5a6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a4a9a1431da6216453d1ecf3d0e5a6e">&#9670;&nbsp;</a></span>~AppFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AppFrame::~AppFrame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00182">182</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="AppFrame_8hpp_source.html#l00050">_canvas</a>, and <a class="el" href="AppFrame_8hpp_source.html#l00051">_panel2</a>.</p>
 
 </div>
 </div>
@@ -230,9 +295,32 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="classAppFrameInterface.html#aa6d9476afe0d758f508406d1ebf41777">AppFrameInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00056">56</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00126">126</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Caneva_8cpp_source.html#l00130">Canvas::addEntite()</a>, and <a class="el" href="AppFrame_8cpp_source.html#l00061">getCaneva()</a>.</p>
+<p class="reference">References <a class="el" href="Caneva_8cpp_source.html#l00171">Canvas::addEntite()</a>, and <a class="el" href="AppFrame_8cpp_source.html#l00131">getCaneva()</a>.</p>
+
+</div>
+</div>
+<a id="ab948db763f18db00553207574e0aa7c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab948db763f18db00553207574e0aa7c3">&#9670;&nbsp;</a></span>effacerParler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AppFrame::effacerParler </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00211">211</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="AppFrame_8hpp_source.html#l00055">dialogBox</a>, <a class="el" href="MParameters_8cpp_source.html#l00059">MParameters::getRootPath()</a>, <a class="el" href="ImagePanelP_8cpp_source.html#l00079">wxImagePanelP::LoadImage()</a>, <a class="el" href="ImagePanelP_8cpp_source.html#l00043">wxImagePanelP::paintNow()</a>, and <a class="el" href="AppFrame_8hpp_source.html#l00056">persoDireImage</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="AppFrame_8cpp_source.html#l00188">onNext()</a>.</p>
 
 </div>
 </div>
@@ -259,11 +347,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00061">61</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00131">131</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="AppFrame_8hpp_source.html#l00036">_canvas</a>.</p>
+<p class="reference">References <a class="el" href="AppFrame_8hpp_source.html#l00050">_canvas</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AppFrame_8cpp_source.html#l00056">addEntite()</a>, and <a class="el" href="AppFrame_8cpp_source.html#l00050">loadFileIntoGround()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AppFrame_8cpp_source.html#l00126">addEntite()</a>, and <a class="el" href="AppFrame_8cpp_source.html#l00120">loadFileIntoGround()</a>.</p>
 
 </div>
 </div>
@@ -272,9 +360,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">wxPanel * AppFrame::getPanel </td>
@@ -283,14 +368,11 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00071">71</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00160">160</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="AppFrame_8hpp_source.html#l00051">_panel2</a>.</p>
 
 </div>
 </div>
@@ -342,14 +424,14 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="classAppFrameInterface.html#a570e849675b04901a2ad040c0cb3c3dc">AppFrameInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00050">50</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00120">120</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="AppFrame_8cpp_source.html#l00061">getCaneva()</a>, and <a class="el" href="Caneva_8cpp_source.html#l00070">Canvas::loadFileIntoGround()</a>.</p>
+<p class="reference">References <a class="el" href="AppFrame_8cpp_source.html#l00131">getCaneva()</a>, and <a class="el" href="Caneva_8cpp_source.html#l00110">Canvas::loadFileIntoGround()</a>.</p>
 
 </div>
 </div>
-<a id="a1db4bd79ce592304bae941a0342a65e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1db4bd79ce592304bae941a0342a65e7">&#9670;&nbsp;</a></span>move()</h2>
+<a id="ad05f0d39e0afe3630e49f97c3e5b01ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad05f0d39e0afe3630e49f97c3e5b01ad">&#9670;&nbsp;</a></span>move()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +449,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;&#160;</td>
-          <td class="paramname"><em>offset</em>&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a>&#160;</td>
+          <td class="paramname"><em>direction</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -382,11 +470,103 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classAppFrameInterface.html#af33a29dff8dfdc0cceff878c465f1280">AppFrameInterface</a>.</p>
+<p>Implements <a class="el" href="classAppFrameInterface.html#af5e2723cdf875b2e341f338e000adba5">AppFrameInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00075">75</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00165">165</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="AppFrame_8hpp_source.html#l00036">_canvas</a>, and <a class="el" href="Caneva_8cpp_source.html#l00140">Canvas::move()</a>.</p>
+<p class="reference">References <a class="el" href="AppFrame_8hpp_source.html#l00050">_canvas</a>, and <a class="el" href="Caneva_8cpp_source.html#l00181">Canvas::move()</a>.</p>
+
+</div>
+</div>
+<a id="a0447b6b40bc2a0ee60806afa5d22a073"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0447b6b40bc2a0ee60806afa5d22a073">&#9670;&nbsp;</a></span>onFocus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AppFrame::onFocus </td>
+          <td>(</td>
+          <td class="paramtype">wxFocusEvent &amp;&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00156">156</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aeea6ceca3a8efe3aafc6ca1eacac7429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeea6ceca3a8efe3aafc6ca1eacac7429">&#9670;&nbsp;</a></span>onKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AppFrame::onKey </td>
+          <td>(</td>
+          <td class="paramtype">wxKeyEvent &amp;&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00140">140</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MEvents_8hpp.html#ad2cdb7051c70ccfb0b0570a8e3b455c8a7ef8949a37c02f94d7975401b455b7f0">KEY_PRESSED</a>, and <a class="el" href="AppFrame_8hpp_source.html#l00058">waitNextParler</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="AppFrame_8cpp_source.html#l00032">AppFrame()</a>.</p>
+
+</div>
+</div>
+<a id="a493c66d27c299ea534ab1941fe6de7e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a493c66d27c299ea534ab1941fe6de7e7">&#9670;&nbsp;</a></span>onNext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AppFrame::onNext </td>
+          <td>(</td>
+          <td class="paramtype">wxCommandEvent &amp;&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00188">188</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="AppFrame_8cpp_source.html#l00211">effacerParler()</a>, and <a class="el" href="AppFrame_8hpp_source.html#l00058">waitNextParler</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="AppFrame_8cpp_source.html#l00032">AppFrame()</a>.</p>
 
 </div>
 </div>
@@ -414,12 +594,54 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00066">66</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00136">136</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
 
 </div>
 </div>
-<a id="acc9e509dc200f13f5f611f5a1ab83e48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc9e509dc200f13f5f611f5a1ab83e48">&#9670;&nbsp;</a></span>setPositionOf()</h2>
+<a id="a72c5c421cff2dcd86dfa1720ab72168d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72c5c421cff2dcd86dfa1720ab72168d">&#9670;&nbsp;</a></span>parler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AppFrame::parler </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>entityTexture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>parole</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classAppFrameInterface.html#aed122a86eba681efb383b5467ee52623">AppFrameInterface</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00196">196</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="AppFrame_8hpp_source.html#l00055">dialogBox</a>, <a class="el" href="ImagePanelP_8cpp_source.html#l00079">wxImagePanelP::LoadImage()</a>, <a class="el" href="ImagePanelP_8cpp_source.html#l00043">wxImagePanelP::paintNow()</a>, <a class="el" href="AppFrame_8hpp_source.html#l00056">persoDireImage</a>, and <a class="el" href="AppFrame_8hpp_source.html#l00058">waitNextParler</a>.</p>
+
+</div>
+</div>
+<a id="a4fae93e93ee562e4a3e6c37e670a83d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fae93e93ee562e4a3e6c37e670a83d1">&#9670;&nbsp;</a></span>setPositionOf()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -437,7 +659,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;&#160;</td>
-          <td class="paramname"><em>offset</em>&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a>&#160;</td>
+          <td class="paramname"><em>direction</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -452,11 +680,47 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classAppFrameInterface.html#acdd83dc409347dfd87076aabd8798fd4">AppFrameInterface</a>.</p>
+<p>Implements <a class="el" href="classAppFrameInterface.html#a7d6f8f8a800ab5fdfeb601a4843832c6">AppFrameInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00080">80</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00170">170</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="AppFrame_8hpp_source.html#l00036">_canvas</a>, and <a class="el" href="Caneva_8cpp_source.html#l00152">Canvas::setPositionOf()</a>.</p>
+<p class="reference">References <a class="el" href="AppFrame_8hpp_source.html#l00050">_canvas</a>, and <a class="el" href="Caneva_8cpp_source.html#l00200">Canvas::setPositionOf()</a>.</p>
+
+</div>
+</div>
+<a id="a1005835ec32389541e48672f40453d34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1005835ec32389541e48672f40453d34">&#9670;&nbsp;</a></span>showEnigma()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AppFrame::showEnigma </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>title</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>textInside</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="AppFrame_8cpp_source.html#l00176">176</a> of file <a class="el" href="AppFrame_8cpp_source.html">AppFrame.cpp</a>.</p>
 
 </div>
 </div>
@@ -481,9 +745,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AppFrame_8hpp_source.html#l00036">36</a> of file <a class="el" href="AppFrame_8hpp_source.html">AppFrame.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AppFrame_8hpp_source.html#l00050">50</a> of file <a class="el" href="AppFrame_8hpp_source.html">AppFrame.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AppFrame_8cpp_source.html#l00012">AppFrame()</a>, <a class="el" href="AppFrame_8cpp_source.html#l00061">getCaneva()</a>, <a class="el" href="AppFrame_8cpp_source.html#l00075">move()</a>, and <a class="el" href="AppFrame_8cpp_source.html#l00080">setPositionOf()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AppFrame_8cpp_source.html#l00032">AppFrame()</a>, <a class="el" href="AppFrame_8cpp_source.html#l00131">getCaneva()</a>, <a class="el" href="AppFrame_8cpp_source.html#l00165">move()</a>, <a class="el" href="AppFrame_8cpp_source.html#l00170">setPositionOf()</a>, and <a class="el" href="AppFrame_8cpp_source.html#l00182">~AppFrame()</a>.</p>
 
 </div>
 </div>
@@ -507,9 +771,105 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AppFrame_8hpp_source.html#l00037">37</a> of file <a class="el" href="AppFrame_8hpp_source.html">AppFrame.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AppFrame_8hpp_source.html#l00051">51</a> of file <a class="el" href="AppFrame_8hpp_source.html">AppFrame.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AppFrame_8cpp_source.html#l00012">AppFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AppFrame_8cpp_source.html#l00032">AppFrame()</a>, <a class="el" href="AppFrame_8cpp_source.html#l00160">getPanel()</a>, and <a class="el" href="AppFrame_8cpp_source.html#l00182">~AppFrame()</a>.</p>
+
+</div>
+</div>
+<a id="aad16426aac75a3ad8072e8462bb61d4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad16426aac75a3ad8072e8462bb61d4f">&#9670;&nbsp;</a></span>cursorloc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wxTextCtrl* AppFrame::cursorloc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="AppFrame_8hpp_source.html#l00054">54</a> of file <a class="el" href="AppFrame_8hpp_source.html">AppFrame.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="AppFrame_8cpp_source.html#l00032">AppFrame()</a>.</p>
+
+</div>
+</div>
+<a id="a50f33ce66b8defe5916219734b71d140"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50f33ce66b8defe5916219734b71d140">&#9670;&nbsp;</a></span>dialogBox</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wxTextCtrl* AppFrame::dialogBox</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="AppFrame_8hpp_source.html#l00055">55</a> of file <a class="el" href="AppFrame_8hpp_source.html">AppFrame.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="AppFrame_8cpp_source.html#l00032">AppFrame()</a>, <a class="el" href="AppFrame_8cpp_source.html#l00211">effacerParler()</a>, and <a class="el" href="AppFrame_8cpp_source.html#l00196">parler()</a>.</p>
+
+</div>
+</div>
+<a id="aff0b4052f789ad4f73293a469f00d085"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff0b4052f789ad4f73293a469f00d085">&#9670;&nbsp;</a></span>persoDireImage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwxImagePanelP.html">wxImagePanelP</a>* AppFrame::persoDireImage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="AppFrame_8hpp_source.html#l00056">56</a> of file <a class="el" href="AppFrame_8hpp_source.html">AppFrame.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="AppFrame_8cpp_source.html#l00032">AppFrame()</a>, <a class="el" href="AppFrame_8cpp_source.html#l00211">effacerParler()</a>, and <a class="el" href="AppFrame_8cpp_source.html#l00196">parler()</a>.</p>
+
+</div>
+</div>
+<a id="ab336ceb9c12954a2c5f4a6b396622c3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab336ceb9c12954a2c5f4a6b396622c3a">&#9670;&nbsp;</a></span>tailleInventory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMCoordonnees.html">MCoordonnees</a> AppFrame::tailleInventory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="AppFrame_8hpp_source.html#l00052">52</a> of file <a class="el" href="AppFrame_8hpp_source.html">AppFrame.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aa90835dcd05c2349036cc61066c71bcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa90835dcd05c2349036cc61066c71bcf">&#9670;&nbsp;</a></span>waitNextParler</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex AppFrame::waitNextParler</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="AppFrame_8hpp_source.html#l00058">58</a> of file <a class="el" href="AppFrame_8hpp_source.html">AppFrame.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="AppFrame_8cpp_source.html#l00140">onKey()</a>, <a class="el" href="AppFrame_8cpp_source.html#l00188">onNext()</a>, and <a class="el" href="AppFrame_8cpp_source.html#l00196">parler()</a>.</p>
 
 </div>
 </div>

@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['levelfolder',['levelFolder',['../classCNiveau.html#aee79132b2d9f4e0fc9c97a2a93527f71',1,'CNiveau']]],
-  ['levelmainfile',['levelMainFile',['../classCNiveau.html#af5452ff0faf0c203b1398933928c7e85',1,'CNiveau']]],
-  ['lua',['lua',['../classCLua.html#a6bb5b35525a6d6ab5cff3184d573b785',1,'CLua']]]
+  ['kcanvasmargin',['kCanvasMargin',['../wxSFMLCanevas_8hpp.html#a72a2b4df93e790fe1a6f2ca9b26c244a',1,'wxSFMLCanevas.hpp']]],
+  ['kdefaultwindowheight',['kDefaultWindowHeight',['../wxSFMLCanevas_8hpp.html#aee93dda0130500a971e17a92be66c446',1,'wxSFMLCanevas.hpp']]],
+  ['kdefaultwindowwidth',['kDefaultWindowWidth',['../wxSFMLCanevas_8hpp.html#a4895f9a8b9bcd922371c3aea827a1d62',1,'wxSFMLCanevas.hpp']]],
+  ['keys',['keys',['../classMParameters.html#acfb7d45edf8a3cd9ac4b7bc4896e5590',1,'MParameters']]]
 ];

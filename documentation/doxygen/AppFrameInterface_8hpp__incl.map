@@ -1,9 +1,9 @@
 <map id="src/vue/AppFrameInterface.hpp" name="src/vue/AppFrameInterface.hpp">
-<area shape="rect" id="node2" href="$MPartieCouche_8hpp.html" title="TODO complete. " alt="" coords="284,80,471,107"/>
-<area shape="rect" id="node3" href="$MEntite_8hpp.html" title="TODO complete. " alt="" coords="332,155,424,181"/>
-<area shape="rect" id="node4" href="$MAssException_8hpp.html" title="TODO complete. " alt="" coords="227,237,366,263"/>
-<area shape="rect" id="node5" href="$MCoordonnees_8hpp.html" title="MCoordonnees.hpp" alt="" coords="172,319,306,345"/>
-<area shape="rect" id="node9" href="$MCompetence_8hpp.html" title="MCompetence.hpp" alt="" coords="390,237,520,263"/>
-<area shape="rect" id="node10" href="$MInventaire_8hpp.html" title="MInventaire.hpp" alt="" coords="32,319,147,345"/>
-<area shape="rect" id="node11" href="$MObjetTexture_8hpp.html" title="TODO complete. " alt="" coords="528,319,662,345"/>
+<area shape="rect" id="node2" href="$MPartieCouche_8hpp.html" title="TODO complete. " alt="" coords="323,80,509,107"/>
+<area shape="rect" id="node3" href="$MEntite_8hpp.html" title="TODO complete. " alt="" coords="370,155,462,181"/>
+<area shape="rect" id="node4" href="$MAssException_8hpp.html" title="TODO complete. " alt="" coords="453,237,592,263"/>
+<area shape="rect" id="node5" href="$MCoordonnees_8hpp.html" title="MCoordonnees.hpp" alt="" coords="531,319,666,345"/>
+<area shape="rect" id="node9" href="$MCompetence_8hpp.html" title="MCompetence.hpp" alt="" coords="248,237,379,263"/>
+<area shape="rect" id="node10" href="$MInventaire_8hpp.html" title="MInventaire.hpp" alt="" coords="667,237,781,263"/>
+<area shape="rect" id="node12" href="$MObjetTexture_8hpp.html" title="TODO complete. " alt="" coords="165,319,299,345"/>
 </map>

@@ -9,5 +9,7 @@ var searchData=
   ['cniveau_2ecpp',['CNiveau.cpp',['../CNiveau_8cpp.html',1,'']]],
   ['cniveau_2ehpp',['CNiveau.hpp',['../CNiveau_8hpp.html',1,'']]],
   ['cpersonnage_2ecpp',['CPersonnage.cpp',['../CPersonnage_8cpp.html',1,'']]],
-  ['cpersonnage_2ehpp',['CPersonnage.hpp',['../CPersonnage_8hpp.html',1,'']]]
+  ['cpersonnage_2ehpp',['CPersonnage.hpp',['../CPersonnage_8hpp.html',1,'']]],
+  ['customwxtextctrl_2ecpp',['CustomWxTextCtrl.cpp',['../CustomWxTextCtrl_8cpp.html',1,'']]],
+  ['customwxtextctrl_2ehpp',['CustomWxTextCtrl.hpp',['../CustomWxTextCtrl_8hpp.html',1,'']]]
 ];

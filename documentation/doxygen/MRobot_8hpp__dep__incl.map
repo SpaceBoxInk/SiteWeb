@@ -1,12 +1,11 @@
 <map id="src/model/MRobot.hpp" name="src/model/MRobot.hpp">
-<area shape="rect" id="node2" href="$MPersonnage_8hpp.html" title="TODO complete. " alt="" coords="237,80,425,107"/>
-<area shape="rect" id="node9" href="$CPersonnage_8cpp.html" title="src/controlleur/CPersonnage.cpp" alt="" coords="480,229,691,256"/>
-<area shape="rect" id="node11" href="$MRobot_8cpp.html" title="TODO complete. " alt="" coords="623,80,777,107"/>
-<area shape="rect" id="node3" href="$CPersonnage_8hpp.html" title="src/controlleur/CPersonnage.hpp" alt="" coords="337,155,548,181"/>
-<area shape="rect" id="node6" href="$CJeu_8cpp.html" title="TODO complete. " alt="" coords="5,304,168,331"/>
-<area shape="rect" id="node10" href="$MPersonnage_8cpp.html" title="TODO complete. " alt="" coords="125,155,313,181"/>
-<area shape="rect" id="node4" href="$CJeu_8hpp.html" title="TODO complete. " alt="" coords="293,229,456,256"/>
-<area shape="rect" id="node5" href="$App_8cpp.html" title="src/controlleur/App.cpp" alt="" coords="565,304,721,331"/>
-<area shape="rect" id="node7" href="$CLua_8cpp.html" title="TODO complete. " alt="" coords="192,304,355,331"/>
-<area shape="rect" id="node8" href="$main_8cpp.html" title="src/controlleur/main.cpp" alt="" coords="379,304,541,331"/>
+<area shape="rect" id="node2" href="$MPersonnage_8hpp.html" title="TODO complete. " alt="" coords="283,80,471,107"/>
+<area shape="rect" id="node8" href="$CPersonnage_8cpp.html" title="src/controlleur/CPersonnage.cpp" alt="" coords="557,229,767,256"/>
+<area shape="rect" id="node10" href="$MRobot_8cpp.html" title="TODO complete. " alt="" coords="653,80,807,107"/>
+<area shape="rect" id="node3" href="$CPersonnage_8hpp.html" title="src/controlleur/CPersonnage.hpp" alt="" coords="271,155,482,181"/>
+<area shape="rect" id="node6" href="$CJeu_8cpp.html" title="TODO complete. " alt="" coords="511,304,674,331"/>
+<area shape="rect" id="node7" href="$CLua_8cpp.html" title="TODO complete. " alt="" coords="143,304,306,331"/>
+<area shape="rect" id="node9" href="$MPersonnage_8cpp.html" title="TODO complete. " alt="" coords="5,155,193,181"/>
+<area shape="rect" id="node4" href="$CJeu_8hpp.html" title="TODO complete. " alt="" coords="319,229,482,256"/>
+<area shape="rect" id="node5" href="$App_8cpp.html" title="src/controlleur/App.cpp" alt="" coords="331,304,487,331"/>
 </map>

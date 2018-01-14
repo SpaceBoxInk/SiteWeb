@@ -88,21 +88,23 @@ $(document).ready(function(){initNavTree('MTuile_8hpp.html','');});
 <div class="textblock"><code>#include &quot;<a class="el" href="MAssException_8hpp_source.html">MAssException.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MCoordonnees_8hpp_source.html">MCoordonnees.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MEntite_8hpp_source.html">MEntite.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MPartieCouche_8hpp_source.html">MPartieCouche.hpp</a>&quot;</code><br />
 <code>#include &lt;array&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for MTuile.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="MTuile_8hpp__incl.png" border="0" usemap="#src_2model_2MTuile_8hpp" alt=""/></div>
 <map name="src_2model_2MTuile_8hpp" id="src_2model_2MTuile_8hpp">
-<area shape="rect" id="node2" href="MAssException_8hpp.html" title="TODO complete. " alt="" coords="43,237,181,263"/>
-<area shape="rect" id="node3" href="MCoordonnees_8hpp.html" title="MCoordonnees.hpp" alt="" coords="597,319,731,345"/>
-<area shape="rect" id="node7" href="MEntite_8hpp.html" title="TODO complete. " alt="" coords="558,155,650,181"/>
-<area shape="rect" id="node13" href="MPartieCouche_8hpp.html" title="TODO complete. " alt="" coords="724,80,860,107"/>
-<area shape="rect" id="node8" href="MCompetence_8hpp.html" title="MCompetence.hpp" alt="" coords="256,237,387,263"/>
-<area shape="rect" id="node9" href="MInventaire_8hpp.html" title="MInventaire.hpp" alt="" coords="819,319,933,345"/>
-<area shape="rect" id="node10" href="MObjetTexture_8hpp.html" title="TODO complete. " alt="" coords="244,319,377,345"/>
+<area shape="rect" id="node2" href="MAssException_8hpp.html" title="TODO complete. " alt="" coords="195,237,333,263"/>
+<area shape="rect" id="node3" href="MCoordonnees_8hpp.html" title="MCoordonnees.hpp" alt="" coords="94,319,229,345"/>
+<area shape="rect" id="node7" href="MEntite_8hpp.html" title="TODO complete. " alt="" coords="591,155,683,181"/>
+<area shape="rect" id="node14" href="MItem_8hpp.html" title="MItem.hpp" alt="" coords="915,155,999,181"/>
+<area shape="rect" id="node15" href="MPartieCouche_8hpp.html" title="TODO complete. " alt="" coords="664,80,800,107"/>
+<area shape="rect" id="node8" href="MCompetence_8hpp.html" title="MCompetence.hpp" alt="" coords="357,237,488,263"/>
+<area shape="rect" id="node9" href="MInventaire_8hpp.html" title="MInventaire.hpp" alt="" coords="752,237,867,263"/>
+<area shape="rect" id="node11" href="MObjetTexture_8hpp.html" title="TODO complete. " alt="" coords="891,237,1024,263"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -110,20 +112,20 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="MTuile_8hpp__dep__incl.png" border="0" usemap="#src_2model_2MTuile_8hppdep" alt=""/></div>
 <map name="src_2model_2MTuile_8hppdep" id="src_2model_2MTuile_8hppdep">
-<area shape="rect" id="node2" href="MTerrain_8hpp.html" title="src/model/MTerrain.hpp" alt="" coords="345,80,503,107"/>
-<area shape="rect" id="node10" href="CPersonnage_8cpp.html" title="src/controlleur/CPersonnage.cpp" alt="" coords="481,155,692,181"/>
-<area shape="rect" id="node11" href="MEntite_8cpp.html" title="TODO complete. " alt="" coords="715,155,869,181"/>
-<area shape="rect" id="node13" href="MAssException_8cpp.html" title="TODO complete. " alt="" coords="675,80,875,107"/>
-<area shape="rect" id="node14" href="MRobot_8cpp.html" title="TODO complete. " alt="" coords="898,80,1051,107"/>
-<area shape="rect" id="node15" href="MTuile_8cpp.html" title="src/model/MTuile.cpp" alt="" coords="1076,80,1223,107"/>
-<area shape="rect" id="node3" href="CNiveau_8hpp.html" title="TODO complete. " alt="" coords="91,155,274,181"/>
-<area shape="rect" id="node7" href="CLua_8cpp.html" title="TODO complete. " alt="" coords="5,304,168,331"/>
-<area shape="rect" id="node12" href="MTerrain_8cpp.html" title="src/model/MTerrain.cpp" alt="" coords="298,155,457,181"/>
-<area shape="rect" id="node4" href="CJeu_8hpp.html" title="TODO complete. " alt="" coords="285,229,448,256"/>
-<area shape="rect" id="node9" href="CNiveau_8cpp.html" title="TODO complete. " alt="" coords="27,229,210,256"/>
-<area shape="rect" id="node5" href="App_8cpp.html" title="src/controlleur/App.cpp" alt="" coords="565,304,721,331"/>
-<area shape="rect" id="node6" href="CJeu_8cpp.html" title="TODO complete. " alt="" coords="192,304,355,331"/>
-<area shape="rect" id="node8" href="main_8cpp.html" title="src/controlleur/main.cpp" alt="" coords="379,304,541,331"/>
+<area shape="rect" id="node2" href="MTerrain_8hpp.html" title="src/model/MTerrain.hpp" alt="" coords="826,80,985,107"/>
+<area shape="rect" id="node6" href="CJeu_8cpp.html" title="TODO complete. " alt="" coords="5,304,168,331"/>
+<area shape="rect" id="node7" href="CLua_8cpp.html" title="TODO complete. " alt="" coords="663,304,825,331"/>
+<area shape="rect" id="node9" href="CPersonnage_8cpp.html" title="src/controlleur/CPersonnage.cpp" alt="" coords="35,155,245,181"/>
+<area shape="rect" id="node10" href="MEntite_8cpp.html" title="TODO complete. " alt="" coords="982,155,1135,181"/>
+<area shape="rect" id="node13" href="MTuile_8cpp.html" title="src/model/MTuile.cpp" alt="" coords="1160,155,1307,181"/>
+<area shape="rect" id="node14" href="MAssException_8cpp.html" title="TODO complete. " alt="" coords="1381,80,1581,107"/>
+<area shape="rect" id="node15" href="MRobot_8cpp.html" title="TODO complete. " alt="" coords="1605,80,1758,107"/>
+<area shape="rect" id="node3" href="CNiveau_8hpp.html" title="TODO complete. " alt="" coords="270,155,453,181"/>
+<area shape="rect" id="node11" href="MPartieCoucheElement_8cpp.html" title="TODO complete. " alt="" coords="477,155,723,181"/>
+<area shape="rect" id="node12" href="MTerrain_8cpp.html" title="src/model/MTerrain.cpp" alt="" coords="747,155,906,181"/>
+<area shape="rect" id="node4" href="CJeu_8hpp.html" title="TODO complete. " alt="" coords="220,229,383,256"/>
+<area shape="rect" id="node8" href="CNiveau_8cpp.html" title="TODO complete. " alt="" coords="458,229,641,256"/>
+<area shape="rect" id="node5" href="App_8cpp.html" title="src/controlleur/App.cpp" alt="" coords="223,304,379,331"/>
 </map>
 </div>
 </div>

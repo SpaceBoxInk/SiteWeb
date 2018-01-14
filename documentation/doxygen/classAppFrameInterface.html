@@ -112,10 +112,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a570e849675b04901a2ad040c0cb3c3dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6d9476afe0d758f508406d1ebf41777"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAppFrameInterface.html#aa6d9476afe0d758f508406d1ebf41777">addEntite</a> (std::string entityName, std::string file)=0</td></tr>
 <tr class="separator:aa6d9476afe0d758f508406d1ebf41777"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af33a29dff8dfdc0cceff878c465f1280"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAppFrameInterface.html#af33a29dff8dfdc0cceff878c465f1280">move</a> (std::string entityName, <a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;offset)=0</td></tr>
-<tr class="separator:af33a29dff8dfdc0cceff878c465f1280"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdd83dc409347dfd87076aabd8798fd4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAppFrameInterface.html#acdd83dc409347dfd87076aabd8798fd4">setPositionOf</a> (std::string entityName, <a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;position)=0</td></tr>
-<tr class="separator:acdd83dc409347dfd87076aabd8798fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5e2723cdf875b2e341f338e000adba5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAppFrameInterface.html#af5e2723cdf875b2e341f338e000adba5">move</a> (std::string entityName, <a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;offset, <a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a> direction)=0</td></tr>
+<tr class="separator:af5e2723cdf875b2e341f338e000adba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d6f8f8a800ab5fdfeb601a4843832c6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAppFrameInterface.html#a7d6f8f8a800ab5fdfeb601a4843832c6">setPositionOf</a> (std::string entityName, <a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;position, <a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a> direction)=0</td></tr>
+<tr class="separator:a7d6f8f8a800ab5fdfeb601a4843832c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed122a86eba681efb383b5467ee52623"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAppFrameInterface.html#aed122a86eba681efb383b5467ee52623">parler</a> (std::string entityTexture, std::string parole)=0</td></tr>
+<tr class="separator:aed122a86eba681efb383b5467ee52623"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>interface pour contrôleur &lt;-&gt; vue </p>
@@ -209,7 +211,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="structAppFrame.html#a4f6cc605e027359faa0d04c758b612d3">AppFrame</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00093">CNiveau::addEntite()</a>, <a class="el" href="CPersonnage_8cpp_source.html#l00090">CPersonnage::addRobot()</a>, and <a class="el" href="CJeu_8cpp_source.html#l00025">CJeu::CJeu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00099">CNiveau::addEntite()</a>, <a class="el" href="CPersonnage_8cpp_source.html#l00109">CPersonnage::addRobot()</a>, and <a class="el" href="CJeu_8cpp_source.html#l00031">CJeu::CJeu()</a>.</p>
 
 </div>
 </div>
@@ -261,12 +263,12 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="structAppFrame.html#aa0ac9165630cc65fb5b8cfe3e238d3fc">AppFrame</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00044">CNiveau::setEventMethods()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00046">CPersonnage::setEventMethods()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00050">CNiveau::setEventMethods()</a>.</p>
 
 </div>
 </div>
-<a id="af33a29dff8dfdc0cceff878c465f1280"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af33a29dff8dfdc0cceff878c465f1280">&#9670;&nbsp;</a></span>move()</h2>
+<a id="af5e2723cdf875b2e341f338e000adba5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5e2723cdf875b2e341f338e000adba5">&#9670;&nbsp;</a></span>move()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +286,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;&#160;</td>
-          <td class="paramname"><em>offset</em>&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a>&#160;</td>
+          <td class="paramname"><em>direction</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -299,12 +307,52 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structAppFrame.html#a1db4bd79ce592304bae941a0342a65e7">AppFrame</a>.</p>
+<p>Implemented in <a class="el" href="structAppFrame.html#ad05f0d39e0afe3630e49f97c3e5b01ad">AppFrame</a>.</p>
 
 </div>
 </div>
-<a id="acdd83dc409347dfd87076aabd8798fd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acdd83dc409347dfd87076aabd8798fd4">&#9670;&nbsp;</a></span>setPositionOf()</h2>
+<a id="aed122a86eba681efb383b5467ee52623"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed122a86eba681efb383b5467ee52623">&#9670;&nbsp;</a></span>parler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AppFrameInterface::parler </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>entityTexture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>parole</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="structAppFrame.html#a72c5c421cff2dcd86dfa1720ab72168d">AppFrame</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00581">CLua::cppParler()</a>.</p>
+
+</div>
+</div>
+<a id="a7d6f8f8a800ab5fdfeb601a4843832c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d6f8f8a800ab5fdfeb601a4843832c6">&#9670;&nbsp;</a></span>setPositionOf()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -322,7 +370,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classMCoordonnees.html">MCoordonnees</a> const &amp;&#160;</td>
-          <td class="paramname"><em>position</em>&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a>&#160;</td>
+          <td class="paramname"><em>direction</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -337,9 +391,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structAppFrame.html#acc9e509dc200f13f5f611f5a1ab83e48">AppFrame</a>.</p>
+<p>Implemented in <a class="el" href="structAppFrame.html#a4fae93e93ee562e4a3e6c37e670a83d1">AppFrame</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00093">CNiveau::addEntite()</a>, <a class="el" href="CPersonnage_8cpp_source.html#l00090">CPersonnage::addRobot()</a>, <a class="el" href="CJeu_8cpp_source.html#l00025">CJeu::CJeu()</a>, <a class="el" href="CPersonnage_8cpp_source.html#l00047">CPersonnage::setEventMethods()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00044">CNiveau::setEventMethods()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00099">CNiveau::addEntite()</a>, <a class="el" href="CPersonnage_8cpp_source.html#l00109">CPersonnage::addRobot()</a>, <a class="el" href="CJeu_8cpp_source.html#l00031">CJeu::CJeu()</a>, <a class="el" href="CPersonnage_8cpp_source.html#l00046">CPersonnage::setEventMethods()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00050">CNiveau::setEventMethods()</a>.</p>
 
 </div>
 </div>

@@ -119,6 +119,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:aa2b186492c4170e04fe2c0db261ac015"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69653ab8e928cefaef8c246022f1a26a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMParameters.html#a69653ab8e928cefaef8c246022f1a26a">isActionKey</a> (char key)</td></tr>
 <tr class="separator:a69653ab8e928cefaef8c246022f1a26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9085b9015bb97bdc78a02118ec76d58a"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMParameters.html#a9085b9015bb97bdc78a02118ec76d58a">getKey</a> (std::string action)</td></tr>
+<tr class="separator:a9085b9015bb97bdc78a02118ec76d58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8540de9205ad88b3ad3c00db6a6c45d0"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMParameters.html#a8540de9205ad88b3ad3c00db6a6c45d0">getTextureFor</a> (<a class="el" href="MPartieCouche_8hpp.html#ae18c81088d9cb955424aa450cb1349d4">MTypeCouche</a> couche)</td></tr>
 <tr class="separator:a8540de9205ad88b3ad3c00db6a6c45d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b967cca77179298ca99c567092d19a9"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMParameters.html#a3b967cca77179298ca99c567092d19a9">getTailleTuile</a> ()</td></tr>
@@ -134,12 +136,12 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
+<tr class="memitem:aed828a910ef4d93ba9fb812a2d4d3916"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMParameters.html#aed828a910ef4d93ba9fb812a2d4d3916">getKeyFor</a> (std::string const &amp;action)</td></tr>
+<tr class="separator:aed828a910ef4d93ba9fb812a2d4d3916"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b30e366a474d205f62cce303994a3e3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMParameters.html#a3b30e366a474d205f62cce303994a3e3">checkConfFile</a> (std::string path)</td></tr>
 <tr class="separator:a3b30e366a474d205f62cce303994a3e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1efc3f63939da5672f533460f427ae5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMParameters.html#af1efc3f63939da5672f533460f427ae5">setRootPath</a> ()</td></tr>
 <tr class="separator:af1efc3f63939da5672f533460f427ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed828a910ef4d93ba9fb812a2d4d3916"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMParameters.html#aed828a910ef4d93ba9fb812a2d4d3916">getKeyFor</a> (std::string const &amp;action)</td></tr>
-<tr class="separator:aed828a910ef4d93ba9fb812a2d4d3916"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -157,7 +159,7 @@ Static Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>List of parameters for editor </p>
 
-<p class="definition">Definition at line <a class="el" href="MParameters_8hpp_source.html#l00037">37</a> of file <a class="el" href="MParameters_8hpp_source.html">MParameters.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MParameters_8hpp_source.html#l00041">41</a> of file <a class="el" href="MParameters_8hpp_source.html">MParameters.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a3b30e366a474d205f62cce303994a3e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3b30e366a474d205f62cce303994a3e3">&#9670;&nbsp;</a></span>checkConfFile()</h2>
@@ -192,7 +194,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00018">18</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8cpp_source.html#l00064">getConfPath()</a>, and <a class="el" href="MParameters_8hpp_source.html#l00044">rootPath</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8cpp_source.html#l00064">getConfPath()</a>, and <a class="el" href="MParameters_8hpp_source.html#l00048">rootPath</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="MParameters_8cpp_source.html#l00034">setRootPath()</a>.</p>
 
@@ -224,9 +226,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00109">109</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00047">keys</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00051">keys</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00047">CPersonnage::setEventMethods()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00046">CPersonnage::setEventMethods()</a>.</p>
 
 </div>
 </div>
@@ -255,9 +257,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00079">79</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00042">conf</a>, and <a class="el" href="MParameters_8cpp_source.html#l00084">getTuilePath()</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">conf</a>, and <a class="el" href="MParameters_8cpp_source.html#l00084">getTuilePath()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MTerrain_8cpp_source.html#l00053">MTerrain::loadTypes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MTerrain_8cpp_source.html#l00056">MTerrain::loadTypes()</a>.</p>
 
 </div>
 </div>
@@ -286,7 +288,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00064">64</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00043">configFile</a>, and <a class="el" href="MParameters_8hpp_source.html#l00044">rootPath</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00047">configFile</a>, and <a class="el" href="MParameters_8hpp_source.html#l00048">rootPath</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="MParameters_8cpp_source.html#l00018">checkConfFile()</a>, and <a class="el" href="MParameters_8cpp_source.html#l00161">load()</a>.</p>
 
@@ -317,9 +319,41 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00074">74</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00042">conf</a>, and <a class="el" href="MParameters_8cpp_source.html#l00084">getTuilePath()</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">conf</a>, and <a class="el" href="MParameters_8cpp_source.html#l00084">getTuilePath()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MTerrain_8cpp_source.html#l00053">MTerrain::loadTypes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MTerrain_8cpp_source.html#l00056">MTerrain::loadTypes()</a>.</p>
+
+</div>
+</div>
+<a id="a9085b9015bb97bdc78a02118ec76d58a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9085b9015bb97bdc78a02118ec76d58a">&#9670;&nbsp;</a></span>getKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MParameters::getKey </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>action</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00208">208</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">conf</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00142">CLua::cppGetKeyFor()</a>.</p>
 
 </div>
 </div>
@@ -349,7 +383,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00046">46</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00042">conf</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">conf</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="MParameters_8cpp_source.html#l00161">load()</a>.</p>
 
@@ -380,9 +414,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00089">89</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00042">conf</a>, and <a class="el" href="MParameters_8hpp_source.html#l00044">rootPath</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">conf</a>, and <a class="el" href="MParameters_8hpp_source.html#l00048">rootPath</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00110">CNiveau::getScript()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00068">CNiveau::getScriptFolder()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00116">CNiveau::getScript()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00074">CNiveau::getScriptFolder()</a>.</p>
 
 </div>
 </div>
@@ -411,7 +445,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00099">99</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00042">conf</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">conf</a>.</p>
 
 </div>
 </div>
@@ -440,7 +474,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00094">94</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00042">conf</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">conf</a>.</p>
 
 </div>
 </div>
@@ -470,9 +504,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00104">104</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">mouvKeys</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00050">mouvKeys</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00047">CPersonnage::setEventMethods()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00046">CPersonnage::setEventMethods()</a>.</p>
 
 </div>
 </div>
@@ -501,9 +535,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00146">146</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00042">conf</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">conf</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MTerrain_8cpp_source.html#l00034">MTerrain::MTerrain()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MTerrain_8cpp_source.html#l00037">MTerrain::MTerrain()</a>, and <a class="el" href="Caneva_8cpp_source.html#l00061">Canvas::onCursor()</a>.</p>
 
 </div>
 </div>
@@ -532,9 +566,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00151">151</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00042">conf</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">conf</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MTerrain_8cpp_source.html#l00034">MTerrain::MTerrain()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MTerrain_8cpp_source.html#l00037">MTerrain::MTerrain()</a>, and <a class="el" href="Caneva_8cpp_source.html#l00061">Canvas::onCursor()</a>.</p>
 
 </div>
 </div>
@@ -563,9 +597,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00059">59</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00044">rootPath</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00048">rootPath</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00113">CLua::getResourcesPath()</a>, and <a class="el" href="MParameters_8cpp_source.html#l00156">getSpritesPath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AppFrame_8cpp_source.html#l00032">AppFrame::AppFrame()</a>, <a class="el" href="CLua_8cpp_source.html#l00124">CLua::cppGetResourcesPath()</a>, <a class="el" href="AppFrame_8cpp_source.html#l00211">AppFrame::effacerParler()</a>, and <a class="el" href="MParameters_8cpp_source.html#l00156">getSpritesPath()</a>.</p>
 
 </div>
 </div>
@@ -594,9 +628,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00069">69</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00042">conf</a>, and <a class="el" href="MParameters_8cpp_source.html#l00084">getTuilePath()</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">conf</a>, and <a class="el" href="MParameters_8cpp_source.html#l00084">getTuilePath()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MTerrain_8cpp_source.html#l00053">MTerrain::loadTypes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MTerrain_8cpp_source.html#l00056">MTerrain::loadTypes()</a>.</p>
 
 </div>
 </div>
@@ -625,7 +659,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00156">156</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00042">conf</a>, and <a class="el" href="MParameters_8cpp_source.html#l00059">getRootPath()</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">conf</a>, and <a class="el" href="MParameters_8cpp_source.html#l00059">getRootPath()</a>.</p>
 
 </div>
 </div>
@@ -654,9 +688,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00141">141</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00042">conf</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">conf</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00044">CNiveau::setEventMethods()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00046">CPersonnage::setEventMethods()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00050">CNiveau::setEventMethods()</a>.</p>
 
 </div>
 </div>
@@ -686,9 +720,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00136">136</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00042">conf</a>, <a class="el" href="MParameters_8cpp_source.html#l00084">getTuilePath()</a>, and <a class="el" href="MPartieCouche_8hpp_source.html#l00027">to_string()</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">conf</a>, <a class="el" href="MParameters_8cpp_source.html#l00084">getTuilePath()</a>, and <a class="el" href="MPartieCouche_8cpp_source.html#l00130">to_string()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00044">CNiveau::setEventMethods()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00046">CPersonnage::setEventMethods()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00050">CNiveau::setEventMethods()</a>.</p>
 
 </div>
 </div>
@@ -717,7 +751,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00084">84</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00042">conf</a>, and <a class="el" href="MParameters_8hpp_source.html#l00044">rootPath</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">conf</a>, and <a class="el" href="MParameters_8hpp_source.html#l00048">rootPath</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="MParameters_8cpp_source.html#l00079">getCielsPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00074">getElementsPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00069">getSolsPath()</a>, and <a class="el" href="MParameters_8cpp_source.html#l00136">getTextureFor()</a>.</p>
 
@@ -749,9 +783,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00125">125</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00047">keys</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00051">keys</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00047">CPersonnage::setEventMethods()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00046">CPersonnage::setEventMethods()</a>.</p>
 
 </div>
 </div>
@@ -781,9 +815,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00114">114</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00046">mouvKeys</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp_source.html#l00050">mouvKeys</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00047">CPersonnage::setEventMethods()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00046">CPersonnage::setEventMethods()</a>.</p>
 
 </div>
 </div>
@@ -813,9 +847,9 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00161">161</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9ac6ddd0f72ff2fd344693b9ca8d483871">ATTACK</a>, <a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223a366115ee6f4bf971e887e0fa4cd7d235">BAS</a>, <a class="el" href="MParameters_8hpp_source.html#l00042">conf</a>, <a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223af6b6a72233b964c057152159a0ef6da8">DROITE</a>, <a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223ac3c8b2fd3d9c81640c4fc5864af51c4d">GAUCHE</a>, <a class="el" href="MParameters_8cpp_source.html#l00064">getConfPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00046">getKeyFor()</a>, <a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223a3e446a07216685e75b27a788840b51f5">HAUT</a>, <a class="el" href="MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9a89a971e4a2e53f24138123694e7c73b6">INTERACT_ENTITY_KEY</a>, <a class="el" href="MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9ad5dff2a1513a5c0a0461243dc22e959e">INTERACT_ENV_KEY</a>, <a class="el" href="MParameters_8hpp_source.html#l00047">keys</a>, <a class="el" href="MParameters_8hpp_source.html#l00046">mouvKeys</a>, <a class="el" href="MParameters_8hpp_source.html#l00044">rootPath</a>, and <a class="el" href="MParameters_8cpp_source.html#l00034">setRootPath()</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9ac6ddd0f72ff2fd344693b9ca8d483871">ATTACK</a>, <a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223a366115ee6f4bf971e887e0fa4cd7d235">BAS</a>, <a class="el" href="MParameters_8hpp_source.html#l00046">conf</a>, <a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223af6b6a72233b964c057152159a0ef6da8">DROITE</a>, <a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223ac3c8b2fd3d9c81640c4fc5864af51c4d">GAUCHE</a>, <a class="el" href="MParameters_8cpp_source.html#l00064">getConfPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00046">getKeyFor()</a>, <a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223a3e446a07216685e75b27a788840b51f5">HAUT</a>, <a class="el" href="MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9a89a971e4a2e53f24138123694e7c73b6">INTERACT_ENTITY_KEY</a>, <a class="el" href="MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9a7dd74e8ea8166b22dba2ca3542b9960a">INTERACT_ENV</a>, <a class="el" href="MParameters_8hpp_source.html#l00051">keys</a>, <a class="el" href="MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9aa54829d454e759904d9594897686dc7b">MINE</a>, <a class="el" href="MParameters_8hpp_source.html#l00050">mouvKeys</a>, <a class="el" href="MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9a1b253434746b19ce7f1726510821bb6a">OPEN_EDITOR</a>, <a class="el" href="MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9a400956b02c024fd29cf0cd1f48874c53">OPEN_INVENTORY</a>, <a class="el" href="MParameters_8hpp_source.html#l00048">rootPath</a>, <a class="el" href="MParameters_8cpp_source.html#l00034">setRootPath()</a>, and <a class="el" href="MParameters_8hpp.html#a7c48cc16f4cd31127d7239943fcb8fd9ab30c277da41e5e545d8a3c031620e575">USE_MAIN_OBJECT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00014">main()</a>, and <a class="el" href="App_8cpp_source.html#l00022">App::OnInit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="App_8cpp_source.html#l00031">App::OnInit()</a>.</p>
 
 </div>
 </div>
@@ -845,7 +879,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="MParameters_8cpp_source.html#l00034">34</a> of file <a class="el" href="MParameters_8cpp_source.html">MParameters.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8cpp_source.html#l00018">checkConfFile()</a>, and <a class="el" href="MParameters_8hpp_source.html#l00044">rootPath</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8cpp_source.html#l00018">checkConfFile()</a>, <a class="el" href="MParameters_8hpp_source.html#l00047">configFile</a>, and <a class="el" href="MParameters_8hpp_source.html#l00048">rootPath</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="MParameters_8cpp_source.html#l00161">load()</a>.</p>
 
@@ -872,9 +906,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MParameters_8hpp_source.html#l00042">42</a> of file <a class="el" href="MParameters_8hpp_source.html">MParameters.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MParameters_8hpp_source.html#l00046">46</a> of file <a class="el" href="MParameters_8hpp_source.html">MParameters.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MParameters_8cpp_source.html#l00079">getCielsPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00074">getElementsPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00046">getKeyFor()</a>, <a class="el" href="MParameters_8cpp_source.html#l00089">getLevelPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00099">getMainScript()</a>, <a class="el" href="MParameters_8cpp_source.html#l00094">getMainScriptFolder()</a>, <a class="el" href="MParameters_8cpp_source.html#l00146">getNbTuileX()</a>, <a class="el" href="MParameters_8cpp_source.html#l00151">getNbTuileY()</a>, <a class="el" href="MParameters_8cpp_source.html#l00069">getSolsPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00156">getSpritesPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00141">getTailleTuile()</a>, <a class="el" href="MParameters_8cpp_source.html#l00136">getTextureFor()</a>, <a class="el" href="MParameters_8cpp_source.html#l00084">getTuilePath()</a>, and <a class="el" href="MParameters_8cpp_source.html#l00161">load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MParameters_8cpp_source.html#l00079">getCielsPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00074">getElementsPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00208">getKey()</a>, <a class="el" href="MParameters_8cpp_source.html#l00046">getKeyFor()</a>, <a class="el" href="MParameters_8cpp_source.html#l00089">getLevelPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00099">getMainScript()</a>, <a class="el" href="MParameters_8cpp_source.html#l00094">getMainScriptFolder()</a>, <a class="el" href="MParameters_8cpp_source.html#l00146">getNbTuileX()</a>, <a class="el" href="MParameters_8cpp_source.html#l00151">getNbTuileY()</a>, <a class="el" href="MParameters_8cpp_source.html#l00069">getSolsPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00156">getSpritesPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00141">getTailleTuile()</a>, <a class="el" href="MParameters_8cpp_source.html#l00136">getTextureFor()</a>, <a class="el" href="MParameters_8cpp_source.html#l00084">getTuilePath()</a>, and <a class="el" href="MParameters_8cpp_source.html#l00161">load()</a>.</p>
 
 </div>
 </div>
@@ -898,9 +932,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MParameters_8hpp_source.html#l00043">43</a> of file <a class="el" href="MParameters_8hpp_source.html">MParameters.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MParameters_8hpp_source.html#l00047">47</a> of file <a class="el" href="MParameters_8hpp_source.html">MParameters.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MParameters_8cpp_source.html#l00064">getConfPath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MParameters_8cpp_source.html#l00064">getConfPath()</a>, and <a class="el" href="MParameters_8cpp_source.html#l00034">setRootPath()</a>.</p>
 
 </div>
 </div>
@@ -924,7 +958,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MParameters_8hpp_source.html#l00047">47</a> of file <a class="el" href="MParameters_8hpp_source.html">MParameters.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MParameters_8hpp_source.html#l00051">51</a> of file <a class="el" href="MParameters_8hpp_source.html">MParameters.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="MParameters_8cpp_source.html#l00109">getActionFromKey()</a>, <a class="el" href="MParameters_8cpp_source.html#l00125">isActionKey()</a>, and <a class="el" href="MParameters_8cpp_source.html#l00161">load()</a>.</p>
 
@@ -950,7 +984,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MParameters_8hpp_source.html#l00046">46</a> of file <a class="el" href="MParameters_8hpp_source.html">MParameters.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MParameters_8hpp_source.html#l00050">50</a> of file <a class="el" href="MParameters_8hpp_source.html">MParameters.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="MParameters_8cpp_source.html#l00104">getMouvFromKey()</a>, <a class="el" href="MParameters_8cpp_source.html#l00114">isMouvKey()</a>, and <a class="el" href="MParameters_8cpp_source.html#l00161">load()</a>.</p>
 
@@ -976,7 +1010,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MParameters_8hpp_source.html#l00044">44</a> of file <a class="el" href="MParameters_8hpp_source.html">MParameters.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MParameters_8hpp_source.html#l00048">48</a> of file <a class="el" href="MParameters_8hpp_source.html">MParameters.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="MParameters_8cpp_source.html#l00018">checkConfFile()</a>, <a class="el" href="MParameters_8cpp_source.html#l00064">getConfPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00089">getLevelPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00059">getRootPath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00084">getTuilePath()</a>, <a class="el" href="MParameters_8cpp_source.html#l00161">load()</a>, and <a class="el" href="MParameters_8cpp_source.html#l00034">setRootPath()</a>.</p>
 

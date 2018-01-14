@@ -81,6 +81,7 @@ $(document).ready(function(){initNavTree('MInventaire_8hpp.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -88,6 +89,7 @@ $(document).ready(function(){initNavTree('MInventaire_8hpp.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;array&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for MInventaire.hpp:</div>
 <div class="dyncontent">
@@ -98,39 +100,41 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="MInventaire_8hpp__dep__incl.png" border="0" usemap="#src_2model_2MInventaire_8hppdep" alt=""/></div>
 <map name="src_2model_2MInventaire_8hppdep" id="src_2model_2MInventaire_8hppdep">
-<area shape="rect" id="node2" href="MEntite_8hpp.html" title="TODO complete. " alt="" coords="1868,80,2022,107"/>
-<area shape="rect" id="node32" href="MInventaire_8cpp.html" title="src/model/MInventaire.cpp" alt="" coords="2190,155,2366,181"/>
-<area shape="rect" id="node33" href="MItem_8hpp.html" title="src/model/MItem.hpp" alt="" coords="2260,80,2406,107"/>
-<area shape="rect" id="node3" href="MPartieCouche_8hpp.html" title="TODO complete. " alt="" coords="1397,155,1594,181"/>
-<area shape="rect" id="node16" href="CNiveau_8hpp.html" title="TODO complete. " alt="" coords="1650,379,1832,405"/>
-<area shape="rect" id="node20" href="MEntite_8cpp.html" title="TODO complete. " alt="" coords="1911,379,2064,405"/>
-<area shape="rect" id="node21" href="MTuile_8hpp.html" title="src/model/MTuile.hpp" alt="" coords="1617,229,1764,256"/>
-<area shape="rect" id="node28" href="MRobot_8hpp.html" title="TODO complete. " alt="" coords="783,155,936,181"/>
-<area shape="rect" id="node4" href="AppFrameInterface_8hpp.html" title="TODO complete. " alt="" coords="286,304,492,331"/>
-<area shape="rect" id="node10" href="CLua_8cpp.html" title="TODO complete. " alt="" coords="1745,528,1908,555"/>
-<area shape="rect" id="node13" href="CNiveau_8cpp.html" title="TODO complete. " alt="" coords="298,453,480,480"/>
-<area shape="rect" id="node15" href="MParameters_8hpp.html" title="src/model/MParameters.hpp" alt="" coords="1198,304,1385,331"/>
-<area shape="rect" id="node19" href="MTerrain_8hpp.html" title="src/model/MTerrain.hpp" alt="" coords="1804,304,1963,331"/>
-<area shape="rect" id="node22" href="MAssException_8cpp.html" title="TODO complete. " alt="" coords="1409,304,1609,331"/>
-<area shape="rect" id="node25" href="MPartieCouche_8cpp.html" title="TODO complete. " alt="" coords="1329,229,1526,256"/>
-<area shape="rect" id="node26" href="VPrimitif_8hpp.html" title="src/vue/VPrimitif.hpp" alt="" coords="1097,229,1241,256"/>
-<area shape="rect" id="node5" href="AppFrame_8hpp.html" title="src/vue/AppFrame.hpp" alt="" coords="633,379,788,405"/>
-<area shape="rect" id="node14" href="CPersonnage_8cpp.html" title="src/controlleur/CPersonnage.cpp" alt="" coords="862,379,1073,405"/>
-<area shape="rect" id="node6" href="App_8hpp.html" title="src/controlleur/App.hpp" alt="" coords="671,453,827,480"/>
-<area shape="rect" id="node8" href="CJeu_8hpp.html" title="TODO complete. " alt="" coords="1198,453,1361,480"/>
-<area shape="rect" id="node12" href="AppFrame_8cpp.html" title="src/vue/AppFrame.cpp" alt="" coords="929,453,1084,480"/>
-<area shape="rect" id="node7" href="App_8cpp.html" title="src/controlleur/App.cpp" alt="" coords="1083,528,1239,555"/>
-<area shape="rect" id="node9" href="CJeu_8cpp.html" title="TODO complete. " alt="" coords="400,528,562,555"/>
-<area shape="rect" id="node11" href="main_8cpp.html" title="src/controlleur/main.cpp" alt="" coords="1303,528,1464,555"/>
-<area shape="rect" id="node17" href="MParameters_8cpp.html" title="src/model/MParameters.cpp" alt="" coords="1198,379,1385,405"/>
-<area shape="rect" id="node18" href="MTerrain_8cpp.html" title="src/model/MTerrain.cpp" alt="" coords="1464,379,1623,405"/>
-<area shape="rect" id="node23" href="MRobot_8cpp.html" title="TODO complete. " alt="" coords="970,304,1123,331"/>
-<area shape="rect" id="node24" href="MTuile_8cpp.html" title="src/model/MTuile.cpp" alt="" coords="1633,304,1780,331"/>
-<area shape="rect" id="node27" href="VPrimitif_8cpp.html" title="src/vue/VPrimitif.cpp" alt="" coords="801,304,945,331"/>
-<area shape="rect" id="node29" href="MPersonnage_8hpp.html" title="TODO complete. " alt="" coords="23,229,211,256"/>
-<area shape="rect" id="node30" href="CPersonnage_8hpp.html" title="src/controlleur/CPersonnage.hpp" alt="" coords="516,304,726,331"/>
-<area shape="rect" id="node31" href="MPersonnage_8cpp.html" title="TODO complete. " alt="" coords="23,304,211,331"/>
-<area shape="rect" id="node34" href="MItem_8cpp.html" title="src/model/MItem.cpp" alt="" coords="2391,155,2536,181"/>
+<area shape="rect" id="node2" href="MEntite_8hpp.html" title="TODO complete. " alt="" coords="2088,80,2241,107"/>
+<area shape="rect" id="node11" href="CLua_8cpp.html" title="TODO complete. " alt="" coords="2031,528,2194,555"/>
+<area shape="rect" id="node21" href="MPartieCoucheElement_8cpp.html" title="TODO complete. " alt="" coords="1151,379,1397,405"/>
+<area shape="rect" id="node35" href="MItem_8hpp.html" title="src/model/MItem.hpp" alt="" coords="2641,155,2787,181"/>
+<area shape="rect" id="node36" href="MInventaire_8cpp.html" title="src/model/MInventaire.cpp" alt="" coords="3051,229,3227,256"/>
+<area shape="rect" id="node3" href="MPartieCouche_8hpp.html" title="TODO complete. " alt="" coords="1291,155,1489,181"/>
+<area shape="rect" id="node15" href="CNiveau_8hpp.html" title="TODO complete. " alt="" coords="1421,379,1604,405"/>
+<area shape="rect" id="node20" href="MEntite_8cpp.html" title="TODO complete. " alt="" coords="2559,379,2712,405"/>
+<area shape="rect" id="node23" href="MTuile_8hpp.html" title="src/model/MTuile.hpp" alt="" coords="2019,229,2166,256"/>
+<area shape="rect" id="node27" href="MPartieCoucheElement_8hpp.html" title="TODO complete. " alt="" coords="921,304,1166,331"/>
+<area shape="rect" id="node30" href="MRobot_8hpp.html" title="TODO complete. " alt="" coords="2160,155,2313,181"/>
+<area shape="rect" id="node34" href="MItem_8cpp.html" title="src/model/MItem.cpp" alt="" coords="2516,229,2661,256"/>
+<area shape="rect" id="node4" href="AppFrameInterface_8hpp.html" title="TODO complete. " alt="" coords="379,304,585,331"/>
+<area shape="rect" id="node9" href="AppFrame_8cpp.html" title="src/vue/AppFrame.cpp" alt="" coords="658,453,813,480"/>
+<area shape="rect" id="node12" href="CNiveau_8cpp.html" title="TODO complete. " alt="" coords="5,453,188,480"/>
+<area shape="rect" id="node13" href="CPersonnage_8cpp.html" title="src/controlleur/CPersonnage.cpp" alt="" coords="1850,379,2061,405"/>
+<area shape="rect" id="node14" href="MParameters_8hpp.html" title="src/model/MParameters.hpp" alt="" coords="659,304,846,331"/>
+<area shape="rect" id="node19" href="MTerrain_8hpp.html" title="src/model/MTerrain.hpp" alt="" coords="1633,304,1792,331"/>
+<area shape="rect" id="node24" href="MAssException_8cpp.html" title="TODO complete. " alt="" coords="1409,304,1609,331"/>
+<area shape="rect" id="node26" href="MPartieCouche_8cpp.html" title="TODO complete. " alt="" coords="1291,229,1489,256"/>
+<area shape="rect" id="node28" href="VPrimitif_8hpp.html" title="src/vue/VPrimitif.hpp" alt="" coords="1123,229,1267,256"/>
+<area shape="rect" id="node5" href="AppFrame_8hpp.html" title="src/vue/AppFrame.hpp" alt="" coords="426,379,581,405"/>
+<area shape="rect" id="node6" href="App_8hpp.html" title="src/controlleur/App.hpp" alt="" coords="264,453,420,480"/>
+<area shape="rect" id="node8" href="CJeu_8cpp.html" title="TODO complete. " alt="" coords="2481,528,2643,555"/>
+<area shape="rect" id="node10" href="Caneva_8cpp.html" title="src/vue/Caneva.cpp" alt="" coords="495,453,634,480"/>
+<area shape="rect" id="node7" href="App_8cpp.html" title="src/controlleur/App.cpp" alt="" coords="264,528,420,555"/>
+<area shape="rect" id="node17" href="MParameters_8cpp.html" title="src/model/MParameters.cpp" alt="" coords="655,379,842,405"/>
+<area shape="rect" id="node18" href="MTerrain_8cpp.html" title="src/model/MTerrain.cpp" alt="" coords="968,379,1127,405"/>
+<area shape="rect" id="node16" href="CJeu_8hpp.html" title="TODO complete. " alt="" coords="2031,453,2194,480"/>
+<area shape="rect" id="node22" href="MTuile_8cpp.html" title="src/model/MTuile.cpp" alt="" coords="1629,379,1775,405"/>
+<area shape="rect" id="node25" href="MRobot_8cpp.html" title="TODO complete. " alt="" coords="2071,304,2224,331"/>
+<area shape="rect" id="node29" href="VPrimitif_8cpp.html" title="src/vue/VPrimitif.cpp" alt="" coords="1190,304,1334,331"/>
+<area shape="rect" id="node31" href="MPersonnage_8hpp.html" title="TODO complete. " alt="" coords="2737,229,2925,256"/>
+<area shape="rect" id="node32" href="CPersonnage_8hpp.html" title="src/controlleur/CPersonnage.hpp" alt="" coords="2299,304,2510,331"/>
+<area shape="rect" id="node33" href="MPersonnage_8cpp.html" title="TODO complete. " alt="" coords="2839,304,3027,331"/>
 </map>
 </div>
 </div>
@@ -140,6 +144,11 @@ This graph shows which files directly or indirectly include this file:</div>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMInventaire.html">MInventaire</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a2cefafbec781c37c25b966b68f6bbb32"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MInventaire_8hpp.html#a2cefafbec781c37c25b966b68f6bbb32">Id</a> = unsigned long long int</td></tr>
+<tr class="separator:a2cefafbec781c37c25b966b68f6bbb32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -165,6 +174,23 @@ Functions</h2></td></tr>
 <tr class="memitem:af6ca1b8734f7fde4f5ef323d0bbd9103"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MInventaire_8hpp.html#a05bb4cc73f1adaa56286db44266cfdc0">MTypeEquipement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MInventaire_8hpp.html#af6ca1b8734f7fde4f5ef323d0bbd9103">operator++</a> (<a class="el" href="MInventaire_8hpp.html#a05bb4cc73f1adaa56286db44266cfdc0">MTypeEquipement</a> &amp;equip)</td></tr>
 <tr class="separator:af6ca1b8734f7fde4f5ef323d0bbd9103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a2cefafbec781c37c25b966b68f6bbb32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cefafbec781c37c25b966b68f6bbb32">&#9670;&nbsp;</a></span>Id</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="MInventaire_8hpp.html#a2cefafbec781c37c25b966b68f6bbb32">Id</a> =  unsigned long long int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MInventaire_8hpp_source.html#l00015">15</a> of file <a class="el" href="MInventaire_8hpp_source.html">MInventaire.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a05bb4cc73f1adaa56286db44266cfdc0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a05bb4cc73f1adaa56286db44266cfdc0">&#9670;&nbsp;</a></span>MTypeEquipement</h2>
@@ -195,7 +221,7 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a05bb4cc73f1adaa56286db44266cfdc0ab50339a10e1de285ac99d4c3990b8693"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="MInventaire_8hpp_source.html#l00015">15</a> of file <a class="el" href="MInventaire_8hpp_source.html">MInventaire.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MInventaire_8hpp_source.html#l00017">17</a> of file <a class="el" href="MInventaire_8hpp_source.html">MInventaire.hpp</a>.</p>
 
 </div>
 </div>
@@ -216,7 +242,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MInventaire_8cpp_source.html#l00081">81</a> of file <a class="el" href="MInventaire_8cpp_source.html">MInventaire.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MInventaire_8cpp_source.html#l00138">138</a> of file <a class="el" href="MInventaire_8cpp_source.html">MInventaire.cpp</a>.</p>
 
 </div>
 </div>
@@ -246,7 +272,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MInventaire_8cpp_source.html#l00076">76</a> of file <a class="el" href="MInventaire_8cpp_source.html">MInventaire.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MInventaire_8cpp_source.html#l00133">133</a> of file <a class="el" href="MInventaire_8cpp_source.html">MInventaire.cpp</a>.</p>
 
 </div>
 </div>
@@ -276,7 +302,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MInventaire_8cpp_source.html#l00070">70</a> of file <a class="el" href="MInventaire_8cpp_source.html">MInventaire.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MInventaire_8cpp_source.html#l00128">128</a> of file <a class="el" href="MInventaire_8cpp_source.html">MInventaire.cpp</a>.</p>
 
 </div>
 </div>

@@ -82,6 +82,7 @@ $(document).ready(function(){initNavTree('classMItem.html','');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classMItem-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MItem Class Reference</div>  </div>
@@ -108,12 +109,28 @@ Collaboration diagram for MItem:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a71206cce1f2952a69fa1a5181b245255"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#a71206cce1f2952a69fa1a5181b245255">MItem</a> (std::string const &amp;<a class="el" href="classMObjetTexture.html#a685abdd7896f198f5b61468e7b2520c7">texture</a>)</td></tr>
-<tr class="separator:a71206cce1f2952a69fa1a5181b245255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa172c82b5576b8acdde00e57efeb8385"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#aa172c82b5576b8acdde00e57efeb8385">MItem</a> (std::string <a class="el" href="classMItem.html#a574ea57a66435c28c6255a615787e2e8">nom</a>, std::string const &amp;<a class="el" href="classMObjetTexture.html#a685abdd7896f198f5b61468e7b2520c7">texture</a>, std::string <a class="el" href="classMItem.html#a4b80bdd38189ea48043f985608be938a">description</a>, <a class="el" href="MInventaire_8hpp.html#a05bb4cc73f1adaa56286db44266cfdc0">MTypeEquipement</a> <a class="el" href="classMItem.html#a7d9cfb7fbfde2a015da888396c560e0d">type</a>=<a class="el" href="MInventaire_8hpp.html#a05bb4cc73f1adaa56286db44266cfdc0a186495f7da296bf880df3a22a492b378">MTypeEquipement::MAIN</a>, int <a class="el" href="classMItem.html#a939ebff75f5babf6906d9924392a7ddf">degats</a>=0, int <a class="el" href="classMItem.html#a67c7588b498628eb9d83ff7739355ed4">protection</a>=0, bool <a class="el" href="classMItem.html#a4b58131be1a72156a90a41f0de41fab3">supprimable</a>=true, int <a class="el" href="classMItem.html#a997c6e16c6d60fef368c43735e634cc6">miningLevel</a>=0)</td></tr>
+<tr class="separator:aa172c82b5576b8acdde00e57efeb8385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3213eb2105714bf286acec1c51e073a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#ac3213eb2105714bf286acec1c51e073a">utilisation</a> (<a class="el" href="classMEntite.html">MEntite</a> *entite)</td></tr>
+<tr class="separator:ac3213eb2105714bf286acec1c51e073a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe5870456b2b7293c9f9daa816ea14b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#abe5870456b2b7293c9f9daa816ea14b7">operator==</a> (<a class="el" href="classMItem.html">MItem</a> const &amp;other) const</td></tr>
+<tr class="separator:abe5870456b2b7293c9f9daa816ea14b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e417a9291dbbb797948a62263e8e4bf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#a0e417a9291dbbb797948a62263e8e4bf">getNom</a> () const</td></tr>
+<tr class="separator:a0e417a9291dbbb797948a62263e8e4bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8caf8108648f1607cd36acbea844d456"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#a8caf8108648f1607cd36acbea844d456">getDescription</a> () const</td></tr>
+<tr class="separator:a8caf8108648f1607cd36acbea844d456"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a679a4a4bbfaaab5351e7ff85a8a14711"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#a679a4a4bbfaaab5351e7ff85a8a14711">getDegats</a> () const</td></tr>
 <tr class="separator:a679a4a4bbfaaab5351e7ff85a8a14711"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57c7e661d9b5fb02ae09f424915296cb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#a57c7e661d9b5fb02ae09f424915296cb">getProtection</a> () const</td></tr>
 <tr class="separator:a57c7e661d9b5fb02ae09f424915296cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ecc51cec963d633a67df49a17fb93c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MInventaire_8hpp.html#a2cefafbec781c37c25b966b68f6bbb32">Id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#a7ecc51cec963d633a67df49a17fb93c2">getId</a> () const</td></tr>
+<tr class="separator:a7ecc51cec963d633a67df49a17fb93c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6aef6df6619c6fe98408ba12d69c70a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#af6aef6df6619c6fe98408ba12d69c70a">setActionUtilisation</a> (std::function&lt; void(std::string entite)&gt; <a class="el" href="classMItem.html#a685227dd64c8d5b42b95df5dfce6541d">actionUtilisation</a>)</td></tr>
+<tr class="separator:af6aef6df6619c6fe98408ba12d69c70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8717ceaf0b586969bf28c1978aab655c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MInventaire_8hpp.html#a05bb4cc73f1adaa56286db44266cfdc0">MTypeEquipement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#a8717ceaf0b586969bf28c1978aab655c">getType</a> () const</td></tr>
+<tr class="separator:a8717ceaf0b586969bf28c1978aab655c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7047fbc2cc86594e0ae56e010ef5b85a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#a7047fbc2cc86594e0ae56e010ef5b85a">getMiningLevel</a> () const</td></tr>
+<tr class="separator:a7047fbc2cc86594e0ae56e010ef5b85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMObjetTexture"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMObjetTexture')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMObjetTexture.html">MObjetTexture</a></td></tr>
 <tr class="memitem:a1c16a415b120a9d5c56998fec8bd8886 inherit pub_methods_classMObjetTexture"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMObjetTexture.html#a1c16a415b120a9d5c56998fec8bd8886">MObjetTexture</a> (std::string <a class="el" href="classMObjetTexture.html#a685abdd7896f198f5b61468e7b2520c7">texture</a>)</td></tr>
 <tr class="separator:a1c16a415b120a9d5c56998fec8bd8886 inherit pub_methods_classMObjetTexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,6 +143,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:aed77775314bf6d01ec581fb80a8e1506"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MInventaire_8hpp.html#a2cefafbec781c37c25b966b68f6bbb32">Id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#aed77775314bf6d01ec581fb80a8e1506">id</a></td></tr>
+<tr class="separator:aed77775314bf6d01ec581fb80a8e1506"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a574ea57a66435c28c6255a615787e2e8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#a574ea57a66435c28c6255a615787e2e8">nom</a></td></tr>
 <tr class="separator:a574ea57a66435c28c6255a615787e2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d9cfb7fbfde2a015da888396c560e0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MInventaire_8hpp.html#a05bb4cc73f1adaa56286db44266cfdc0">MTypeEquipement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#a7d9cfb7fbfde2a015da888396c560e0d">type</a></td></tr>
@@ -136,13 +155,24 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a939ebff75f5babf6906d9924392a7ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67c7588b498628eb9d83ff7739355ed4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#a67c7588b498628eb9d83ff7739355ed4">protection</a></td></tr>
 <tr class="separator:a67c7588b498628eb9d83ff7739355ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b58131be1a72156a90a41f0de41fab3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#a4b58131be1a72156a90a41f0de41fab3">supprimable</a></td></tr>
+<tr class="separator:a4b58131be1a72156a90a41f0de41fab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a685227dd64c8d5b42b95df5dfce6541d"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(std::string entite)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#a685227dd64c8d5b42b95df5dfce6541d">actionUtilisation</a></td></tr>
+<tr class="separator:a685227dd64c8d5b42b95df5dfce6541d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a997c6e16c6d60fef368c43735e634cc6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#a997c6e16c6d60fef368c43735e634cc6">miningLevel</a></td></tr>
+<tr class="separator:a997c6e16c6d60fef368c43735e634cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a2886c3b2e35b646c28eb22a5f9cb14c4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MInventaire_8hpp.html#a2cefafbec781c37c25b966b68f6bbb32">Id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMItem.html#a2886c3b2e35b646c28eb22a5f9cb14c4">nextId</a> = 0</td></tr>
+<tr class="separator:a2886c3b2e35b646c28eb22a5f9cb14c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00017">17</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00021">21</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a71206cce1f2952a69fa1a5181b245255"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71206cce1f2952a69fa1a5181b245255">&#9670;&nbsp;</a></span>MItem()</h2>
+<a id="aa172c82b5576b8acdde00e57efeb8385"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa172c82b5576b8acdde00e57efeb8385">&#9670;&nbsp;</a></span>MItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -150,14 +180,60 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">MItem::MItem </td>
           <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>texture</em></td><td>)</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>nom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>description</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MInventaire_8hpp.html#a05bb4cc73f1adaa56286db44266cfdc0">MTypeEquipement</a>&#160;</td>
+          <td class="paramname"><em>type</em> = <code><a class="el" href="MInventaire_8hpp.html#a05bb4cc73f1adaa56286db44266cfdc0a186495f7da296bf880df3a22a492b378">MTypeEquipement::MAIN</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>degats</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>protection</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>supprimable</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>miningLevel</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MItem_8cpp_source.html#l00010">10</a> of file <a class="el" href="MItem_8cpp_source.html">MItem.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MItem_8cpp_source.html#l00019">19</a> of file <a class="el" href="MItem_8cpp_source.html">MItem.cpp</a>.</p>
 
 </div>
 </div>
@@ -177,9 +253,117 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MItem_8cpp_source.html#l00016">16</a> of file <a class="el" href="MItem_8cpp_source.html">MItem.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MItem_8cpp_source.html#l00028">28</a> of file <a class="el" href="MItem_8cpp_source.html">MItem.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MItem_8hpp_source.html#l00024">degats</a>.</p>
+<p class="reference">References <a class="el" href="MItem_8hpp_source.html#l00030">degats</a>.</p>
+
+</div>
+</div>
+<a id="a8caf8108648f1607cd36acbea844d456"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8caf8108648f1607cd36acbea844d456">&#9670;&nbsp;</a></span>getDescription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MItem::getDescription </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00068">68</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MItem_8hpp_source.html#l00029">description</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MTuile_8cpp_source.html#l00147">MTuile::addItem()</a>.</p>
+
+</div>
+</div>
+<a id="a7ecc51cec963d633a67df49a17fb93c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ecc51cec963d633a67df49a17fb93c2">&#9670;&nbsp;</a></span>getId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MInventaire_8hpp.html#a2cefafbec781c37c25b966b68f6bbb32">Id</a> MItem::getId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MItem_8cpp_source.html#l00043">43</a> of file <a class="el" href="MItem_8cpp_source.html">MItem.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MItem_8hpp_source.html#l00025">id</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MTuile_8cpp_source.html#l00147">MTuile::addItem()</a>, <a class="el" href="CLua_8cpp_source.html#l00388">CLua::cppNewItem()</a>, and <a class="el" href="MItem_8cpp_source.html#l00013">operator==()</a>.</p>
+
+</div>
+</div>
+<a id="a7047fbc2cc86594e0ae56e010ef5b85a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7047fbc2cc86594e0ae56e010ef5b85a">&#9670;&nbsp;</a></span>getMiningLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MItem::getMiningLevel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00073">73</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MItem_8hpp_source.html#l00035">miningLevel</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00234">MEntite::getMiningPower()</a>.</p>
+
+</div>
+</div>
+<a id="a0e417a9291dbbb797948a62263e8e4bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e417a9291dbbb797948a62263e8e4bf">&#9670;&nbsp;</a></span>getNom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MItem::getNom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MItem_8cpp_source.html#l00038">38</a> of file <a class="el" href="MItem_8cpp_source.html">MItem.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MItem_8hpp_source.html#l00027">nom</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MTuile_8cpp_source.html#l00147">MTuile::addItem()</a>.</p>
 
 </div>
 </div>
@@ -198,13 +382,140 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MItem_8cpp_source.html#l00021">21</a> of file <a class="el" href="MItem_8cpp_source.html">MItem.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MItem_8cpp_source.html#l00033">33</a> of file <a class="el" href="MItem_8cpp_source.html">MItem.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MItem_8hpp_source.html#l00025">protection</a>.</p>
+<p class="reference">References <a class="el" href="MItem_8hpp_source.html#l00031">protection</a>.</p>
+
+</div>
+</div>
+<a id="a8717ceaf0b586969bf28c1978aab655c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8717ceaf0b586969bf28c1978aab655c">&#9670;&nbsp;</a></span>getType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MInventaire_8hpp.html#a05bb4cc73f1adaa56286db44266cfdc0">MTypeEquipement</a> MItem::getType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00063">63</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MItem_8hpp_source.html#l00028">type</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MInventaire_8cpp_source.html#l00029">MInventaire::equipe()</a>.</p>
+
+</div>
+</div>
+<a id="abe5870456b2b7293c9f9daa816ea14b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe5870456b2b7293c9f9daa816ea14b7">&#9670;&nbsp;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MItem::operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMItem.html">MItem</a> const &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MItem_8cpp_source.html#l00013">13</a> of file <a class="el" href="MItem_8cpp_source.html">MItem.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MItem_8cpp_source.html#l00043">getId()</a>.</p>
+
+</div>
+</div>
+<a id="af6aef6df6619c6fe98408ba12d69c70a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6aef6df6619c6fe98408ba12d69c70a">&#9670;&nbsp;</a></span>setActionUtilisation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MItem::setActionUtilisation </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; void(std::string entite)&gt;&#160;</td>
+          <td class="paramname"><em>actionUtilisation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MItem_8cpp_source.html#l00048">48</a> of file <a class="el" href="MItem_8cpp_source.html">MItem.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MItem_8hpp_source.html#l00034">actionUtilisation</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00499">CLua::cppAddActionUtilisation()</a>.</p>
+
+</div>
+</div>
+<a id="ac3213eb2105714bf286acec1c51e073a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3213eb2105714bf286acec1c51e073a">&#9670;&nbsp;</a></span>utilisation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MItem::utilisation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMEntite.html">MEntite</a> *&#160;</td>
+          <td class="paramname"><em>entite</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MItem_8cpp_source.html#l00053">53</a> of file <a class="el" href="MItem_8cpp_source.html">MItem.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="MItem_8hpp_source.html#l00034">actionUtilisation</a>, and <a class="el" href="MEntite_8hpp_source.html#l00124">MEntite::getNom()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MEntite_8cpp_source.html#l00187">MEntite::utiliserObjet()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a685227dd64c8d5b42b95df5dfce6541d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a685227dd64c8d5b42b95df5dfce6541d">&#9670;&nbsp;</a></span>actionUtilisation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(std::string entite)&gt; MItem::actionUtilisation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00034">34</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MItem_8cpp_source.html#l00048">setActionUtilisation()</a>, and <a class="el" href="MItem_8cpp_source.html#l00053">utilisation()</a>.</p>
+
+</div>
+</div>
 <a id="a939ebff75f5babf6906d9924392a7ddf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a939ebff75f5babf6906d9924392a7ddf">&#9670;&nbsp;</a></span>degats</h2>
 
@@ -225,9 +536,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00024">24</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00030">30</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MItem_8cpp_source.html#l00016">getDegats()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MItem_8cpp_source.html#l00028">getDegats()</a>.</p>
 
 </div>
 </div>
@@ -251,7 +562,85 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00023">23</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00029">29</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MItem_8hpp_source.html#l00068">getDescription()</a>.</p>
+
+</div>
+</div>
+<a id="aed77775314bf6d01ec581fb80a8e1506"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed77775314bf6d01ec581fb80a8e1506">&#9670;&nbsp;</a></span>id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MInventaire_8hpp.html#a2cefafbec781c37c25b966b68f6bbb32">Id</a> MItem::id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00025">25</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MItem_8cpp_source.html#l00043">getId()</a>.</p>
+
+</div>
+</div>
+<a id="a997c6e16c6d60fef368c43735e634cc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a997c6e16c6d60fef368c43735e634cc6">&#9670;&nbsp;</a></span>miningLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MItem::miningLevel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00035">35</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MItem_8hpp_source.html#l00073">getMiningLevel()</a>.</p>
+
+</div>
+</div>
+<a id="a2886c3b2e35b646c28eb22a5f9cb14c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2886c3b2e35b646c28eb22a5f9cb14c4">&#9670;&nbsp;</a></span>nextId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MInventaire_8hpp.html#a2cefafbec781c37c25b966b68f6bbb32">Id</a> MItem::nextId = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00026">26</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
 
 </div>
 </div>
@@ -275,7 +664,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00021">21</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00027">27</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MItem_8cpp_source.html#l00038">getNom()</a>.</p>
 
 </div>
 </div>
@@ -299,9 +690,33 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00025">25</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00031">31</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MItem_8cpp_source.html#l00021">getProtection()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MItem_8cpp_source.html#l00033">getProtection()</a>.</p>
+
+</div>
+</div>
+<a id="a4b58131be1a72156a90a41f0de41fab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b58131be1a72156a90a41f0de41fab3">&#9670;&nbsp;</a></span>supprimable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MItem::supprimable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00032">32</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
 
 </div>
 </div>
@@ -325,7 +740,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00022">22</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MItem_8hpp_source.html#l00028">28</a> of file <a class="el" href="MItem_8hpp_source.html">MItem.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MItem_8hpp_source.html#l00063">getType()</a>.</p>
 
 </div>
 </div>

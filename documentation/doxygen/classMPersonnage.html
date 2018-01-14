@@ -103,12 +103,13 @@ Collaboration diagram for MPersonnage:</div>
 <div class="dyncontent">
 <div class="center"><img src="classMPersonnage__coll__graph.png" border="0" usemap="#MPersonnage_coll__map" alt="Collaboration graph"/></div>
 <map name="MPersonnage_coll__map" id="MPersonnage_coll__map">
-<area shape="rect" id="node2" href="classMEntite.html" title="MEntite" alt="" coords="202,95,269,121"/>
-<area shape="rect" id="node7" href="classMTuile.html" title="MTuile" alt="" coords="137,184,198,211"/>
-<area shape="rect" id="node3" href="classMObjetTexture.html" title="MObjetTexture" alt="" coords="5,5,113,32"/>
-<area shape="rect" id="node5" href="classMCompetence.html" title="MCompetence" alt="" coords="241,5,347,32"/>
-<area shape="rect" id="node6" href="classMInventaire.html" title="MInventaire" alt="" coords="371,5,462,32"/>
-<area shape="rect" id="node8" href="classMCoordonnees.html" title="MCoordonnees" alt="" coords="33,95,142,121"/>
+<area shape="rect" id="node2" href="classMEntite.html" title="MEntite" alt="" coords="292,95,359,121"/>
+<area shape="rect" id="node7" href="classMTuile.html" title="MTuile" alt="" coords="189,184,251,211"/>
+<area shape="rect" id="node3" href="classMObjetTexture.html" title="MObjetTexture" alt="" coords="254,5,362,32"/>
+<area shape="rect" id="node9" href="classVInventaireInterface.html" title="VInventaireInterface" alt="" coords="121,95,260,121"/>
+<area shape="rect" id="node5" href="classMCompetence.html" title="MCompetence" alt="" coords="387,5,493,32"/>
+<area shape="rect" id="node6" href="classMInventaire.html" title="MInventaire" alt="" coords="517,5,608,32"/>
+<area shape="rect" id="node8" href="classMCoordonnees.html" title="MCoordonnees" alt="" coords="5,5,115,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -137,10 +138,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afdd086e0ad1de17c3abca4f4f6875dce inherit pub_methods_classMEntite"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0640be42f675e9be2b198631006a169 inherit pub_methods_classMEntite"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#af0640be42f675e9be2b198631006a169">interagirEntite</a> (<a class="el" href="classMTerrain.html">MTerrain</a> &amp;terrain)</td></tr>
 <tr class="separator:af0640be42f675e9be2b198631006a169 inherit pub_methods_classMEntite"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe4985f3e884c7e15865c7679af021f2 inherit pub_methods_classMEntite"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#afe4985f3e884c7e15865c7679af021f2">utiliserObjet</a> ()</td></tr>
+<tr class="separator:afe4985f3e884c7e15865c7679af021f2 inherit pub_methods_classMEntite"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeed7f57a2fcf0890a2e606bf498d2210 inherit pub_methods_classMEntite"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#aeed7f57a2fcf0890a2e606bf498d2210">mine</a> (<a class="el" href="classMTerrain.html">MTerrain</a> &amp;terrain)</td></tr>
+<tr class="separator:aeed7f57a2fcf0890a2e606bf498d2210 inherit pub_methods_classMEntite"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab80594416682633016988cf0ae4e90d7 inherit pub_methods_classMEntite"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#ab80594416682633016988cf0ae4e90d7">defenseTotale</a> () const</td></tr>
 <tr class="separator:ab80594416682633016988cf0ae4e90d7 inherit pub_methods_classMEntite"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ebf3e9f55e499bb2e4b20cf4d3a3945 inherit pub_methods_classMEntite"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a6ebf3e9f55e499bb2e4b20cf4d3a3945">forceTotale</a> () const</td></tr>
 <tr class="separator:a6ebf3e9f55e499bb2e4b20cf4d3a3945 inherit pub_methods_classMEntite"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01ef598baaa018362c4840ff62552011 inherit pub_methods_classMEntite"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a01ef598baaa018362c4840ff62552011">addItemToInventaire</a> (<a class="el" href="classMItem.html">MItem</a> *item)</td></tr>
+<tr class="separator:a01ef598baaa018362c4840ff62552011 inherit pub_methods_classMEntite"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31264f978bd5d9a0349b16871745da95 inherit pub_methods_classMEntite"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a31264f978bd5d9a0349b16871745da95">equipe</a> (<a class="el" href="MInventaire_8hpp.html#a2cefafbec781c37c25b966b68f6bbb32">Id</a> idItem)</td></tr>
+<tr class="separator:a31264f978bd5d9a0349b16871745da95 inherit pub_methods_classMEntite"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7949990e9bebe334c2fd0363bddc0d5e inherit pub_methods_classMEntite"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a7949990e9bebe334c2fd0363bddc0d5e">getDirection</a> () const</td></tr>
 <tr class="separator:a7949990e9bebe334c2fd0363bddc0d5e inherit pub_methods_classMEntite"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1580901358b6dddd2ae18871425af03 inherit pub_methods_classMEntite"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#ae1580901358b6dddd2ae18871425af03">setDirection</a> (<a class="el" href="MCoordonnees_8hpp.html#a8ce4dc3cc7d14a67e2b0787e344aa223">Mouvement</a> <a class="el" href="classMEntite.html#a01cc951d397c0e862c6dca16aadc498f">direction</a>)</td></tr>
@@ -157,6 +166,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:add94ce54951486cbd6fc7047e2ed3bd2 inherit pub_methods_classMEntite"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4684a09fcc07576401d442ddb012a3ab inherit pub_methods_classMEntite"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMCompetence.html">MCompetence</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a4684a09fcc07576401d442ddb012a3ab">getCompetences</a> () const</td></tr>
 <tr class="separator:a4684a09fcc07576401d442ddb012a3ab inherit pub_methods_classMEntite"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79bcbb56f10046e8bf7725989424a03a inherit pub_methods_classMEntite"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMInventaire.html">MInventaire</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#a79bcbb56f10046e8bf7725989424a03a">getInventaire</a> ()</td></tr>
+<tr class="separator:a79bcbb56f10046e8bf7725989424a03a inherit pub_methods_classMEntite"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8eb40560cff1bc9250d45c6d98811c4 inherit pub_methods_classMEntite"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#ad8eb40560cff1bc9250d45c6d98811c4">setActionDefense</a> (std::function&lt; void(std::string entite, int degat)&gt; <a class="el" href="classMEntite.html#a71dd2072b856d88b7c9f9976f9d235cc">actionDefense</a>)</td></tr>
 <tr class="separator:ad8eb40560cff1bc9250d45c6d98811c4 inherit pub_methods_classMEntite"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaa6dd0282ae9e43293ad487e32ee7fa inherit pub_methods_classMEntite"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMEntite.html#acaa6dd0282ae9e43293ad487e32ee7fa">setActionInteraction</a> (std::function&lt; void(<a class="el" href="classMEntite.html">MEntite</a> const &amp;entite)&gt; <a class="el" href="classMEntite.html#ab1c9fcd19b40f61ce150eb3cd8e731fa">actionInteraction</a>)</td></tr>
@@ -196,7 +207,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MPersonnage_8cpp_source.html#l00027">27</a> of file <a class="el" href="MPersonnage_8cpp_source.html">MPersonnage.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MPersonnage_8cpp_source.html#l00028">28</a> of file <a class="el" href="MPersonnage_8cpp_source.html">MPersonnage.cpp</a>.</p>
 
 </div>
 </div>
@@ -248,7 +259,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="MPersonnage_8hpp_source.html#l00025">robots</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00090">CPersonnage::addRobot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00109">CPersonnage::addRobot()</a>.</p>
 
 </div>
 </div>
@@ -294,7 +305,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="MPersonnage_8hpp_source.html#l00025">robots</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00090">CPersonnage::addRobot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CPersonnage_8cpp_source.html#l00109">CPersonnage::addRobot()</a>.</p>
 
 </div>
 </div>

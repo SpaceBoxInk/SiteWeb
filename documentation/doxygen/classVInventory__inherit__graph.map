@@ -1,0 +1,4 @@
+<map id="VInventory" name="VInventory">
+<area shape="rect" id="node5" href="$classVPlayerInventory.html" title="VPlayerInventory" alt="" coords="79,229,201,256"/>
+<area shape="rect" id="node2" href="$classVInventaireInterface.html" title="VInventaireInterface" alt="" coords="5,80,144,107"/>
+</map>

@@ -116,6 +116,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab0a81ffe8a6bc031a9295e63b775e462"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1228cfe83592f6afa269d4f04ad36de6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCNiveau.html#a1228cfe83592f6afa269d4f04ad36de6">addEntite</a> (std::string name, std::string texture, <a class="el" href="classMTuile.html">MTuile</a> *tuile, float taille)</td></tr>
 <tr class="separator:a1228cfe83592f6afa269d4f04ad36de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1859bad64a4f32d6460f044ef19a23f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCNiveau.html#a1859bad64a4f32d6460f044ef19a23f7">addEnigme</a> (std::string nom, std::string description, std::string image)</td></tr>
+<tr class="separator:a1859bad64a4f32d6460f044ef19a23f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bb04d6ef44aeb7dcaf72db5616b487a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCNiveau.html#a7bb04d6ef44aeb7dcaf72db5616b487a">afficherEnigme</a> (std::string nom)</td></tr>
+<tr class="separator:a7bb04d6ef44aeb7dcaf72db5616b487a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c1efb830071aef7ee98d4ad15b39836"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMTerrain.html">MTerrain</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCNiveau.html#a0c1efb830071aef7ee98d4ad15b39836">getTerrain</a> ()</td></tr>
 <tr class="separator:a0c1efb830071aef7ee98d4ad15b39836"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f90825b5c6f4f770dd290c0ab8b6de5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCNiveau.html#a9f90825b5c6f4f770dd290c0ab8b6de5">setScriptFolder</a> (std::string <a class="el" href="classCNiveau.html#aee79132b2d9f4e0fc9c97a2a93527f71">levelFolder</a>)</td></tr>
@@ -124,8 +128,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3601f6b5d8f34acbf6b71680a90d0e85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23a63a2302a5c1933d984085332ffeb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCNiveau.html#a23a63a2302a5c1933d984085332ffeb3">setLevelMainFile</a> (std::string <a class="el" href="classCNiveau.html#af5452ff0faf0c203b1398933928c7e85">levelMainFile</a>)</td></tr>
 <tr class="separator:a23a63a2302a5c1933d984085332ffeb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80bb5868eb09c61aa0774a1f350b2446"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCNiveau.html#a80bb5868eb09c61aa0774a1f350b2446">getLevelMainFile</a> ()</td></tr>
-<tr class="separator:a80bb5868eb09c61aa0774a1f350b2446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41ee2f413e97c7deb1b971155be5883e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCNiveau.html#a41ee2f413e97c7deb1b971155be5883e">getLevelMainFile</a> () const</td></tr>
+<tr class="separator:a41ee2f413e97c7deb1b971155be5883e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37bc1b30f78d34dafd3428307585f0c3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCNiveau.html#a37bc1b30f78d34dafd3428307585f0c3">getScript</a> () const</td></tr>
 <tr class="separator:a37bc1b30f78d34dafd3428307585f0c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -146,11 +150,13 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aee79132b2d9f4e0fc9c97a2a93527f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5452ff0faf0c203b1398933928c7e85"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCNiveau.html#af5452ff0faf0c203b1398933928c7e85">levelMainFile</a></td></tr>
 <tr class="separator:af5452ff0faf0c203b1398933928c7e85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad73786eac1fa317218d1a29a9fe026f7"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="classVEnigma.html">VEnigma</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCNiveau.html#ad73786eac1fa317218d1a29a9fe026f7">enigmes</a></td></tr>
+<tr class="separator:ad73786eac1fa317218d1a29a9fe026f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>controleur pour les niveaux </p>
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8hpp_source.html#l00027">27</a> of file <a class="el" href="CNiveau_8hpp_source.html">CNiveau.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8hpp_source.html#l00031">31</a> of file <a class="el" href="CNiveau_8hpp_source.html">CNiveau.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="addbcb94be4f72cf64145398749ad9d91"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#addbcb94be4f72cf64145398749ad9d91">&#9670;&nbsp;</a></span>CNiveau()</h2>
@@ -184,9 +190,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00029">29</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00031">31</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CNiveau_8cpp_source.html#l00044">setEventMethods()</a>, and <a class="el" href="CNiveau_8hpp_source.html#l00031">terrain</a>.</p>
+<p class="reference">References <a class="el" href="CNiveau_8cpp_source.html#l00050">setEventMethods()</a>, and <a class="el" href="CNiveau_8hpp_source.html#l00035">terrain</a>.</p>
 
 </div>
 </div>
@@ -213,11 +219,53 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00037">37</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00039">39</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CNiveau_8hpp_source.html#l00049">enigmes</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1859bad64a4f32d6460f044ef19a23f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1859bad64a4f32d6460f044ef19a23f7">&#9670;&nbsp;</a></span>addEnigme()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CNiveau::addEnigme </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>nom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>description</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>image</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00126">126</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CNiveau_8hpp_source.html#l00049">enigmes</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00557">CLua::cppNewEnigme()</a>.</p>
+
+</div>
+</div>
 <a id="a1228cfe83592f6afa269d4f04ad36de6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1228cfe83592f6afa269d4f04ad36de6">&#9670;&nbsp;</a></span>addEntite()</h2>
 
@@ -256,11 +304,35 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00093">93</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00099">99</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="classAppFrameInterface.html#aa6d9476afe0d758f508406d1ebf41777">AppFrameInterface::addEntite()</a>, <a class="el" href="CNiveau_8hpp_source.html#l00036">entites</a>, <a class="el" href="MTuile_8hpp_source.html#l00097">MTuile::getPosition()</a>, <a class="el" href="classAppFrameInterface.html#acdd83dc409347dfd87076aabd8798fd4">AppFrameInterface::setPositionOf()</a>, and <a class="el" href="CNiveau_8hpp_source.html#l00032">vuePrincipale</a>.</p>
+<p class="reference">References <a class="el" href="classAppFrameInterface.html#aa6d9476afe0d758f508406d1ebf41777">AppFrameInterface::addEntite()</a>, <a class="el" href="CNiveau_8hpp_source.html#l00040">entites</a>, <a class="el" href="MTuile_8hpp_source.html#l00109">MTuile::getPosition()</a>, <a class="el" href="classAppFrameInterface.html#a7d6f8f8a800ab5fdfeb601a4843832c6">AppFrameInterface::setPositionOf()</a>, and <a class="el" href="CNiveau_8hpp_source.html#l00036">vuePrincipale</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00187">CLua::newEntity()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00222">CLua::cppNewEntity()</a>.</p>
+
+</div>
+</div>
+<a id="a7bb04d6ef44aeb7dcaf72db5616b487a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bb04d6ef44aeb7dcaf72db5616b487a">&#9670;&nbsp;</a></span>afficherEnigme()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CNiveau::afficherEnigme </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>nom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00134">134</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="CNiveau_8hpp_source.html#l00049">enigmes</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00570">CLua::cppAfficherEnigme()</a>.</p>
 
 </div>
 </div>
@@ -280,16 +352,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00083">83</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00089">89</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CNiveau_8hpp_source.html#l00036">entites</a>.</p>
+<p class="reference">References <a class="el" href="CNiveau_8hpp_source.html#l00040">entites</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CJeu_8cpp_source.html#l00057">CJeu::getEntite()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CJeu_8cpp_source.html#l00067">CJeu::getEntite()</a>.</p>
 
 </div>
 </div>
-<a id="a80bb5868eb09c61aa0774a1f350b2446"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80bb5868eb09c61aa0774a1f350b2446">&#9670;&nbsp;</a></span>getLevelMainFile()</h2>
+<a id="a41ee2f413e97c7deb1b971155be5883e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41ee2f413e97c7deb1b971155be5883e">&#9670;&nbsp;</a></span>getLevelMainFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -298,16 +370,16 @@ Private Attributes</h2></td></tr>
           <td class="memname">std::string CNiveau::getLevelMainFile </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00078">78</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00084">84</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CNiveau_8hpp_source.html#l00044">levelMainFile</a>.</p>
+<p class="reference">References <a class="el" href="CNiveau_8hpp_source.html#l00048">levelMainFile</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00101">CLua::getScriptPath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00112">CLua::cppGetScriptPath()</a>.</p>
 
 </div>
 </div>
@@ -327,11 +399,11 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>le chemin du script lua du niveau courrant </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00110">110</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00116">116</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8cpp_source.html#l00089">MParameters::getLevelPath()</a>, <a class="el" href="CNiveau_8hpp_source.html#l00040">levelFolder</a>, and <a class="el" href="CNiveau_8hpp_source.html#l00044">levelMainFile</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8cpp_source.html#l00089">MParameters::getLevelPath()</a>, <a class="el" href="CNiveau_8hpp_source.html#l00044">levelFolder</a>, and <a class="el" href="CNiveau_8hpp_source.html#l00048">levelMainFile</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CJeu_8cpp_source.html#l00025">CJeu::CJeu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CJeu_8cpp_source.html#l00031">CJeu::CJeu()</a>.</p>
 
 </div>
 </div>
@@ -350,11 +422,11 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00068">68</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00074">74</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MParameters_8cpp_source.html#l00089">MParameters::getLevelPath()</a>, and <a class="el" href="CNiveau_8hpp_source.html#l00040">levelFolder</a>.</p>
+<p class="reference">References <a class="el" href="MParameters_8cpp_source.html#l00089">MParameters::getLevelPath()</a>, and <a class="el" href="CNiveau_8hpp_source.html#l00044">levelFolder</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00101">CLua::getScriptPath()</a>, and <a class="el" href="CLua_8cpp_source.html#l00061">CLua::loadCouche()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00112">CLua::cppGetScriptPath()</a>, <a class="el" href="CLua_8cpp_source.html#l00073">CLua::cppLoadCouche()</a>, and <a class="el" href="CLua_8cpp_source.html#l00134">CLua::loadfile()</a>.</p>
 
 </div>
 </div>
@@ -373,11 +445,11 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00115">115</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00121">121</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CNiveau_8hpp_source.html#l00031">terrain</a>.</p>
+<p class="reference">References <a class="el" href="CNiveau_8hpp_source.html#l00035">terrain</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00397">CLua::getTuile()</a>, and <a class="el" href="CLua_8cpp_source.html#l00061">CLua::loadCouche()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00528">CLua::cppAddActionMining()</a>, <a class="el" href="CLua_8cpp_source.html#l00073">CLua::cppLoadCouche()</a>, and <a class="el" href="CLua_8cpp_source.html#l00683">CLua::getTuile()</a>.</p>
 
 </div>
 </div>
@@ -404,11 +476,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00044">44</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00050">50</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MEvents_8hpp.html#a5b7be9ba770f3011c43b56cc83903307ac8df99f2911401ceaa2b8632465dbcfa">COUCHE_LOADED</a>, <a class="el" href="MEvents_8hpp.html#a5b7be9ba770f3011c43b56cc83903307aedcc0d868525c192a00423fa7e2f3b79">ENTITY_MOVED</a>, <a class="el" href="MTerrain_8cpp_source.html#l00252">MTerrain::getImagesList()</a>, <a class="el" href="MParameters_8cpp_source.html#l00141">MParameters::getTailleTuile()</a>, <a class="el" href="MParameters_8cpp_source.html#l00136">MParameters::getTextureFor()</a>, <a class="el" href="classAppFrameInterface.html#a570e849675b04901a2ad040c0cb3c3dc">AppFrameInterface::loadFileIntoGround()</a>, <a class="el" href="classAppFrameInterface.html#acdd83dc409347dfd87076aabd8798fd4">AppFrameInterface::setPositionOf()</a>, <a class="el" href="CNiveau_8hpp_source.html#l00031">terrain</a>, and <a class="el" href="CNiveau_8hpp_source.html#l00032">vuePrincipale</a>.</p>
+<p class="reference">References <a class="el" href="MEvents_8hpp.html#a5b7be9ba770f3011c43b56cc83903307ac8df99f2911401ceaa2b8632465dbcfa">COUCHE_LOADED</a>, <a class="el" href="MEvents_8hpp.html#a5b7be9ba770f3011c43b56cc83903307aedcc0d868525c192a00423fa7e2f3b79">ENTITY_MOVED</a>, <a class="el" href="MTerrain_8cpp_source.html#l00287">MTerrain::getImagesList()</a>, <a class="el" href="MParameters_8cpp_source.html#l00141">MParameters::getTailleTuile()</a>, <a class="el" href="MParameters_8cpp_source.html#l00136">MParameters::getTextureFor()</a>, <a class="el" href="classAppFrameInterface.html#a570e849675b04901a2ad040c0cb3c3dc">AppFrameInterface::loadFileIntoGround()</a>, <a class="el" href="classAppFrameInterface.html#a7d6f8f8a800ab5fdfeb601a4843832c6">AppFrameInterface::setPositionOf()</a>, <a class="el" href="CNiveau_8hpp_source.html#l00035">terrain</a>, and <a class="el" href="CNiveau_8hpp_source.html#l00036">vuePrincipale</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00029">CNiveau()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00031">CNiveau()</a>.</p>
 
 </div>
 </div>
@@ -428,11 +500,11 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00073">73</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00079">79</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CNiveau_8hpp_source.html#l00044">levelMainFile</a>.</p>
+<p class="reference">References <a class="el" href="CNiveau_8hpp_source.html#l00048">levelMainFile</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00083">CLua::setScriptPath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00088">CLua::cppSetScriptPath()</a>.</p>
 
 </div>
 </div>
@@ -452,15 +524,41 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00063">63</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8cpp_source.html#l00069">69</a> of file <a class="el" href="CNiveau_8cpp_source.html">CNiveau.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CNiveau_8hpp_source.html#l00040">levelFolder</a>.</p>
+<p class="reference">References <a class="el" href="CNiveau_8hpp_source.html#l00044">levelFolder</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00083">CLua::setScriptPath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CLua_8cpp_source.html#l00088">CLua::cppSetScriptPath()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad73786eac1fa317218d1a29a9fe026f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad73786eac1fa317218d1a29a9fe026f7">&#9670;&nbsp;</a></span>enigmes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, <a class="el" href="classVEnigma.html">VEnigma</a>*&gt; CNiveau::enigmes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CNiveau_8hpp_source.html#l00049">49</a> of file <a class="el" href="CNiveau_8hpp_source.html">CNiveau.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00126">addEnigme()</a>, <a class="el" href="CNiveau_8cpp_source.html#l00134">afficherEnigme()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00039">~CNiveau()</a>.</p>
+
+</div>
+</div>
 <a id="a7da5a6e7b241ac50bb543a7dcb374912"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7da5a6e7b241ac50bb543a7dcb374912">&#9670;&nbsp;</a></span>entites</h2>
 
@@ -482,9 +580,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>entité du niveau courant créer par le lua (sans les perso ni les robots) </p>
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8hpp_source.html#l00036">36</a> of file <a class="el" href="CNiveau_8hpp_source.html">CNiveau.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8hpp_source.html#l00040">40</a> of file <a class="el" href="CNiveau_8hpp_source.html">CNiveau.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00093">addEntite()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00083">getEntite()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00099">addEntite()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00089">getEntite()</a>.</p>
 
 </div>
 </div>
@@ -509,9 +607,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>folder for level resources </p>
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8hpp_source.html#l00040">40</a> of file <a class="el" href="CNiveau_8hpp_source.html">CNiveau.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8hpp_source.html#l00044">44</a> of file <a class="el" href="CNiveau_8hpp_source.html">CNiveau.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00110">getScript()</a>, <a class="el" href="CNiveau_8cpp_source.html#l00068">getScriptFolder()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00063">setScriptFolder()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00116">getScript()</a>, <a class="el" href="CNiveau_8cpp_source.html#l00074">getScriptFolder()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00069">setScriptFolder()</a>.</p>
 
 </div>
 </div>
@@ -536,9 +634,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>main level script, executed to construct the level </p>
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8hpp_source.html#l00044">44</a> of file <a class="el" href="CNiveau_8hpp_source.html">CNiveau.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8hpp_source.html#l00048">48</a> of file <a class="el" href="CNiveau_8hpp_source.html">CNiveau.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00078">getLevelMainFile()</a>, <a class="el" href="CNiveau_8cpp_source.html#l00110">getScript()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00073">setLevelMainFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00084">getLevelMainFile()</a>, <a class="el" href="CNiveau_8cpp_source.html#l00116">getScript()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00079">setLevelMainFile()</a>.</p>
 
 </div>
 </div>
@@ -562,9 +660,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8hpp_source.html#l00031">31</a> of file <a class="el" href="CNiveau_8hpp_source.html">CNiveau.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8hpp_source.html#l00035">35</a> of file <a class="el" href="CNiveau_8hpp_source.html">CNiveau.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00029">CNiveau()</a>, <a class="el" href="CNiveau_8cpp_source.html#l00115">getTerrain()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00044">setEventMethods()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00031">CNiveau()</a>, <a class="el" href="CNiveau_8cpp_source.html#l00121">getTerrain()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00050">setEventMethods()</a>.</p>
 
 </div>
 </div>
@@ -588,9 +686,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CNiveau_8hpp_source.html#l00032">32</a> of file <a class="el" href="CNiveau_8hpp_source.html">CNiveau.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CNiveau_8hpp_source.html#l00036">36</a> of file <a class="el" href="CNiveau_8hpp_source.html">CNiveau.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00093">addEntite()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00044">setEventMethods()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CNiveau_8cpp_source.html#l00099">addEntite()</a>, and <a class="el" href="CNiveau_8cpp_source.html#l00050">setEventMethods()</a>.</p>
 
 </div>
 </div>

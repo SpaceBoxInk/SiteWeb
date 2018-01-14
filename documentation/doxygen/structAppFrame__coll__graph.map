@@ -1,6 +1,8 @@
 <map id="AppFrame" name="AppFrame">
 <area shape="rect" id="node2" href="$classAppFrameInterface.html" title="AppFrameInterface" alt="" coords="5,200,139,227"/>
-<area shape="rect" id="node5" href="$classCanvas.html" title="Canvas" alt="" coords="261,200,328,227"/>
-<area shape="rect" id="node6" href="$classwxSfmlCanvas.html" title="wxSfmlCanvas" alt="" coords="188,81,297,108"/>
-<area shape="rect" id="node9" href="$classTileMap.html" title="TileMap" alt="" coords="343,81,411,108"/>
+<area shape="rect" id="node5" href="$classMCoordonnees.html" title="MCoordonnees" alt="" coords="261,200,371,227"/>
+<area shape="rect" id="node6" href="$classCanvas.html" title="Canvas" alt="" coords="540,200,607,227"/>
+<area shape="rect" id="node7" href="$classwxSfmlCanvas.html" title="wxSfmlCanvas" alt="" coords="488,81,597,108"/>
+<area shape="rect" id="node13" href="$classwxImagePanelP.html" title="wxImagePanelP" alt="" coords="362,141,478,167"/>
+<area shape="rect" id="node10" href="$classTileMap.html" title="TileMap" alt="" coords="643,81,711,108"/>
 </map>

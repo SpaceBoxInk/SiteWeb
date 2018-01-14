@@ -1,8 +1,10 @@
 <map id="src/model/MEvents.hpp" name="src/model/MEvents.hpp">
-<area shape="rect" id="node2" href="$CNiveau_8cpp.html" title="TODO complete. " alt="" coords="5,80,188,107"/>
-<area shape="rect" id="node3" href="$CPersonnage_8cpp.html" title="src/controlleur/CPersonnage.cpp" alt="" coords="213,80,423,107"/>
-<area shape="rect" id="node4" href="$MEntite_8cpp.html" title="TODO complete. " alt="" coords="447,80,600,107"/>
-<area shape="rect" id="node5" href="$MRobot_8cpp.html" title="TODO complete. " alt="" coords="624,80,777,107"/>
-<area shape="rect" id="node6" href="$MTerrain_8cpp.html" title="src/model/MTerrain.cpp" alt="" coords="801,80,960,107"/>
-<area shape="rect" id="node7" href="$VPrimitif_8cpp.html" title="src/vue/VPrimitif.cpp" alt="" coords="985,80,1129,107"/>
+<area shape="rect" id="node2" href="$CJeu_8cpp.html" title="TODO complete. " alt="" coords="5,80,168,107"/>
+<area shape="rect" id="node3" href="$CNiveau_8cpp.html" title="TODO complete. " alt="" coords="193,80,375,107"/>
+<area shape="rect" id="node4" href="$CPersonnage_8cpp.html" title="src/controlleur/CPersonnage.cpp" alt="" coords="400,80,611,107"/>
+<area shape="rect" id="node5" href="$MEntite_8cpp.html" title="TODO complete. " alt="" coords="634,80,787,107"/>
+<area shape="rect" id="node6" href="$MRobot_8cpp.html" title="TODO complete. " alt="" coords="811,80,965,107"/>
+<area shape="rect" id="node7" href="$MTerrain_8cpp.html" title="src/model/MTerrain.cpp" alt="" coords="989,80,1147,107"/>
+<area shape="rect" id="node8" href="$AppFrame_8cpp.html" title="src/vue/AppFrame.cpp" alt="" coords="1172,80,1327,107"/>
+<area shape="rect" id="node9" href="$VPrimitif_8cpp.html" title="src/vue/VPrimitif.cpp" alt="" coords="1351,80,1495,107"/>
 </map>

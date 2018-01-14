@@ -5,6 +5,7 @@ var classMParameters =
     [ "getCielsPath", "classMParameters.html#af83e6205d823c8ebdbed2233d62b8124", null ],
     [ "getConfPath", "classMParameters.html#ad37c2965a433415ca50dac5e4b153d40", null ],
     [ "getElementsPath", "classMParameters.html#ac6cf1c414d3b2f08f0bdc7f5d2562aef", null ],
+    [ "getKey", "classMParameters.html#a9085b9015bb97bdc78a02118ec76d58a", null ],
     [ "getKeyFor", "classMParameters.html#aed828a910ef4d93ba9fb812a2d4d3916", null ],
     [ "getLevelPath", "classMParameters.html#a9a039637689a41c574e8e4e50824e98d", null ],
     [ "getMainScript", "classMParameters.html#a4e16ba5c81b6a9e758a93ea0f17fc564", null ],

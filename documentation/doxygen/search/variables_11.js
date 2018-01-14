@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['sepc',['sepC',['../classVPrimitif.html#adeb04d11a6632711cd9fed18bb30bafb',1,'VPrimitif']]],
-  ['sky',['sky',['../classCanvas.html#a05af387e58704f325ceb9d068405a3e6',1,'Canvas']]],
-  ['solstype',['solsType',['../classMTerrain.html#aeeb831f2986b0a1919ecfa68d8eddb23',1,'MTerrain']]],
-  ['speed',['speed',['../classMRobot.html#a363488e4519fff0af1c014005c179f92',1,'MRobot']]],
-  ['sprites',['sprites',['../classCanvas.html#a604e3aebd84062a944fa4d1d7482e9ce',1,'Canvas']]]
+  ['resized',['resized',['../classwxImagePanel.html#a6ec02fc0e9f4b6f83ec352a27c1b8161',1,'wxImagePanel::resized()'],['../classwxImagePanelP.html#a2d03e27e4f20e642635d677861cc1db4',1,'wxImagePanelP::resized()']]],
+  ['robots',['robots',['../classMPersonnage.html#a4a07f945972cecb11e2ea578dc6fe446',1,'MPersonnage']]],
+  ['rootpath',['rootPath',['../classMParameters.html#a74a0eed435c1bcd67b389b500921021b',1,'MParameters']]]
 ];

@@ -1,0 +1,20 @@
+<map id="src/vue/ImagePanel.hpp" name="src/vue/ImagePanel.hpp">
+<area shape="rect" id="node2" href="$VEnigma_8hpp.html" title="src/vue/VEnigma.hpp" alt="" coords="603,155,750,181"/>
+<area shape="rect" id="node12" href="$VItem_8hpp.html" title="src/vue/VItem.hpp" alt="" coords="1243,80,1372,107"/>
+<area shape="rect" id="node13" href="$VInventory_8hpp.html" title="src/vue/VInventory.hpp" alt="" coords="1126,155,1283,181"/>
+<area shape="rect" id="node19" href="$ImagePanel_8cpp.html" title="src/vue/ImagePanel.cpp" alt="" coords="1397,80,1559,107"/>
+<area shape="rect" id="node3" href="$CNiveau_8hpp.html" title="TODO complete. " alt="" coords="345,229,528,256"/>
+<area shape="rect" id="node9" href="$AppFrame_8cpp.html" title="src/vue/AppFrame.cpp" alt="" coords="963,304,1118,331"/>
+<area shape="rect" id="node10" href="$Caneva_8cpp.html" title="src/vue/Caneva.cpp" alt="" coords="774,229,913,256"/>
+<area shape="rect" id="node11" href="$VEnigma_8cpp.html" title="src/vue/VEnigma.cpp" alt="" coords="603,229,750,256"/>
+<area shape="rect" id="node4" href="$CJeu_8hpp.html" title="TODO complete. " alt="" coords="219,304,382,331"/>
+<area shape="rect" id="node7" href="$CLua_8cpp.html" title="TODO complete. " alt="" coords="373,379,535,405"/>
+<area shape="rect" id="node8" href="$CNiveau_8cpp.html" title="TODO complete. " alt="" coords="475,304,657,331"/>
+<area shape="rect" id="node5" href="$App_8cpp.html" title="src/controlleur/App.cpp" alt="" coords="5,379,161,405"/>
+<area shape="rect" id="node6" href="$CJeu_8cpp.html" title="TODO complete. " alt="" coords="186,379,349,405"/>
+<area shape="rect" id="node16" href="$VPlayerInventory_8cpp.html" title="src/vue/VPlayerInventory.cpp" alt="" coords="1265,304,1459,331"/>
+<area shape="rect" id="node18" href="$VItem_8cpp.html" title="src/vue/VItem.cpp" alt="" coords="1559,155,1688,181"/>
+<area shape="rect" id="node14" href="$MTuile_8cpp.html" title="src/model/MTuile.cpp" alt="" coords="937,229,1083,256"/>
+<area shape="rect" id="node15" href="$VPlayerInventory_8hpp.html" title="src/vue/VPlayerInventory.hpp" alt="" coords="1107,229,1302,256"/>
+<area shape="rect" id="node17" href="$VInventory_8cpp.html" title="src/vue/VInventory.cpp" alt="" coords="1326,229,1483,256"/>
+</map>

@@ -1,8 +1,7 @@
 <map id="src/controlleur/CNiveau.hpp" name="src/controlleur/CNiveau.hpp">
-<area shape="rect" id="node2" href="$CJeu_8hpp.html" title="TODO complete. " alt="" coords="373,80,535,107"/>
-<area shape="rect" id="node5" href="$CLua_8cpp.html" title="TODO complete. " alt="" coords="559,155,722,181"/>
-<area shape="rect" id="node7" href="$CNiveau_8cpp.html" title="TODO complete. " alt="" coords="644,80,827,107"/>
+<area shape="rect" id="node2" href="$CJeu_8hpp.html" title="TODO complete. " alt="" coords="219,80,382,107"/>
+<area shape="rect" id="node5" href="$CLua_8cpp.html" title="TODO complete. " alt="" coords="373,155,535,181"/>
+<area shape="rect" id="node6" href="$CNiveau_8cpp.html" title="TODO complete. " alt="" coords="475,80,657,107"/>
 <area shape="rect" id="node3" href="$App_8cpp.html" title="src/controlleur/App.cpp" alt="" coords="5,155,161,181"/>
 <area shape="rect" id="node4" href="$CJeu_8cpp.html" title="TODO complete. " alt="" coords="186,155,349,181"/>
-<area shape="rect" id="node6" href="$main_8cpp.html" title="src/controlleur/main.cpp" alt="" coords="373,155,535,181"/>
 </map>

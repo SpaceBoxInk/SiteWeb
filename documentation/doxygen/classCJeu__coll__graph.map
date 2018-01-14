@@ -1,14 +1,16 @@
 <map id="CJeu" name="CJeu">
-<area shape="rect" id="node2" href="$classCLua.html" title="CLua" alt="" coords="122,452,174,479"/>
-<area shape="rect" id="node3" href="$classAppFrameInterface.html" title="AppFrameInterface" alt="" coords="5,184,139,211"/>
-<area shape="rect" id="node5" href="$classCNiveau.html" title="CNiveau" alt="" coords="113,273,183,300"/>
-<area shape="rect" id="node9" href="$classCPersonnage.html" title="CPersonnage" alt="" coords="245,273,345,300"/>
-<area shape="rect" id="node7" href="$classMTerrain.html" title="MTerrain" alt="" coords="286,184,359,211"/>
-<area shape="rect" id="node11" href="$classMEntite.html" title="MEntite" alt="" coords="451,95,517,121"/>
-<area shape="rect" id="node8" href="$classMCoordonnees.html" title="MCoordonnees" alt="" coords="277,95,387,121"/>
-<area shape="rect" id="node15" href="$classMTuile.html" title="MTuile" alt="" coords="388,184,449,211"/>
-<area shape="rect" id="node10" href="$classMPersonnage.html" title="MPersonnage" alt="" coords="479,184,582,211"/>
-<area shape="rect" id="node12" href="$classMObjetTexture.html" title="MObjetTexture" alt="" coords="298,5,406,32"/>
-<area shape="rect" id="node13" href="$classMCompetence.html" title="MCompetence" alt="" coords="431,5,537,32"/>
-<area shape="rect" id="node14" href="$classMInventaire.html" title="MInventaire" alt="" coords="561,5,652,32"/>
+<area shape="rect" id="node2" href="$classCLua.html" title="CLua" alt="" coords="408,464,460,491"/>
+<area shape="rect" id="node3" href="$classMItem.html" title="MItem" alt="" coords="50,145,109,172"/>
+<area shape="rect" id="node4" href="$classMObjetTexture.html" title="MObjetTexture" alt="" coords="5,5,113,32"/>
+<area shape="rect" id="node13" href="$classMEntite.html" title="MEntite" alt="" coords="235,95,302,121"/>
+<area shape="rect" id="node5" href="$classAppFrameInterface.html" title="AppFrameInterface" alt="" coords="663,196,797,223"/>
+<area shape="rect" id="node7" href="$classCNiveau.html" title="CNiveau" alt="" coords="519,285,589,312"/>
+<area shape="rect" id="node11" href="$classCPersonnage.html" title="CPersonnage" alt="" coords="392,285,492,312"/>
+<area shape="rect" id="node9" href="$classMTerrain.html" title="MTerrain" alt="" coords="559,145,632,172"/>
+<area shape="rect" id="node17" href="$classVInventaireInterface.html" title="VInventaireInterface" alt="" coords="459,95,598,121"/>
+<area shape="rect" id="node10" href="$classMCoordonnees.html" title="MCoordonnees" alt="" coords="463,5,573,32"/>
+<area shape="rect" id="node16" href="$classMTuile.html" title="MTuile" alt="" coords="355,196,417,223"/>
+<area shape="rect" id="node12" href="$classMPersonnage.html" title="MPersonnage" alt="" coords="228,196,331,223"/>
+<area shape="rect" id="node14" href="$classMCompetence.html" title="MCompetence" alt="" coords="138,5,245,32"/>
+<area shape="rect" id="node15" href="$classMInventaire.html" title="MInventaire" alt="" coords="269,5,359,32"/>
 </map>

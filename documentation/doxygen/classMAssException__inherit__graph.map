@@ -1,9 +1,11 @@
 <map id="MAssException" name="MAssException">
-<area shape="rect" id="node2" href="$classMExceptionEntiteDejaCreee.html" title="MExceptionEntiteDejaCreee" alt="" coords="177,5,362,32"/>
-<area shape="rect" id="node3" href="$classMExceptionEntiteInexistante.html" title="MExceptionEntiteInexistante" alt="" coords="175,56,364,83"/>
-<area shape="rect" id="node4" href="$classMExceptionEntiteNonPresente.html" title="MExceptionEntiteNonPresente" alt="" coords="169,107,369,133"/>
-<area shape="rect" id="node5" href="$classMExceptionFile.html" title="MExceptionFile" alt="" coords="213,157,325,184"/>
-<area shape="rect" id="node6" href="$classMExceptionInvalidTypeCouche.html" title="MExceptionInvalidTypeCouche" alt="" coords="168,208,371,235"/>
-<area shape="rect" id="node7" href="$classMExceptionLuaArguments.html" title="MExceptionLuaArguments" alt="" coords="182,259,357,285"/>
-<area shape="rect" id="node8" href="$classMExceptionOutOfTerrain.html" title="MExceptionOutOfTerrain" alt="" coords="186,309,353,336"/>
+<area shape="rect" id="node2" href="$classMExceptionArgumentsInvalides.html" title="MExceptionArgumentsInvalides" alt="" coords="168,5,375,32"/>
+<area shape="rect" id="node3" href="$classMExceptionEntiteDejaCreee.html" title="MExceptionEntiteDejaCreee" alt="" coords="179,56,364,83"/>
+<area shape="rect" id="node4" href="$classMExceptionEntiteInexistante.html" title="MExceptionEntiteInexistante" alt="" coords="177,107,366,133"/>
+<area shape="rect" id="node5" href="$classMExceptionEntiteNonPresente.html" title="MExceptionEntiteNonPresente" alt="" coords="171,157,371,184"/>
+<area shape="rect" id="node6" href="$classMExceptionFile.html" title="MExceptionFile" alt="" coords="215,208,327,235"/>
+<area shape="rect" id="node7" href="$classMExceptionInvalidTypeCouche.html" title="MExceptionInvalidTypeCouche" alt="" coords="170,259,373,285"/>
+<area shape="rect" id="node8" href="$classMExceptionLuaArguments.html" title="MExceptionLuaArguments" alt="" coords="184,309,359,336"/>
+<area shape="rect" id="node9" href="$classMExceptionNullPtr.html" title="MExceptionNullPtr" alt="" coords="206,360,337,387"/>
+<area shape="rect" id="node10" href="$classMExceptionOutOfTerrain.html" title="MExceptionOutOfTerrain" alt="" coords="188,411,355,437"/>
 </map>
